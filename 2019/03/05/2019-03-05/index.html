@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head><meta name="generator" content="Hexo 3.8.0">
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  
+      <title>Technology Daily - 2019/03/04 - selimo</title>
+  
+
+  
+  
+  <meta name="description" content>
+  <meta name="author" content="selimo">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- load loadjs.js -->
+  <script src="/libs/loadjs/dist/loadjs.min.js"></script>
+
+<link rel="stylesheet" href="/libs/animate.css/animate.min.css">
+  <!-- load lightgallery -->
+<link rel="stylesheet" href="/css/lightgallery.css">
+<link rel="stylesheet" href="/libs/noty/lib/noty.css">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+    <link rel="stylesheet" href="/css/taurus.css">
+    
+        <link rel="stylesheet" href="/css/scheme-taurus/animations.css">
+    
+
+
+<link rel="stylesheet" href="/.css">
+
+  <!-- load font awesome 5 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+  </script>
+  <!-- load mathjax -->
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax//libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+  <!-- load js-cookie -->
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="/js/social-share.min.js"></script>
+    <script src="/js/theme.js"></script>
+
+  <!-- include cookie.js -->
+  
+  
+
+  <!-- include comment system code -->
+  
+    <script src="//cdn1.lncld.net/static/js/3.6.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+<body style="display: flex; flex-direction: column; min-height: 100vh;">
+
+ 
+
+<header id="header" class="header">
+	<div class="header-title">
+		
+		<div class="header-logo">
+			<a href="/">
+				<img src="https://avatar.csdnimg.cn/3/6/5/1_onepedalo.jpg">
+			</a>
+		</div>
+		<div class="header-text">
+			<h1>
+				<a href="/">selimo</a>
+			</h1>
+			<subtitle>
+				a peaceful place for technology
+			</subtitle>
+		</div>
+		
+	</div>
+	<div id="header-nav">
+		
+
+
+
+<nav id="nav">
+	
+	
+		
+			
+		
+		
+			<div class="nav-item">
+				
+					<div class="nav-name active_page">
+				
+					<a class="nav-link" href>
+						<span>Resume </span>
+					</a>
+				</div>
+			</div>
+		
+	
+		
+			
+		
+		
+			<div class="nav-item">
+				
+					<div class="nav-name">
+				
+					<a class="nav-link" href="https://github.com/onepedalo/onepedalo.github.io/projects">
+						<span>Projects </span>
+					</a>
+				</div>
+			</div>
+		
+	
+	
+	<div class="nav-item" id="nav-item-toc">
+		
+
+
+<div class="toc-container">
+<i class="far fa-times-circle" id="toc-close" onclick="closeTOC(event);" ontouchstart="closeTOC(event);"></i>
+<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Today-we-got-36-pieces-of-news"><span class="toc-number">1.</span> <span class="toc-text">Today we got 36 pieces of news</span></a></li></ol>
+</div>
+<div class="toc-button" onclick="toggleTOC(event);" ontouchstart="toggleTOC(event);">
+    <img src="/images/icons/blue-shadow/toc.svg" alt>
+</div>
+
+	</div>
+	
+	<div class="nav-item" id="nav-item-archive">
+		
+				<div class="nav-icon">
+				
+			<a href="/archives/" title="Archives">
+			<img src="/images/icons/blue-shadow/archive.svg" alt>
+			</a>
+		</div>
+	</div>
+	<div class="nav-item" id="nav-item-search">
+		
+		<div class="nav-icon">
+		
+			<a href="/search/" title="Search">
+			<img src="/images/icons/blue-shadow/search.svg" alt>
+			</a>
+		</div>
+	</div>
+	<div class="nav-item" id="nav-item-more">
+		<div class="nav-icon">
+				<a href="#" onclick="onClickMenuIcon(event);" ontouchstart="onClickMenuIcon(event);">
+				<img src="/images/icons/blue-shadow/menu.svg" alt>
+				</a>
+		</div>
+		<div class="nav-more-menu">
+				<i class="far fa-times-circle" id="nav-more-menu-close" onclick="onClickNavMenuClose(event);" ontouchstart="onClickNavMenuClose(event);"></i>
+		
+			
+			
+		
+			<div class="nav-more-item">
+					<div class="nav-name">
+						<a class="nav-link" href>
+							<span>Resume</span>
+						</a>
+					</div>
+			</div>
+		
+		
+			
+			
+		
+			<div class="nav-more-item">
+					<div class="nav-name">
+						<a class="nav-link" href="https://github.com/onepedalo/onepedalo.github.io/projects">
+							<span>Projects</span>
+						</a>
+					</div>
+			</div>
+		
+		
+		
+	</div>
+	</div>
+</nav>
+
+	</div>
+</header>
+
+ 
+
+  
+
+
+
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div style="flex: 1;">
+      <style>
+    body {
+        background-color: white;
+    }
+</style>
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+    
+    
+        
+    
+
+    
+        
+    
+
+
+
+
+
+
+
+
+
+<article class="article" id="/2019/03/05/2019-03-05/" data-name="Technology Daily - 2019/03/04" data-version>
+
+    <!-- Title -->
+    <div class="article-header">
+         
+         <div class="article-logo">
+            <a href="#" data-no-instant>
+                <img src="/images/cast-outline.svg" alt onerror="if(this.src != " images uncategorized.svg") this.src="/images/uncategorized.svg" ">
+            </a>
+         </div>
+         
+         <h1 class="article-title">
+            <a href="/2019/03/05/2019-03-05/">
+                Technology Daily - 2019/03/04
+            </a>
+        </h1>
+        <!-- TODO: support nested categories,display them nicely -->
+        
+    </div>
+    
+    <!-- Date and Author -->
+    <div class="article-meta">
+    <ul>
+            <li><i class="fa fa-calendar"></i> 2019-03-05</li>
+            
+            <li><i class="fa fa-user"></i> selimo</li>
+            <li><i class="fas fa-copyright"></i>
+            
+                
+                
+            
+            
+                <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>
+            
+            </li>
+    </ul>
+    
+    </div>
+    <div class="article-cards">
+        <!-- Author Card -->
+        <!---
+        <div class='Card-article Card-author'>
+            <div class='card-title'>
+                <h3></h3>
+            </div>
+            <div class='card-content'>
+                    <div class="author-meta">
+                            <div class='author-figure'>
+                                <img src="" alt="">
+                            </div>
+                            <div class='author-name'>
+                                selimo
+                            </div>
+                        </div>
+                        <div class="author-ai">
+                            <div class='author-intro'>
+                                <!-- TODO: auto generating author description -->
+                                <!-- 
+                            </div>
+                            <div class="author-articles">
+                                <!-- TODO: auto generating author articles -->
+                                <!-- <ul>
+                                    <li>Article 1</li>
+                                    <li>Article 2</li>
+                                    <li>Article 3</li>
+                                    <li>Article 4</li>
+                                    <li>Article 5</li>
+                                    <li>Article 6</li>
+                                </ul>
+                            </div>
+                        </div>
+            </div>
+            
+        </div> -->
+
+        <!-- Visit Card -->
+        <!-- <div class="Card-article Card-visit"> -->
+            <!-- <div class="card-title">
+  <h3>Post Visit</h3>
+</div>
+<div class="card-chart">
+  <div id="chart-post-visit"></div>
+</div> -->
+        <!-- </div> -->
+        
+        <!-- Auto Excerpt Card -->
+        <!-- <div class="Card-article Card-excerpt">
+            <div class="card-title">
+  <h3>Quick Read</h3>
+</div>
+<div class="card-text">
+  <p id="text-post-summary">Today we got 36 pieces of news1. 阿里毕玄现身说法：程序员成长路线...</p>
+</div>
+        </div> -->
+    </div>
+    
+    <!-- Gallery -->
+    <!-- TODO: add a slider to gallery -->
+    
+
+    <!-- Content -->
+    <!-- TODO: support table of content -->
+    <div class="article-toc" id="article-toc">
+    
+        
+
+
+<div class="toc-container">
+<i class="far fa-times-circle" id="toc-close" onclick="closeTOC(event);" ontouchstart="closeTOC(event);"></i>
+<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Today-we-got-36-pieces-of-news"><span class="toc-number">1.</span> <span class="toc-text">Today we got 36 pieces of news</span></a></li></ol>
+</div>
+<div class="toc-button" onclick="toggleTOC(event);" ontouchstart="toggleTOC(event);">
+    <img src="/images/icons/blue-shadow/toc.svg" alt>
+</div>
+
+    </div>
+    <div class="article-content">
+    <h2 id="Today-we-got-36-pieces-of-news"><a href="#Today-we-got-36-pieces-of-news" class="headerlink" title="Today we got 36 pieces of news"></a>Today we got 36 pieces of news</h2><h3 id="1-阿里毕玄现身说法：程序员成长路线-https-mp-weixin-qq-com-s-biz-MjM5ODQ2MDIyMA-amp-mid-2650715534-amp-idx-1-amp-sn-8f7ff38cb6b0f79e5a36fe8b580a14b3-amp-chksm-bec07bdd89b7f2cb087eff9d8992ade1150db959c80621129321bdba1027771a06b4871b72e6-amp-scene-90-amp-xtrack-1-amp-sessionid-1551765391-amp-subscene-93-amp-clicktime-1551765393-amp-ascene-56-amp-devicetype-iOS12-1-4-amp-version-17000328-amp-nettype-WIFI-amp-abtest-cookie-AwABAAoACwATAAMAI5ceAFaZHgDNmR4AAAA-3D-amp-lang-zh-CN-amp-fontScale-100-amp-pass-ticket-D8ag73dycoNcCJ5Mz4IKajsQcRtO0kuOQct2rLEIU-2BY-3D-amp-wx-header-1"><a href="#1-阿里毕玄现身说法：程序员成长路线-https-mp-weixin-qq-com-s-biz-MjM5ODQ2MDIyMA-amp-mid-2650715534-amp-idx-1-amp-sn-8f7ff38cb6b0f79e5a36fe8b580a14b3-amp-chksm-bec07bdd89b7f2cb087eff9d8992ade1150db959c80621129321bdba1027771a06b4871b72e6-amp-scene-90-amp-xtrack-1-amp-sessionid-1551765391-amp-subscene-93-amp-clicktime-1551765393-amp-ascene-56-amp-devicetype-iOS12-1-4-amp-version-17000328-amp-nettype-WIFI-amp-abtest-cookie-AwABAAoACwATAAMAI5ceAFaZHgDNmR4AAAA-3D-amp-lang-zh-CN-amp-fontScale-100-amp-pass-ticket-D8ag73dycoNcCJ5Mz4IKajsQcRtO0kuOQct2rLEIU-2BY-3D-amp-wx-header-1" class="headerlink" title="1. 阿里毕玄现身说法：程序员成长路线 https://mp.weixin.qq.com/s?__biz=MjM5ODQ2MDIyMA==&amp;mid=2650715534&amp;idx=1&amp;sn=8f7ff38cb6b0f79e5a36fe8b580a14b3&amp;chksm=bec07bdd89b7f2cb087eff9d8992ade1150db959c80621129321bdba1027771a06b4871b72e6&amp;scene=90&amp;xtrack=1&amp;sessionid=1551765391&amp;subscene=93&amp;clicktime=1551765393&amp;ascene=56&amp;devicetype=iOS12.1.4&amp;version=17000328&amp;nettype=WIFI&amp;abtest_cookie=AwABAAoACwATAAMAI5ceAFaZHgDNmR4AAAA%3D&amp;lang=zh_CN&amp;fontScale=100&amp;pass_ticket=D8ag73dycoNcCJ5Mz4IKajsQcRtO0kuOQct2rLEIU%2BY%3D&amp;wx_header=1"></a>1. 阿里毕玄现身说法：程序员成长路线 <a href="https://mp.weixin.qq.com/s?__biz=MjM5ODQ2MDIyMA==&amp;mid=2650715534&amp;idx=1&amp;sn=8f7ff38cb6b0f79e5a36fe8b580a14b3&amp;chksm=bec07bdd89b7f2cb087eff9d8992ade1150db959c80621129321bdba1027771a06b4871b72e6&amp;scene=90&amp;xtrack=1&amp;sessionid=1551765391&amp;subscene=93&amp;clicktime=1551765393&amp;ascene=56&amp;devicetype=iOS12.1.4&amp;version=17000328&amp;nettype=WIFI&amp;abtest_cookie=AwABAAoACwATAAMAI5ceAFaZHgDNmR4AAAA%3D&amp;lang=zh_CN&amp;fontScale=100&amp;pass_ticket=D8ag73dycoNcCJ5Mz4IKajsQcRtO0kuOQct2rLEIU%2BY%3D&amp;wx_header=1" target="_blank" rel="noopener">https://mp.weixin.qq.com/s?__biz=MjM5ODQ2MDIyMA==&amp;mid=2650715534&amp;idx=1&amp;sn=8f7ff38cb6b0f79e5a36fe8b580a14b3&amp;chksm=bec07bdd89b7f2cb087eff9d8992ade1150db959c80621129321bdba1027771a06b4871b72e6&amp;scene=90&amp;xtrack=1&amp;sessionid=1551765391&amp;subscene=93&amp;clicktime=1551765393&amp;ascene=56&amp;devicetype=iOS12.1.4&amp;version=17000328&amp;nettype=WIFI&amp;abtest_cookie=AwABAAoACwATAAMAI5ceAFaZHgDNmR4AAAA%3D&amp;lang=zh_CN&amp;fontScale=100&amp;pass_ticket=D8ag73dycoNcCJ5Mz4IKajsQcRtO0kuOQct2rLEIU%2BY%3D&amp;wx_header=1</a></h3><h3 id="2-刚刚，阿里宣布开源Flutter应用框架Fish-Redux-https-juejin-im-entry-5c7e44165188251bc10cde87"><a href="#2-刚刚，阿里宣布开源Flutter应用框架Fish-Redux-https-juejin-im-entry-5c7e44165188251bc10cde87" class="headerlink" title="2. 刚刚，阿里宣布开源Flutter应用框架Fish Redux! https://juejin.im/entry/5c7e44165188251bc10cde87"></a>2. 刚刚，阿里宣布开源Flutter应用框架Fish Redux! <a href="https://juejin.im/entry/5c7e44165188251bc10cde87" target="_blank" rel="noopener">https://juejin.im/entry/5c7e44165188251bc10cde87</a></h3><h3 id="3-CSS选择器相关文章-https-www-w3cplus-com-blog-tags-288-html"><a href="#3-CSS选择器相关文章-https-www-w3cplus-com-blog-tags-288-html" class="headerlink" title="3. CSS选择器相关文章 https://www.w3cplus.com/blog/tags/288.html"></a>3. CSS选择器相关文章 <a href="https://www.w3cplus.com/blog/tags/288.html" target="_blank" rel="noopener">https://www.w3cplus.com/blog/tags/288.html</a></h3><h3 id="4-Linear-algebra-in-TypeScript-https-github-com-mateogianolio-vectorious"><a href="#4-Linear-algebra-in-TypeScript-https-github-com-mateogianolio-vectorious" class="headerlink" title="4. Linear algebra in TypeScript https://github.com/mateogianolio/vectorious"></a>4. Linear algebra in TypeScript <a href="https://github.com/mateogianolio/vectorious" target="_blank" rel="noopener">https://github.com/mateogianolio/vectorious</a></h3><h3 id="5-阿里巴巴开源的-Blink-实时计算框架真香-http-www-54tianzhisheng-cn-2019-02-28-blink-comefrom-http-blogread-cn-news"><a href="#5-阿里巴巴开源的-Blink-实时计算框架真香-http-www-54tianzhisheng-cn-2019-02-28-blink-comefrom-http-blogread-cn-news" class="headerlink" title="5. 阿里巴巴开源的 Blink 实时计算框架真香 http://www.54tianzhisheng.cn/2019/02/28/blink/?comefrom=http://blogread.cn/news/"></a>5. 阿里巴巴开源的 Blink 实时计算框架真香 <a href="http://www.54tianzhisheng.cn/2019/02/28/blink/?comefrom=http://blogread.cn/news/" target="_blank" rel="noopener">http://www.54tianzhisheng.cn/2019/02/28/blink/?comefrom=http://blogread.cn/news/</a></h3><h3 id="6-一个直接支持-vue-文件的web-server-https-github-com-vuejs-vue-dev-server"><a href="#6-一个直接支持-vue-文件的web-server-https-github-com-vuejs-vue-dev-server" class="headerlink" title="6. 一个直接支持 vue 文件的web server https://github.com/vuejs/vue-dev-server"></a>6. 一个直接支持 vue 文件的web server <a href="https://github.com/vuejs/vue-dev-server" target="_blank" rel="noopener">https://github.com/vuejs/vue-dev-server</a></h3><h3 id="7-《从0到1学习Flink》——-Flink-读取-Kafka-数据批量写入到-MySQL-http-www-54tianzhisheng-cn-2019-01-15-Flink-MySQL-sink-comefrom-http-blogread-cn-news"><a href="#7-《从0到1学习Flink》——-Flink-读取-Kafka-数据批量写入到-MySQL-http-www-54tianzhisheng-cn-2019-01-15-Flink-MySQL-sink-comefrom-http-blogread-cn-news" class="headerlink" title="7. 《从0到1学习Flink》—— Flink 读取 Kafka 数据批量写入到 MySQL http://www.54tianzhisheng.cn/2019/01/15/Flink-MySQL-sink/?comefrom=http://blogread.cn/news/"></a>7. 《从0到1学习Flink》—— Flink 读取 Kafka 数据批量写入到 MySQL <a href="http://www.54tianzhisheng.cn/2019/01/15/Flink-MySQL-sink/?comefrom=http://blogread.cn/news/" target="_blank" rel="noopener">http://www.54tianzhisheng.cn/2019/01/15/Flink-MySQL-sink/?comefrom=http://blogread.cn/news/</a></h3><h3 id="8-前端工作两年多的回顾-https-juejin-im-post-5c7a66975188256fa80aa50d-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com"><a href="#8-前端工作两年多的回顾-https-juejin-im-post-5c7a66975188256fa80aa50d-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com" class="headerlink" title="8. 前端工作两年多的回顾 https://juejin.im/post/5c7a66975188256fa80aa50d?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com"></a>8. 前端工作两年多的回顾 <a href="https://juejin.im/post/5c7a66975188256fa80aa50d?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com" target="_blank" rel="noopener">https://juejin.im/post/5c7a66975188256fa80aa50d?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com</a></h3><h3 id="9-蚂蚁金服如何把前端性能监控做到极致-https-mp-weixin-qq-com-s-biz-MzUxMzcxMzE5Ng-amp-mid-2247490527-amp-idx-1-amp-sn-cc2549683b3ff69c042483d78ced766a-amp-chksm-f951ae9cce26278a263ecf2937b5c4957c9b37f35b7efe4c1a8c6ab69c74ebcb43c54e62abda-amp-xtrack-1-amp-scene-0-amp-subscene-131-amp-clicktime-1550933323-amp-ascene-7-amp-devic-amp-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com"><a href="#9-蚂蚁金服如何把前端性能监控做到极致-https-mp-weixin-qq-com-s-biz-MzUxMzcxMzE5Ng-amp-mid-2247490527-amp-idx-1-amp-sn-cc2549683b3ff69c042483d78ced766a-amp-chksm-f951ae9cce26278a263ecf2937b5c4957c9b37f35b7efe4c1a8c6ab69c74ebcb43c54e62abda-amp-xtrack-1-amp-scene-0-amp-subscene-131-amp-clicktime-1550933323-amp-ascene-7-amp-devic-amp-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com" class="headerlink" title="9. 蚂蚁金服如何把前端性能监控做到极致? https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&amp;mid=2247490527&amp;idx=1&amp;sn=cc2549683b3ff69c042483d78ced766a&amp;chksm=f951ae9cce26278a263ecf2937b5c4957c9b37f35b7efe4c1a8c6ab69c74ebcb43c54e62abda&amp;xtrack=1&amp;scene=0&amp;subscene=131&amp;clicktime=1550933323&amp;ascene=7&amp;devic&amp;utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com"></a>9. 蚂蚁金服如何把前端性能监控做到极致? <a href="https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&amp;mid=2247490527&amp;idx=1&amp;sn=cc2549683b3ff69c042483d78ced766a&amp;chksm=f951ae9cce26278a263ecf2937b5c4957c9b37f35b7efe4c1a8c6ab69c74ebcb43c54e62abda&amp;xtrack=1&amp;scene=0&amp;subscene=131&amp;clicktime=1550933323&amp;ascene=7&amp;devic&amp;utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com" target="_blank" rel="noopener">https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&amp;mid=2247490527&amp;idx=1&amp;sn=cc2549683b3ff69c042483d78ced766a&amp;chksm=f951ae9cce26278a263ecf2937b5c4957c9b37f35b7efe4c1a8c6ab69c74ebcb43c54e62abda&amp;xtrack=1&amp;scene=0&amp;subscene=131&amp;clicktime=1550933323&amp;ascene=7&amp;devic&amp;utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com</a></h3><h3 id="10-译-选择-Grid-还是-Flex-https-juejin-im-post-5c7ce781e51d4514913c5bc4"><a href="#10-译-选择-Grid-还是-Flex-https-juejin-im-post-5c7ce781e51d4514913c5bc4" class="headerlink" title="10. [译] 选择 Grid 还是 Flex? https://juejin.im/post/5c7ce781e51d4514913c5bc4"></a>10. [译] 选择 Grid 还是 Flex? <a href="https://juejin.im/post/5c7ce781e51d4514913c5bc4" target="_blank" rel="noopener">https://juejin.im/post/5c7ce781e51d4514913c5bc4</a></h3><h3 id="11-详解-Kubernetes-Job-和-CronJob-的实现原理-https-draveness-me-kubernetes-job-cronjob"><a href="#11-详解-Kubernetes-Job-和-CronJob-的实现原理-https-draveness-me-kubernetes-job-cronjob" class="headerlink" title="11. 详解 Kubernetes Job 和 CronJob 的实现原理 https://draveness.me/kubernetes-job-cronjob"></a>11. 详解 Kubernetes Job 和 CronJob 的实现原理 <a href="https://draveness.me/kubernetes-job-cronjob" target="_blank" rel="noopener">https://draveness.me/kubernetes-job-cronjob</a></h3><h3 id="12-帧动画的多种实现方式与性能对比-https-juejin-im-post-5c7bd2646fb9a049cb197921"><a href="#12-帧动画的多种实现方式与性能对比-https-juejin-im-post-5c7bd2646fb9a049cb197921" class="headerlink" title="12. 帧动画的多种实现方式与性能对比 https://juejin.im/post/5c7bd2646fb9a049cb197921"></a>12. 帧动画的多种实现方式与性能对比 <a href="https://juejin.im/post/5c7bd2646fb9a049cb197921" target="_blank" rel="noopener">https://juejin.im/post/5c7bd2646fb9a049cb197921</a></h3><h3 id="13-Flutter-1-2发布，带来全新的Web开发工具-https-mp-weixin-qq-com-s-biz-MzUxMzcxMzE5Ng-amp-mid-2247490557-amp-idx-1-amp-sn-e09c987ddec32590149764347c5b2381"><a href="#13-Flutter-1-2发布，带来全新的Web开发工具-https-mp-weixin-qq-com-s-biz-MzUxMzcxMzE5Ng-amp-mid-2247490557-amp-idx-1-amp-sn-e09c987ddec32590149764347c5b2381" class="headerlink" title="13. Flutter 1.2发布，带来全新的Web开发工具! https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&amp;mid=2247490557&amp;idx=1&amp;sn=e09c987ddec32590149764347c5b2381"></a>13. Flutter 1.2发布，带来全新的Web开发工具! <a href="https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&amp;mid=2247490557&amp;idx=1&amp;sn=e09c987ddec32590149764347c5b2381" target="_blank" rel="noopener">https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&amp;mid=2247490557&amp;idx=1&amp;sn=e09c987ddec32590149764347c5b2381</a></h3><h3 id="14-Nginx-Php-fpm-运行原理详解-https-juejin-im-post-58db7d742f301e007e9a00a7"><a href="#14-Nginx-Php-fpm-运行原理详解-https-juejin-im-post-58db7d742f301e007e9a00a7" class="headerlink" title="14. Nginx+Php-fpm 运行原理详解 https://juejin.im/post/58db7d742f301e007e9a00a7"></a>14. Nginx+Php-fpm 运行原理详解 <a href="https://juejin.im/post/58db7d742f301e007e9a00a7" target="_blank" rel="noopener">https://juejin.im/post/58db7d742f301e007e9a00a7</a></h3><h3 id="15-全面了解大数据“三驾马车”的开源实现-https-weibo-com-ttarticle-p-show-id-2309404346525793811978"><a href="#15-全面了解大数据“三驾马车”的开源实现-https-weibo-com-ttarticle-p-show-id-2309404346525793811978" class="headerlink" title="15. 全面了解大数据“三驾马车”的开源实现 https://weibo.com/ttarticle/p/show?id=2309404346525793811978"></a>15. 全面了解大数据“三驾马车”的开源实现 <a href="https://weibo.com/ttarticle/p/show?id=2309404346525793811978" target="_blank" rel="noopener">https://weibo.com/ttarticle/p/show?id=2309404346525793811978</a></h3><h3 id="16-hsweb-framework-一个开源的后台管理系统，拥有便捷的权限管理、动态多数据源和在线数据库维护等功能-https-github-com-hs-web-hsweb-framework"><a href="#16-hsweb-framework-一个开源的后台管理系统，拥有便捷的权限管理、动态多数据源和在线数据库维护等功能-https-github-com-hs-web-hsweb-framework" class="headerlink" title="16. hsweb-framework 一个开源的后台管理系统，拥有便捷的权限管理、动态多数据源和在线数据库维护等功能 https://github.com/hs-web/hsweb-framework"></a>16. hsweb-framework 一个开源的后台管理系统，拥有便捷的权限管理、动态多数据源和在线数据库维护等功能 <a href="https://github.com/hs-web/hsweb-framework" target="_blank" rel="noopener">https://github.com/hs-web/hsweb-framework</a></h3><h3 id="17-设计师资源大全，包含：ICON图标、Logo设计、PhotoShop插件、交互设计工具、流程图、线框图-原型图、设计博客等-https-github-com-jobbole-awesome-design-cn"><a href="#17-设计师资源大全，包含：ICON图标、Logo设计、PhotoShop插件、交互设计工具、流程图、线框图-原型图、设计博客等-https-github-com-jobbole-awesome-design-cn" class="headerlink" title="17. 设计师资源大全，包含：ICON图标、Logo设计、PhotoShop插件、交互设计工具、流程图、线框图/原型图、设计博客等 https://github.com/jobbole/awesome-design-cn"></a>17. 设计师资源大全，包含：ICON图标、Logo设计、PhotoShop插件、交互设计工具、流程图、线框图/原型图、设计博客等 <a href="https://github.com/jobbole/awesome-design-cn" target="_blank" rel="noopener">https://github.com/jobbole/awesome-design-cn</a></h3><h3 id="18-So-lyft-is-paying-8m-mo-to-AWS-–-almost-100m-yr-https-threadreaderapp-com-thread-1102401615263223809-html-utm-source-wanqu-co-amp-utm-campaign-Wanqu-Daily-amp-utm-medium-website"><a href="#18-So-lyft-is-paying-8m-mo-to-AWS-–-almost-100m-yr-https-threadreaderapp-com-thread-1102401615263223809-html-utm-source-wanqu-co-amp-utm-campaign-Wanqu-Daily-amp-utm-medium-website" class="headerlink" title="18. So lyft is paying $8m/mo to AWS – almost $100m/yr!  https://threadreaderapp.com/thread/1102401615263223809.html?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website"></a>18. So lyft is paying $8m/mo to AWS – almost $100m/yr!  <a href="https://threadreaderapp.com/thread/1102401615263223809.html?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website" target="_blank" rel="noopener">https://threadreaderapp.com/thread/1102401615263223809.html?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website</a></h3><h3 id="19-理解这12个概念，让你的JavaScript开发更上一层楼-https-weibo-com-ttarticle-p-show-id-2309404346395996900083"><a href="#19-理解这12个概念，让你的JavaScript开发更上一层楼-https-weibo-com-ttarticle-p-show-id-2309404346395996900083" class="headerlink" title="19. 理解这12个概念，让你的JavaScript开发更上一层楼 https://weibo.com/ttarticle/p/show?id=2309404346395996900083"></a>19. 理解这12个概念，让你的JavaScript开发更上一层楼 <a href="https://weibo.com/ttarticle/p/show?id=2309404346395996900083" target="_blank" rel="noopener">https://weibo.com/ttarticle/p/show?id=2309404346395996900083</a></h3><h3 id="20-「从源码中学习」Vue源码中的JS骚操作-https-juejin-im-post-5c73554cf265da2de33f2a32"><a href="#20-「从源码中学习」Vue源码中的JS骚操作-https-juejin-im-post-5c73554cf265da2de33f2a32" class="headerlink" title="20. 「从源码中学习」Vue源码中的JS骚操作 https://juejin.im/post/5c73554cf265da2de33f2a32"></a>20. 「从源码中学习」Vue源码中的JS骚操作 <a href="https://juejin.im/post/5c73554cf265da2de33f2a32" target="_blank" rel="noopener">https://juejin.im/post/5c73554cf265da2de33f2a32</a></h3><h3 id="21-💩🚀-Windows-95-in-Electron-Runs-on-macOS-Linux-and-Windows-https-github-com-felixrieseberg-windows95"><a href="#21-💩🚀-Windows-95-in-Electron-Runs-on-macOS-Linux-and-Windows-https-github-com-felixrieseberg-windows95" class="headerlink" title="21. 💩🚀 Windows 95 in Electron. Runs on macOS, Linux, and Windows https://github.com/felixrieseberg/windows95"></a>21. 💩🚀 Windows 95 in Electron. Runs on macOS, Linux, and Windows <a href="https://github.com/felixrieseberg/windows95" target="_blank" rel="noopener">https://github.com/felixrieseberg/windows95</a></h3><h3 id="22-🎉-整理平时关注的前端库-https-github-com-sorrycc-awesome-f2e-libs"><a href="#22-🎉-整理平时关注的前端库-https-github-com-sorrycc-awesome-f2e-libs" class="headerlink" title="22. 🎉 整理平时关注的前端库 https://github.com/sorrycc/awesome-f2e-libs"></a>22. 🎉 整理平时关注的前端库 <a href="https://github.com/sorrycc/awesome-f2e-libs" target="_blank" rel="noopener">https://github.com/sorrycc/awesome-f2e-libs</a></h3><h3 id="23-Python-Data-Science-Handbook-https-jakevdp-github-io-PythonDataScienceHandbook"><a href="#23-Python-Data-Science-Handbook-https-jakevdp-github-io-PythonDataScienceHandbook" class="headerlink" title="23. Python Data Science Handbook https://jakevdp.github.io/PythonDataScienceHandbook/"></a>23. Python Data Science Handbook <a href="https://jakevdp.github.io/PythonDataScienceHandbook/" target="_blank" rel="noopener">https://jakevdp.github.io/PythonDataScienceHandbook/</a></h3><h3 id="24-FinalCrypt：一个开源文件加密应用-https-linux-cn-article-10588-shareweibo-html"><a href="#24-FinalCrypt：一个开源文件加密应用-https-linux-cn-article-10588-shareweibo-html" class="headerlink" title="24. FinalCrypt：一个开源文件加密应用 https://linux.cn/article-10588-shareweibo.html"></a>24. FinalCrypt：一个开源文件加密应用 <a href="https://linux.cn/article-10588-shareweibo.html" target="_blank" rel="noopener">https://linux.cn/article-10588-shareweibo.html</a></h3><h3 id="25-Vim-可视化模式入门-https-linux-cn-article-10589-shareweibo-html"><a href="#25-Vim-可视化模式入门-https-linux-cn-article-10589-shareweibo-html" class="headerlink" title="25. Vim 可视化模式入门 https://linux.cn/article-10589-shareweibo.html"></a>25. Vim 可视化模式入门 <a href="https://linux.cn/article-10589-shareweibo.html" target="_blank" rel="noopener">https://linux.cn/article-10589-shareweibo.html</a></h3><h3 id="26-SpringBoot-系列一-SpringBoot-入门-https-mp-weixin-qq-com-s-hL1AOUw-o-2-UdBu0FTJ3g"><a href="#26-SpringBoot-系列一-SpringBoot-入门-https-mp-weixin-qq-com-s-hL1AOUw-o-2-UdBu0FTJ3g" class="headerlink" title="26. SpringBoot 系列一 : SpringBoot 入门 https://mp.weixin.qq.com/s/hL1AOUw_o_2_UdBu0FTJ3g"></a>26. SpringBoot 系列一 : SpringBoot 入门 <a href="https://mp.weixin.qq.com/s/hL1AOUw_o_2_UdBu0FTJ3g" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/hL1AOUw_o_2_UdBu0FTJ3g</a></h3><h3 id="27-SpringBoot-系列二-SpringBoot-自动配置原理-https-mp-weixin-qq-com-s-3o6xxG-E00Ub1C9lLFX6qQ"><a href="#27-SpringBoot-系列二-SpringBoot-自动配置原理-https-mp-weixin-qq-com-s-3o6xxG-E00Ub1C9lLFX6qQ" class="headerlink" title="27. SpringBoot 系列二 : SpringBoot 自动配置原理 https://mp.weixin.qq.com/s/3o6xxG_E00Ub1C9lLFX6qQ"></a>27. SpringBoot 系列二 : SpringBoot 自动配置原理 <a href="https://mp.weixin.qq.com/s/3o6xxG_E00Ub1C9lLFX6qQ" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/3o6xxG_E00Ub1C9lLFX6qQ</a></h3><h3 id="28-一线-IT-公司开发转管理，我是怎么从0到1的？-https-mp-weixin-qq-com-s-u-zCvKdGZCbXV8F8rqXgJw"><a href="#28-一线-IT-公司开发转管理，我是怎么从0到1的？-https-mp-weixin-qq-com-s-u-zCvKdGZCbXV8F8rqXgJw" class="headerlink" title="28. 一线 IT 公司开发转管理，我是怎么从0到1的？ https://mp.weixin.qq.com/s/u-zCvKdGZCbXV8F8rqXgJw"></a>28. 一线 IT 公司开发转管理，我是怎么从0到1的？ <a href="https://mp.weixin.qq.com/s/u-zCvKdGZCbXV8F8rqXgJw" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/u-zCvKdGZCbXV8F8rqXgJw</a></h3><h3 id="29-Advanced-Data-Science-with-IBM-Specialization-https-www-coursera-org-specializations-advanced-data-science-ibm-ranMID-40328-amp-ranEAID-9IqCvd3EEQc-amp-ranSiteID-9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ-amp-siteID-9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ-amp-utm-content-10-amp-utm-medium-partners-amp-utm-source-linkshare-amp-utm-campaign-9IqCvd3EEQc"><a href="#29-Advanced-Data-Science-with-IBM-Specialization-https-www-coursera-org-specializations-advanced-data-science-ibm-ranMID-40328-amp-ranEAID-9IqCvd3EEQc-amp-ranSiteID-9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ-amp-siteID-9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ-amp-utm-content-10-amp-utm-medium-partners-amp-utm-source-linkshare-amp-utm-campaign-9IqCvd3EEQc" class="headerlink" title="29. Advanced Data Science with IBM Specialization https://www.coursera.org/specializations/advanced-data-science-ibm?ranMID=40328&amp;ranEAID=9IqCvd3EEQc&amp;ranSiteID=9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ&amp;siteID=9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ&amp;utm_content=10&amp;utm_medium=partners&amp;utm_source=linkshare&amp;utm_campaign=9IqCvd3EEQc"></a>29. Advanced Data Science with IBM Specialization <a href="https://www.coursera.org/specializations/advanced-data-science-ibm?ranMID=40328&amp;ranEAID=9IqCvd3EEQc&amp;ranSiteID=9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ&amp;siteID=9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ&amp;utm_content=10&amp;utm_medium=partners&amp;utm_source=linkshare&amp;utm_campaign=9IqCvd3EEQc" target="_blank" rel="noopener">https://www.coursera.org/specializations/advanced-data-science-ibm?ranMID=40328&amp;ranEAID=9IqCvd3EEQc&amp;ranSiteID=9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ&amp;siteID=9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ&amp;utm_content=10&amp;utm_medium=partners&amp;utm_source=linkshare&amp;utm_campaign=9IqCvd3EEQc</a></h3><h3 id="30-A-Developer-Roadmap-to-becoming-a-Node-js-developer-in-2019-https-github-com-aliyr-Nodejs-Developer-Roadmap"><a href="#30-A-Developer-Roadmap-to-becoming-a-Node-js-developer-in-2019-https-github-com-aliyr-Nodejs-Developer-Roadmap" class="headerlink" title="30. A Developer Roadmap to becoming a Node.js developer in 2019 https://github.com/aliyr/Nodejs-Developer-Roadmap"></a>30. A Developer Roadmap to becoming a Node.js developer in 2019 <a href="https://github.com/aliyr/Nodejs-Developer-Roadmap" target="_blank" rel="noopener">https://github.com/aliyr/Nodejs-Developer-Roadmap</a></h3><h3 id="31-Awesome-Computer-Vision-Resources-https-github-com-zhengzhugithub-AwesomeComputerVision"><a href="#31-Awesome-Computer-Vision-Resources-https-github-com-zhengzhugithub-AwesomeComputerVision" class="headerlink" title="31. Awesome Computer Vision Resources https://github.com/zhengzhugithub/AwesomeComputerVision"></a>31. Awesome Computer Vision Resources <a href="https://github.com/zhengzhugithub/AwesomeComputerVision" target="_blank" rel="noopener">https://github.com/zhengzhugithub/AwesomeComputerVision</a></h3><h3 id="32-What-you-need-may-be-“pipeline-Unix-commands”-only-https-nanxiao-me-en-what-you-need-may-be-pipeline-unix-commands-only"><a href="#32-What-you-need-may-be-“pipeline-Unix-commands”-only-https-nanxiao-me-en-what-you-need-may-be-pipeline-unix-commands-only" class="headerlink" title="32. What you need may be “pipeline +Unix commands” only https://nanxiao.me/en/what-you-need-may-be-pipeline-unix-commands-only/"></a>32. What you need may be “pipeline +Unix commands” only <a href="https://nanxiao.me/en/what-you-need-may-be-pipeline-unix-commands-only/" target="_blank" rel="noopener">https://nanxiao.me/en/what-you-need-may-be-pipeline-unix-commands-only/</a></h3><h3 id="33-梨叔推荐的技术栈-https-weibo-com-1655747731-Hj335lZoS"><a href="#33-梨叔推荐的技术栈-https-weibo-com-1655747731-Hj335lZoS" class="headerlink" title="33. 梨叔推荐的技术栈 https://weibo.com/1655747731/Hj335lZoS"></a>33. 梨叔推荐的技术栈 <a href="https://weibo.com/1655747731/Hj335lZoS" target="_blank" rel="noopener">https://weibo.com/1655747731/Hj335lZoS</a></h3><h3 id="34-挖一个关于-IM-工具的新坑-https-coderemixer-com-2019-03-05-project-nyan-chat"><a href="#34-挖一个关于-IM-工具的新坑-https-coderemixer-com-2019-03-05-project-nyan-chat" class="headerlink" title="34. 挖一个关于 IM 工具的新坑 https://coderemixer.com/2019/03/05/project-nyan-chat/"></a>34. 挖一个关于 IM 工具的新坑 <a href="https://coderemixer.com/2019/03/05/project-nyan-chat/" target="_blank" rel="noopener">https://coderemixer.com/2019/03/05/project-nyan-chat/</a></h3><h3 id="35-彻底搞懂-Git-Rebase-http-jartto-wang-2018-12-11-git-rebase"><a href="#35-彻底搞懂-Git-Rebase-http-jartto-wang-2018-12-11-git-rebase" class="headerlink" title="35. 彻底搞懂 Git-Rebase http://jartto.wang/2018/12/11/git-rebase/"></a>35. 彻底搞懂 Git-Rebase <a href="http://jartto.wang/2018/12/11/git-rebase/" target="_blank" rel="noopener">http://jartto.wang/2018/12/11/git-rebase/</a></h3><h3 id="36-两小时入门-Docker-https-mp-weixin-qq-com-s-TreG3eWVJZtGSkyESfgYQw"><a href="#36-两小时入门-Docker-https-mp-weixin-qq-com-s-TreG3eWVJZtGSkyESfgYQw" class="headerlink" title="36. 两小时入门 Docker https://mp.weixin.qq.com/s/TreG3eWVJZtGSkyESfgYQw"></a>36. 两小时入门 Docker <a href="https://mp.weixin.qq.com/s/TreG3eWVJZtGSkyESfgYQw" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/TreG3eWVJZtGSkyESfgYQw</a></h3>
+    
+    </div>
+    
+    
+        <div class="article-comment" id="article-comment">
+            
+
+<h1>Comment</h1>
+
+  
+    <div id="comment-not-available">
+      Not available
+      <p><strong>For site maintainer: Please provide <code>appId</code> and <code>appKey</code> in your <code>_data/cutie.yml</code> file for <code>valine</code> comment system.</strong></p>
+    </div>
+  
+
+
+        </div>
+        
+</article>
+  </div>
+
+  
+
+<footer id="footer">
+    <div class="footer-copyright">
+        <div>
+            <p> Copyright by <a href>selimo </a> @ 2019</p>
+            <p>Designed by: <i class="fas fa-paint-brush"></i> <a href="https://moober.cn">Moober</a> and <i class="fas fa-graduation-cap"></i> <a href="https://qutang.github.io">Qu Tang</a> &bull; Theme: <a href="https://qutang.github.io/cutie/">Cutie 2.1.3-Taurus</a> &bull; Powered by <a href="http://hexo.io">Hexo.</a></p>
+        </div>
+    </div>
+    
+    <div class="footer-social">
+        
+            
+                
+                    <div class="footer-social-item"><a href="https://github.com/onepedalo" target="_blank"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a></div>
+                
+            
+                
+                    <div class="footer-social-item"><a href="https://www.instagram.com/onepedalo" target="_blank"><i class="fab fa-instagram fa-2x" aria-hidden="true"></i></a></div>
+                
+            
+                
+                    <div class="footer-social-item"><a href="https://mobile.twitter.com/onepedalo" target="_blank"><i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a></div>
+                
+            
+                
+                    <div class="footer-social-item"><a href="https://www.facebook.com/profile.php?id=100012651692615" target="_blank"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a></div>
+                
+            
+                
+                    <div class="footer-social-item"><a href="https://weibo.com/u/7010209753" target="_blank"><i class="fab fa-weibo fa-2x" aria-hidden="true"></i></a></div>
+                
+            
+        
+    </div>
+</footer>
+
+  <br>
+
+  <div id="footer-nav" class='footer-nav'>
+		
+
+
+
+<nav id="nav">
+	
+	
+		
+			
+				
+			
+		
+		
+	
+		
+			
+		
+		
+	
+	
+	<div class="nav-item" id="nav-item-toc">
+		
+
+
+<div class="toc-container">
+<i class="far fa-times-circle" id="toc-close" onclick="closeTOC(event);" ontouchstart="closeTOC(event);"></i>
+<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Today-we-got-36-pieces-of-news"><span class="toc-number">1.</span> <span class="toc-text">Today we got 36 pieces of news</span></a></li></ol>
+</div>
+<div class="toc-button" onclick="toggleTOC(event);" ontouchstart="toggleTOC(event);">
+    <img src="/images/icons/blue-shadow/toc.svg" alt>
+</div>
+
+	</div>
+	
+	<div class="nav-item" id="nav-item-archive">
+		
+				<div class="nav-icon">
+				
+			<a href="/archives/" title="Archives">
+			<img src="/images/icons/blue-shadow/archive.svg" alt>
+			</a>
+		</div>
+	</div>
+	<div class="nav-item" id="nav-item-search">
+		
+		<div class="nav-icon">
+		
+			<a href="/search/" title="Search">
+			<img src="/images/icons/blue-shadow/search.svg" alt>
+			</a>
+		</div>
+	</div>
+	<div class="nav-item" id="nav-item-more">
+		<div class="nav-icon">
+				<a href="#" onclick="onClickMenuIcon(event);" ontouchstart="onClickMenuIcon(event);">
+				<img src="/images/icons/blue-shadow/menu.svg" alt>
+				</a>
+		</div>
+		<div class="nav-more-menu">
+				<i class="far fa-times-circle" id="nav-more-menu-close" onclick="onClickNavMenuClose(event);" ontouchstart="onClickNavMenuClose(event);"></i>
+		
+			
+			
+		
+			<div class="nav-more-item">
+					<div class="nav-name">
+						<a class="nav-link" href>
+							<span>Resume</span>
+						</a>
+					</div>
+			</div>
+		
+		
+			
+			
+		
+			<div class="nav-more-item">
+					<div class="nav-name">
+						<a class="nav-link" href="https://github.com/onepedalo/onepedalo.github.io/projects">
+							<span>Projects</span>
+						</a>
+					</div>
+			</div>
+		
+		
+		
+	</div>
+	</div>
+</nav>
+
+	</div>
+
+  
+
+
+
+    
+
+
+
+
+
+
+
+    <script src="/js/lightgallery.min.js"></script>
+<script src="/js/lg-zoom.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#lightgallery").lightGallery(); 
+        $(".article-content img").each(function(){
+            console.log($(this).attr('src'))
+            $(this).attr('data-src', $(this).attr('src')).lightGallery({
+                selector: 'this'
+            })
+        });
+    });
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+
+  
+  // update cookie if this page is opened (directly)
+  loadjs(['/libs/jshashes/hashes.min.js', '/libs/js-cookie/src/js.cookie.js', '/js/post.v2.js'], 'post-version');
+  loadjs.ready('post-version', function(){
+    
+    new Postv2('hashit_4540f1f2bd0a3e4556a5b6b5257d4fb82df4be4d3dd8ca9b556376360e80c43a').update('hashit_379a6e7efe4f9d22699a5c47af6d2a6d74cac4d160ff2062f0d1f6a52344f5ec', function(){});
+  });
+  
+</script>
+
+
+
+<!-- <script src="/js/post.js"></script> -->
+
+<script src="/js/headroom.min.js"></script>
+
+<script data-no-instant type="text/javascript">
+
+initHeadroom();
+
+changeLayoutOnTouchScreen();
+
+// 
+// var post = new Post('', '');
+// post.getCommentCount(window.location.pathname, function(count){
+//     $('#article-comment-count').text(count);
+// });
+// post.addVisitRecord(window.location.pathname, userip);
+// post.getVisitCount(window.location.pathname, function(count){
+//     $('#article-visit-count').text(count);
+// });
+
+// 
+</script>
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
