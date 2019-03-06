@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head><meta name="generator" content="Hexo 3.8.0">
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  
+      <title>Technology Daily - 2019/03/06 - selimo</title>
+  
+
+  
+  
+  <meta name="description" content>
+  <meta name="author" content="selimo">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- load loadjs.js -->
+  <script src="/libs/loadjs/dist/loadjs.min.js"></script>
+
+<link rel="stylesheet" href="/libs/animate.css/animate.min.css">
+  <!-- load lightgallery -->
+<link rel="stylesheet" href="/css/lightgallery.css">
+<link rel="stylesheet" href="/libs/noty/lib/noty.css">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+    <link rel="stylesheet" href="/css/taurus.css">
+    
+        <link rel="stylesheet" href="/css/scheme-taurus/animations.css">
+    
+
+
+<link rel="stylesheet" href="/.css">
+
+  <!-- load font awesome 5 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+  </script>
+  <!-- load mathjax -->
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax//libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+  <!-- load js-cookie -->
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="/js/social-share.min.js"></script>
+    <script src="/js/theme.js"></script>
+
+  <!-- include cookie.js -->
+  
+  
+
+  <!-- include comment system code -->
+  
+    <script src="//cdn1.lncld.net/static/js/3.6.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+<body style="display: flex; flex-direction: column; min-height: 100vh;">
+
+ 
+
+<header id="header" class="header">
+	<div class="header-title">
+		
+		<div class="header-logo">
+			<a href="/">
+				<img src="https://avatar.csdnimg.cn/3/6/5/1_onepedalo.jpg">
+			</a>
+		</div>
+		<div class="header-text">
+			<h1>
+				<a href="/">selimo</a>
+			</h1>
+			<subtitle>
+				a peaceful place for technology
+			</subtitle>
+		</div>
+		
+	</div>
+	<div id="header-nav">
+		
+
+
+
+<nav id="nav">
+	
+	
+		
+			
+		
+		
+			<div class="nav-item">
+				
+					<div class="nav-name active_page">
+				
+					<a class="nav-link" href>
+						<span>Resume </span>
+					</a>
+				</div>
+			</div>
+		
+	
+		
+			
+		
+		
+			<div class="nav-item">
+				
+					<div class="nav-name">
+				
+					<a class="nav-link" href="https://github.com/onepedalo/onepedalo.github.io/projects">
+						<span>Projects </span>
+					</a>
+				</div>
+			</div>
+		
+	
+	
+	<div class="nav-item" id="nav-item-toc">
+		
+
+
+<div class="toc-container">
+<i class="far fa-times-circle" id="toc-close" onclick="closeTOC(event);" ontouchstart="closeTOC(event);"></i>
+<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Today-we-got-33-pieces-of-news"><span class="toc-number">1.</span> <span class="toc-text">Today we got 33 pieces of news</span></a></li></ol>
+</div>
+<div class="toc-button" onclick="toggleTOC(event);" ontouchstart="toggleTOC(event);">
+    <img src="/images/icons/blue-shadow/toc.svg" alt>
+</div>
+
+	</div>
+	
+	<div class="nav-item" id="nav-item-archive">
+		
+				<div class="nav-icon">
+				
+			<a href="/archives/" title="Archives">
+			<img src="/images/icons/blue-shadow/archive.svg" alt>
+			</a>
+		</div>
+	</div>
+	<div class="nav-item" id="nav-item-search">
+		
+		<div class="nav-icon">
+		
+			<a href="/search/" title="Search">
+			<img src="/images/icons/blue-shadow/search.svg" alt>
+			</a>
+		</div>
+	</div>
+	<div class="nav-item" id="nav-item-more">
+		<div class="nav-icon">
+				<a href="#" onclick="onClickMenuIcon(event);" ontouchstart="onClickMenuIcon(event);">
+				<img src="/images/icons/blue-shadow/menu.svg" alt>
+				</a>
+		</div>
+		<div class="nav-more-menu">
+				<i class="far fa-times-circle" id="nav-more-menu-close" onclick="onClickNavMenuClose(event);" ontouchstart="onClickNavMenuClose(event);"></i>
+		
+			
+			
+		
+			<div class="nav-more-item">
+					<div class="nav-name">
+						<a class="nav-link" href>
+							<span>Resume</span>
+						</a>
+					</div>
+			</div>
+		
+		
+			
+			
+		
+			<div class="nav-more-item">
+					<div class="nav-name">
+						<a class="nav-link" href="https://github.com/onepedalo/onepedalo.github.io/projects">
+							<span>Projects</span>
+						</a>
+					</div>
+			</div>
+		
+		
+		
+	</div>
+	</div>
+</nav>
+
+	</div>
+</header>
+
+ 
+
+  
+
+
+
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div style="flex: 1;">
+      <style>
+    body {
+        background-color: white;
+    }
+</style>
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+    
+    
+        
+    
+
+    
+        
+    
+
+
+
+
+
+
+
+
+
+<article class="article" id="/2019/03/06/2019-03-06/" data-name="Technology Daily - 2019/03/06" data-version>
+
+    <!-- Title -->
+    <div class="article-header">
+         
+         <div class="article-logo">
+            <a href="#" data-no-instant>
+                <img src="/images/cast-outline.svg" alt onerror="if(this.src != " images uncategorized.svg") this.src="/images/uncategorized.svg" ">
+            </a>
+         </div>
+         
+         <h1 class="article-title">
+            <a href="/2019/03/06/2019-03-06/">
+                Technology Daily - 2019/03/06
+            </a>
+        </h1>
+        <!-- TODO: support nested categories,display them nicely -->
+        
+    </div>
+    
+    <!-- Date and Author -->
+    <div class="article-meta">
+    <ul>
+            <li><i class="fa fa-calendar"></i> 2019-03-06</li>
+            
+            <li><i class="fa fa-user"></i> selimo</li>
+            <li><i class="fas fa-copyright"></i>
+            
+                
+                
+            
+            
+                <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>
+            
+            </li>
+    </ul>
+    
+    </div>
+    <div class="article-cards">
+        <!-- Author Card -->
+        <!---
+        <div class='Card-article Card-author'>
+            <div class='card-title'>
+                <h3></h3>
+            </div>
+            <div class='card-content'>
+                    <div class="author-meta">
+                            <div class='author-figure'>
+                                <img src="" alt="">
+                            </div>
+                            <div class='author-name'>
+                                selimo
+                            </div>
+                        </div>
+                        <div class="author-ai">
+                            <div class='author-intro'>
+                                <!-- TODO: auto generating author description -->
+                                <!-- 
+                            </div>
+                            <div class="author-articles">
+                                <!-- TODO: auto generating author articles -->
+                                <!-- <ul>
+                                    <li>Article 1</li>
+                                    <li>Article 2</li>
+                                    <li>Article 3</li>
+                                    <li>Article 4</li>
+                                    <li>Article 5</li>
+                                    <li>Article 6</li>
+                                </ul>
+                            </div>
+                        </div>
+            </div>
+            
+        </div> -->
+
+        <!-- Visit Card -->
+        <!-- <div class="Card-article Card-visit"> -->
+            <!-- <div class="card-title">
+  <h3>Post Visit</h3>
+</div>
+<div class="card-chart">
+  <div id="chart-post-visit"></div>
+</div> -->
+        <!-- </div> -->
+        
+        <!-- Auto Excerpt Card -->
+        <!-- <div class="Card-article Card-excerpt">
+            <div class="card-title">
+  <h3>Quick Read</h3>
+</div>
+<div class="card-text">
+  <p id="text-post-summary">Today we got 33 pieces of news1. Kraken: uber开源的基于P2P的docker镜像仓库，专注于可扩展性和可用性 https://github.com/uber/kraken2. The Shutdown Problem: How Does a Blockchain System End? https://arxiv.org/ftp/arxiv/papers/1902/1902.07254.pdf3. 吴恩达新书《机器学习训练秘籍》六大要点总结...</p>
+</div>
+        </div> -->
+    </div>
+    
+    <!-- Gallery -->
+    <!-- TODO: add a slider to gallery -->
+    
+
+    <!-- Content -->
+    <!-- TODO: support table of content -->
+    <div class="article-toc" id="article-toc">
+    
+        
+
+
+<div class="toc-container">
+<i class="far fa-times-circle" id="toc-close" onclick="closeTOC(event);" ontouchstart="closeTOC(event);"></i>
+<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Today-we-got-33-pieces-of-news"><span class="toc-number">1.</span> <span class="toc-text">Today we got 33 pieces of news</span></a></li></ol>
+</div>
+<div class="toc-button" onclick="toggleTOC(event);" ontouchstart="toggleTOC(event);">
+    <img src="/images/icons/blue-shadow/toc.svg" alt>
+</div>
+
+    </div>
+    <div class="article-content">
+    <h2 id="Today-we-got-33-pieces-of-news"><a href="#Today-we-got-33-pieces-of-news" class="headerlink" title="Today we got 33 pieces of news"></a>Today we got 33 pieces of news</h2><h3 id="1-Kraken-uber开源的基于P2P的docker镜像仓库，专注于可扩展性和可用性-https-github-com-uber-kraken"><a href="#1-Kraken-uber开源的基于P2P的docker镜像仓库，专注于可扩展性和可用性-https-github-com-uber-kraken" class="headerlink" title="1. Kraken: uber开源的基于P2P的docker镜像仓库，专注于可扩展性和可用性 https://github.com/uber/kraken"></a>1. Kraken: uber开源的基于P2P的docker镜像仓库，专注于可扩展性和可用性 <a href="https://github.com/uber/kraken" target="_blank" rel="noopener">https://github.com/uber/kraken</a></h3><h3 id="2-The-Shutdown-Problem-How-Does-a-Blockchain-System-End-https-arxiv-org-ftp-arxiv-papers-1902-1902-07254-pdf"><a href="#2-The-Shutdown-Problem-How-Does-a-Blockchain-System-End-https-arxiv-org-ftp-arxiv-papers-1902-1902-07254-pdf" class="headerlink" title="2. The Shutdown Problem: How Does a Blockchain System End? https://arxiv.org/ftp/arxiv/papers/1902/1902.07254.pdf"></a>2. The Shutdown Problem: How Does a Blockchain System End? <a href="https://arxiv.org/ftp/arxiv/papers/1902/1902.07254.pdf" target="_blank" rel="noopener">https://arxiv.org/ftp/arxiv/papers/1902/1902.07254.pdf</a></h3><h3 id="3-吴恩达新书《机器学习训练秘籍》六大要点总结-https-bigquant-com-community-t-topic-133277-utm-source-weibo-amp-utm-medium-weibo-algorithm-amp-utm-campaign-190306-L1"><a href="#3-吴恩达新书《机器学习训练秘籍》六大要点总结-https-bigquant-com-community-t-topic-133277-utm-source-weibo-amp-utm-medium-weibo-algorithm-amp-utm-campaign-190306-L1" class="headerlink" title="3. 吴恩达新书《机器学习训练秘籍》六大要点总结 https://bigquant.com/community/t/topic/133277?utm_source=weibo&amp;utm_medium=weibo_algorithm&amp;utm_campaign=190306_L1"></a>3. 吴恩达新书《机器学习训练秘籍》六大要点总结 <a href="https://bigquant.com/community/t/topic/133277?utm_source=weibo&amp;utm_medium=weibo_algorithm&amp;utm_campaign=190306_L1" target="_blank" rel="noopener">https://bigquant.com/community/t/topic/133277?utm_source=weibo&amp;utm_medium=weibo_algorithm&amp;utm_campaign=190306_L1</a></h3><h3 id="4-深度解密HTTP通信细节-https-mp-weixin-qq-com-s-NUW0sLBMTglnIbN7OHkdoQ-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com"><a href="#4-深度解密HTTP通信细节-https-mp-weixin-qq-com-s-NUW0sLBMTglnIbN7OHkdoQ-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com" class="headerlink" title="4. 深度解密HTTP通信细节 https://mp.weixin.qq.com/s/NUW0sLBMTglnIbN7OHkdoQ?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com"></a>4. 深度解密HTTP通信细节 <a href="https://mp.weixin.qq.com/s/NUW0sLBMTglnIbN7OHkdoQ?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/NUW0sLBMTglnIbN7OHkdoQ?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com</a></h3><h3 id="5-你也可以训练超大神经网络！谷歌开源GPipe库-https-mp-weixin-qq-com-s-DnfVecPMNPUgI32YqmUP8g"><a href="#5-你也可以训练超大神经网络！谷歌开源GPipe库-https-mp-weixin-qq-com-s-DnfVecPMNPUgI32YqmUP8g" class="headerlink" title="5. 你也可以训练超大神经网络！谷歌开源GPipe库 https://mp.weixin.qq.com/s/DnfVecPMNPUgI32YqmUP8g"></a>5. 你也可以训练超大神经网络！谷歌开源GPipe库 <a href="https://mp.weixin.qq.com/s/DnfVecPMNPUgI32YqmUP8g" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/DnfVecPMNPUgI32YqmUP8g</a></h3><h3 id="6-An-R-package-for-AB-testing-leveraging-pre-period-information-https-github-com-google-abpackage"><a href="#6-An-R-package-for-AB-testing-leveraging-pre-period-information-https-github-com-google-abpackage" class="headerlink" title="6. An R package for AB testing leveraging pre-period information https://github.com/google/abpackage"></a>6. An R package for AB testing leveraging pre-period information <a href="https://github.com/google/abpackage" target="_blank" rel="noopener">https://github.com/google/abpackage</a></h3><h3 id="7-重磅消息-ENVI-深度学习模块即将发布-https-mp-weixin-qq-com-s-biz-MjM5MDI2NjI0NQ-amp-mid-2651061123-amp-idx-1-amp-sn-afbc183b134cb30cce908d34508568ca-amp-chksm-bdb03d698ac7b47fc2654e80cba18bc74f67ac43f1795ed9ad5f1e7c6b2d25565a63b40715cb-amp-token-1495584627-amp-lang-zh-CN-rd"><a href="#7-重磅消息-ENVI-深度学习模块即将发布-https-mp-weixin-qq-com-s-biz-MjM5MDI2NjI0NQ-amp-mid-2651061123-amp-idx-1-amp-sn-afbc183b134cb30cce908d34508568ca-amp-chksm-bdb03d698ac7b47fc2654e80cba18bc74f67ac43f1795ed9ad5f1e7c6b2d25565a63b40715cb-amp-token-1495584627-amp-lang-zh-CN-rd" class="headerlink" title="7. 重磅消息 | ENVI 深度学习模块即将发布 https://mp.weixin.qq.com/s?__biz=MjM5MDI2NjI0NQ==&amp;mid=2651061123&amp;idx=1&amp;sn=afbc183b134cb30cce908d34508568ca&amp;chksm=bdb03d698ac7b47fc2654e80cba18bc74f67ac43f1795ed9ad5f1e7c6b2d25565a63b40715cb&amp;token=1495584627&amp;lang=zh_CN#rd"></a>7. 重磅消息 | ENVI 深度学习模块即将发布 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MDI2NjI0NQ==&amp;mid=2651061123&amp;idx=1&amp;sn=afbc183b134cb30cce908d34508568ca&amp;chksm=bdb03d698ac7b47fc2654e80cba18bc74f67ac43f1795ed9ad5f1e7c6b2d25565a63b40715cb&amp;token=1495584627&amp;lang=zh_CN#rd" target="_blank" rel="noopener">https://mp.weixin.qq.com/s?__biz=MjM5MDI2NjI0NQ==&amp;mid=2651061123&amp;idx=1&amp;sn=afbc183b134cb30cce908d34508568ca&amp;chksm=bdb03d698ac7b47fc2654e80cba18bc74f67ac43f1795ed9ad5f1e7c6b2d25565a63b40715cb&amp;token=1495584627&amp;lang=zh_CN#rd</a></h3><h3 id="8-儿童移动应用的界面设计基础知识-http-daichuanqing-com-index-php-archives-3726-utm-source-rss-amp-utm-medium-rss-amp-utm-campaign-e5-84-bf-e7-ab-a5-e7-a7-bb-e5-8a-a8-e5-ba-94-e7-94-a8-e7-9a-84-e7-95-8c-e9-9d-a2-e8-ae-be-e8-amp-f-http-blogread-cn"><a href="#8-儿童移动应用的界面设计基础知识-http-daichuanqing-com-index-php-archives-3726-utm-source-rss-amp-utm-medium-rss-amp-utm-campaign-e5-84-bf-e7-ab-a5-e7-a7-bb-e5-8a-a8-e5-ba-94-e7-94-a8-e7-9a-84-e7-95-8c-e9-9d-a2-e8-ae-be-e8-amp-f-http-blogread-cn" class="headerlink" title="8. 儿童移动应用的界面设计基础知识 http://daichuanqing.com/index.php/archives/3726?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=%e5%84%bf%e7%ab%a5%e7%a7%bb%e5%8a%a8%e5%ba%94%e7%94%a8%e7%9a%84%e7%95%8c%e9%9d%a2%e8%ae%be%e8%&amp;f=http://blogread.cn/"></a>8. 儿童移动应用的界面设计基础知识 <a href="http://daichuanqing.com/index.php/archives/3726?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=%e5%84%bf%e7%ab%a5%e7%a7%bb%e5%8a%a8%e5%ba%94%e7%94%a8%e7%9a%84%e7%95%8c%e9%9d%a2%e8%ae%be%e8%&amp;f=http://blogread.cn/" target="_blank" rel="noopener">http://daichuanqing.com/index.php/archives/3726?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=%e5%84%bf%e7%ab%a5%e7%a7%bb%e5%8a%a8%e5%ba%94%e7%94%a8%e7%9a%84%e7%95%8c%e9%9d%a2%e8%ae%be%e8%&amp;f=http://blogread.cn/</a></h3><h3 id="9-漫话：如何给女朋友解释为什么200M宽带，打王者荣耀还是会有460的延迟？-https-mp-weixin-qq-com-s-sve-p7hGQ9vQqs4BRm-1Jw"><a href="#9-漫话：如何给女朋友解释为什么200M宽带，打王者荣耀还是会有460的延迟？-https-mp-weixin-qq-com-s-sve-p7hGQ9vQqs4BRm-1Jw" class="headerlink" title="9. 漫话：如何给女朋友解释为什么200M宽带，打王者荣耀还是会有460的延迟？ https://mp.weixin.qq.com/s/sve_p7hGQ9vQqs4BRm_1Jw"></a>9. 漫话：如何给女朋友解释为什么200M宽带，打王者荣耀还是会有460的延迟？ <a href="https://mp.weixin.qq.com/s/sve_p7hGQ9vQqs4BRm_1Jw" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/sve_p7hGQ9vQqs4BRm_1Jw</a></h3><h3 id="10-深入vuex原理-上-https-juejin-im-post-5c779b7df265da2da771e052-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com"><a href="#10-深入vuex原理-上-https-juejin-im-post-5c779b7df265da2da771e052-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com" class="headerlink" title="10. 深入vuex原理(上) https://juejin.im/post/5c779b7df265da2da771e052?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com"></a>10. 深入vuex原理(上) <a href="https://juejin.im/post/5c779b7df265da2da771e052?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com" target="_blank" rel="noopener">https://juejin.im/post/5c779b7df265da2da771e052?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com</a></h3><h3 id="11-Pornhub，一个神奇的网站-https-mp-weixin-qq-com-s-E7uKf7wu3UFh3IcvYOKp9w"><a href="#11-Pornhub，一个神奇的网站-https-mp-weixin-qq-com-s-E7uKf7wu3UFh3IcvYOKp9w" class="headerlink" title="11. Pornhub，一个神奇的网站 https://mp.weixin.qq.com/s/E7uKf7wu3UFh3IcvYOKp9w"></a>11. Pornhub，一个神奇的网站 <a href="https://mp.weixin.qq.com/s/E7uKf7wu3UFh3IcvYOKp9w" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/E7uKf7wu3UFh3IcvYOKp9w</a></h3><h3 id="12-“以图搜图”，背后的原理你不懂-https-weibo-com-ttarticle-p-show-id-2309404346817851579728"><a href="#12-“以图搜图”，背后的原理你不懂-https-weibo-com-ttarticle-p-show-id-2309404346817851579728" class="headerlink" title="12. “以图搜图”，背后的原理你不懂 https://weibo.com/ttarticle/p/show?id=2309404346817851579728"></a>12. “以图搜图”，背后的原理你不懂 <a href="https://weibo.com/ttarticle/p/show?id=2309404346817851579728" target="_blank" rel="noopener">https://weibo.com/ttarticle/p/show?id=2309404346817851579728</a></h3><h3 id="13-我在-GitHub-上都见过哪些沙雕项目？-https-zhuanlan-zhihu-com-p-58404875-utm-source-weibo-amp-utm-medium-social-amp-utm-content-snapshot-amp-utm-oi-1062672075189317632"><a href="#13-我在-GitHub-上都见过哪些沙雕项目？-https-zhuanlan-zhihu-com-p-58404875-utm-source-weibo-amp-utm-medium-social-amp-utm-content-snapshot-amp-utm-oi-1062672075189317632" class="headerlink" title="13. 我在 GitHub 上都见过哪些沙雕项目？ https://zhuanlan.zhihu.com/p/58404875?utm_source=weibo&amp;utm_medium=social&amp;utm_content=snapshot&amp;utm_oi=1062672075189317632"></a>13. 我在 GitHub 上都见过哪些沙雕项目？ <a href="https://zhuanlan.zhihu.com/p/58404875?utm_source=weibo&amp;utm_medium=social&amp;utm_content=snapshot&amp;utm_oi=1062672075189317632" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/58404875?utm_source=weibo&amp;utm_medium=social&amp;utm_content=snapshot&amp;utm_oi=1062672075189317632</a></h3><h3 id="14-DNS缓存中毒是怎么回事？https-weibo-com-ttarticle-p-show-id-2309404346818703060927"><a href="#14-DNS缓存中毒是怎么回事？https-weibo-com-ttarticle-p-show-id-2309404346818703060927" class="headerlink" title="14. DNS缓存中毒是怎么回事？https://weibo.com/ttarticle/p/show?id=2309404346818703060927"></a>14. DNS缓存中毒是怎么回事？<a href="https://weibo.com/ttarticle/p/show?id=2309404346818703060927" target="_blank" rel="noopener">https://weibo.com/ttarticle/p/show?id=2309404346818703060927</a></h3><h3 id="15-who-runs-china-可视化-https-news-cgtn-com-event-2019-whorunschina-index-html"><a href="#15-who-runs-china-可视化-https-news-cgtn-com-event-2019-whorunschina-index-html" class="headerlink" title="15. who runs china 可视化 https://news.cgtn.com/event/2019/whorunschina/index.html"></a>15. who runs china 可视化 <a href="https://news.cgtn.com/event/2019/whorunschina/index.html" target="_blank" rel="noopener">https://news.cgtn.com/event/2019/whorunschina/index.html</a></h3><h3 id="16-免费中文字体-https-github-com-zenozeng-Free-Chinese-Fonts"><a href="#16-免费中文字体-https-github-com-zenozeng-Free-Chinese-Fonts" class="headerlink" title="16. 免费中文字体 https://github.com/zenozeng/Free-Chinese-Fonts"></a>16. 免费中文字体 <a href="https://github.com/zenozeng/Free-Chinese-Fonts" target="_blank" rel="noopener">https://github.com/zenozeng/Free-Chinese-Fonts</a></h3><h3 id="17-Run-VS-Code-remotely-https-github-com-codercom-code-server"><a href="#17-Run-VS-Code-remotely-https-github-com-codercom-code-server" class="headerlink" title="17. Run VS Code remotely https://github.com/codercom/code-server"></a>17. Run VS Code remotely <a href="https://github.com/codercom/code-server" target="_blank" rel="noopener">https://github.com/codercom/code-server</a></h3><h3 id="18-Java-反转字符串的-10-种方法-https-mp-weixin-qq-com-s-SXD7eSYVa6HBP9F4ICsYvg"><a href="#18-Java-反转字符串的-10-种方法-https-mp-weixin-qq-com-s-SXD7eSYVa6HBP9F4ICsYvg" class="headerlink" title="18. Java 反转字符串的 10 种方法 https://mp.weixin.qq.com/s/SXD7eSYVa6HBP9F4ICsYvg"></a>18. Java 反转字符串的 10 种方法 <a href="https://mp.weixin.qq.com/s/SXD7eSYVa6HBP9F4ICsYvg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/SXD7eSYVa6HBP9F4ICsYvg</a></h3><h3 id="19-Vim-利剑常磨，见血封喉-https-mp-weixin-qq-com-s-k8aWHetZFNC1EusTLUFDHg"><a href="#19-Vim-利剑常磨，见血封喉-https-mp-weixin-qq-com-s-k8aWHetZFNC1EusTLUFDHg" class="headerlink" title="19. Vim 利剑常磨，见血封喉 https://mp.weixin.qq.com/s/k8aWHetZFNC1EusTLUFDHg"></a>19. Vim 利剑常磨，见血封喉 <a href="https://mp.weixin.qq.com/s/k8aWHetZFNC1EusTLUFDHg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/k8aWHetZFNC1EusTLUFDHg</a></h3><h3 id="20-Advanced-Machine-Learning-with-TensorFlow-on-Google-Cloud-Platform-专项课程-https-www-coursera-org-specializations-advanced-machine-learning-tensorflow-gcp-ranMID-40328-amp-ranEAID-9IqCvd3EEQc-amp-ranSiteID-9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w-amp-siteID-9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w-amp-utm-content-10-amp-utm-medium-partners-amp-utm-source-linkshare-amp-utm-campaign-9IqCvd3EEQc"><a href="#20-Advanced-Machine-Learning-with-TensorFlow-on-Google-Cloud-Platform-专项课程-https-www-coursera-org-specializations-advanced-machine-learning-tensorflow-gcp-ranMID-40328-amp-ranEAID-9IqCvd3EEQc-amp-ranSiteID-9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w-amp-siteID-9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w-amp-utm-content-10-amp-utm-medium-partners-amp-utm-source-linkshare-amp-utm-campaign-9IqCvd3EEQc" class="headerlink" title="20. Advanced Machine Learning with TensorFlow on Google Cloud Platform 专项课程 https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp?ranMID=40328&amp;ranEAID=9IqCvd3EEQc&amp;ranSiteID=9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w&amp;siteID=9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w&amp;utm_content=10&amp;utm_medium=partners&amp;utm_source=linkshare&amp;utm_campaign=9IqCvd3EEQc"></a>20. Advanced Machine Learning with TensorFlow on Google Cloud Platform 专项课程 <a href="https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp?ranMID=40328&amp;ranEAID=9IqCvd3EEQc&amp;ranSiteID=9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w&amp;siteID=9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w&amp;utm_content=10&amp;utm_medium=partners&amp;utm_source=linkshare&amp;utm_campaign=9IqCvd3EEQc" target="_blank" rel="noopener">https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp?ranMID=40328&amp;ranEAID=9IqCvd3EEQc&amp;ranSiteID=9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w&amp;siteID=9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w&amp;utm_content=10&amp;utm_medium=partners&amp;utm_source=linkshare&amp;utm_campaign=9IqCvd3EEQc</a></h3><h3 id="21-SpringBoot-系列三-SpringBoot-自定义-Starter-https-mp-weixin-qq-com-s-o6gRItyUBfFxm9C4LOlHYA"><a href="#21-SpringBoot-系列三-SpringBoot-自定义-Starter-https-mp-weixin-qq-com-s-o6gRItyUBfFxm9C4LOlHYA" class="headerlink" title="21. SpringBoot 系列三 : SpringBoot 自定义 Starter https://mp.weixin.qq.com/s/o6gRItyUBfFxm9C4LOlHYA"></a>21. SpringBoot 系列三 : SpringBoot 自定义 Starter <a href="https://mp.weixin.qq.com/s/o6gRItyUBfFxm9C4LOlHYA" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/o6gRItyUBfFxm9C4LOlHYA</a></h3><h3 id="22-Is-Ethical-A-I-Even-Possible-https-www-nytimes-com-2019-03-01-business-ethics-artificial-intelligence-html"><a href="#22-Is-Ethical-A-I-Even-Possible-https-www-nytimes-com-2019-03-01-business-ethics-artificial-intelligence-html" class="headerlink" title="22. Is Ethical A.I. Even Possible? https://www.nytimes.com/2019/03/01/business/ethics-artificial-intelligence.html"></a>22. Is Ethical A.I. Even Possible? <a href="https://www.nytimes.com/2019/03/01/business/ethics-artificial-intelligence.html" target="_blank" rel="noopener">https://www.nytimes.com/2019/03/01/business/ethics-artificial-intelligence.html</a></h3><h3 id="23-免费开放的数据库汇总-https-weibo-com-1870858943-HjvCUDMmG"><a href="#23-免费开放的数据库汇总-https-weibo-com-1870858943-HjvCUDMmG" class="headerlink" title="23. 免费开放的数据库汇总 https://weibo.com/1870858943/HjvCUDMmG"></a>23. 免费开放的数据库汇总 <a href="https://weibo.com/1870858943/HjvCUDMmG" target="_blank" rel="noopener">https://weibo.com/1870858943/HjvCUDMmG</a></h3><h3 id="24-Introduction-to-Theoretical-Computer-Science-https-introtcs-org-public-index-html"><a href="#24-Introduction-to-Theoretical-Computer-Science-https-introtcs-org-public-index-html" class="headerlink" title="24. Introduction to Theoretical Computer Science https://introtcs.org/public/index.html"></a>24. Introduction to Theoretical Computer Science <a href="https://introtcs.org/public/index.html" target="_blank" rel="noopener">https://introtcs.org/public/index.html</a></h3><h3 id="25-Session-Types-for-Rust-https-github-com-Munksgaard-session-types"><a href="#25-Session-Types-for-Rust-https-github-com-Munksgaard-session-types" class="headerlink" title="25. Session Types for Rust https://github.com/Munksgaard/session-types"></a>25. Session Types for Rust <a href="https://github.com/Munksgaard/session-types" target="_blank" rel="noopener">https://github.com/Munksgaard/session-types</a></h3><h3 id="26-My-Approach-to-Getting-Dramatically-Better-as-a-Programmer-https-malisper-me-my-approach-to-getting-dramatically-better-as-a-programmer-utm-source-wanqu-co-amp-utm-campaign-Wanqu-Daily-amp-utm-medium-website"><a href="#26-My-Approach-to-Getting-Dramatically-Better-as-a-Programmer-https-malisper-me-my-approach-to-getting-dramatically-better-as-a-programmer-utm-source-wanqu-co-amp-utm-campaign-Wanqu-Daily-amp-utm-medium-website" class="headerlink" title="26. My Approach to Getting Dramatically Better as a Programmer https://malisper.me/my-approach-to-getting-dramatically-better-as-a-programmer/?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website"></a>26. My Approach to Getting Dramatically Better as a Programmer <a href="https://malisper.me/my-approach-to-getting-dramatically-better-as-a-programmer/?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website" target="_blank" rel="noopener">https://malisper.me/my-approach-to-getting-dramatically-better-as-a-programmer/?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website</a></h3><h3 id="27-玩转RSS-方糖技术分享-https-weibo-com-1088413295-HjyI7rWsO"><a href="#27-玩转RSS-方糖技术分享-https-weibo-com-1088413295-HjyI7rWsO" class="headerlink" title="27. 玩转RSS 方糖技术分享 https://weibo.com/1088413295/HjyI7rWsO"></a>27. 玩转RSS 方糖技术分享 <a href="https://weibo.com/1088413295/HjyI7rWsO" target="_blank" rel="noopener">https://weibo.com/1088413295/HjyI7rWsO</a></h3><h3 id="28-”🎬豆瓣电影传送门“Chrome插件-https-github-com-Neulana-douban-movie-extension"><a href="#28-”🎬豆瓣电影传送门“Chrome插件-https-github-com-Neulana-douban-movie-extension" class="headerlink" title="28. ”🎬豆瓣电影传送门“Chrome插件 https://github.com/Neulana/douban-movie-extension"></a>28. ”🎬豆瓣电影传送门“Chrome插件 <a href="https://github.com/Neulana/douban-movie-extension" target="_blank" rel="noopener">https://github.com/Neulana/douban-movie-extension</a></h3><h3 id="29-Asynchronous-programming-Python3-5-https-luminousmen-com-post-asynchronous-programming-python3-5"><a href="#29-Asynchronous-programming-Python3-5-https-luminousmen-com-post-asynchronous-programming-python3-5" class="headerlink" title="29. Asynchronous programming. Python3.5+ https://luminousmen.com/post/asynchronous-programming-python3.5"></a>29. Asynchronous programming. Python3.5+ <a href="https://luminousmen.com/post/asynchronous-programming-python3.5" target="_blank" rel="noopener">https://luminousmen.com/post/asynchronous-programming-python3.5</a></h3><h3 id="30-The-best-resources-in-Machine-Learning-amp-AI-http-bestofml-com"><a href="#30-The-best-resources-in-Machine-Learning-amp-AI-http-bestofml-com" class="headerlink" title="30. The best resources in Machine Learning &amp; AI http://bestofml.com/"></a>30. The best resources in Machine Learning &amp; AI <a href="http://bestofml.com/" target="_blank" rel="noopener">http://bestofml.com/</a></h3><h3 id="31-How-to-write-a-PhD-https-www-imperial-ac-uk-media-imperial-college-medicine-sph-current-student-forms-How-to-write-a-PhD-pdf"><a href="#31-How-to-write-a-PhD-https-www-imperial-ac-uk-media-imperial-college-medicine-sph-current-student-forms-How-to-write-a-PhD-pdf" class="headerlink" title="31. How to write a PhD https://www.imperial.ac.uk/media/imperial-college/medicine/sph/current-student-forms/How-to-write-a-PhD.pdf"></a>31. How to write a PhD <a href="https://www.imperial.ac.uk/media/imperial-college/medicine/sph/current-student-forms/How-to-write-a-PhD.pdf" target="_blank" rel="noopener">https://www.imperial.ac.uk/media/imperial-college/medicine/sph/current-student-forms/How-to-write-a-PhD.pdf</a></h3><h3 id="32-Sensible-Software-Engineering-https-www-scriptcrafty-com-2019-02-sensible-software-engineering"><a href="#32-Sensible-Software-Engineering-https-www-scriptcrafty-com-2019-02-sensible-software-engineering" class="headerlink" title="32. Sensible Software Engineering https://www.scriptcrafty.com/2019/02/sensible-software-engineering/"></a>32. Sensible Software Engineering <a href="https://www.scriptcrafty.com/2019/02/sensible-software-engineering/" target="_blank" rel="noopener">https://www.scriptcrafty.com/2019/02/sensible-software-engineering/</a></h3><h3 id="33-git-bisect-命令教程-http-www-ruanyifeng-com-blog-2018-12-git-bisect-html"><a href="#33-git-bisect-命令教程-http-www-ruanyifeng-com-blog-2018-12-git-bisect-html" class="headerlink" title="33. git bisect 命令教程 http://www.ruanyifeng.com/blog/2018/12/git-bisect.html"></a>33. git bisect 命令教程 <a href="http://www.ruanyifeng.com/blog/2018/12/git-bisect.html" target="_blank" rel="noopener">http://www.ruanyifeng.com/blog/2018/12/git-bisect.html</a></h3>
+    
+    </div>
+    
+    
+        <div class="article-comment" id="article-comment">
+            
+
+<h1>Comment</h1>
+
+  
+    <div id="comment-not-available">
+      Not available
+      <p><strong>For site maintainer: Please provide <code>appId</code> and <code>appKey</code> in your <code>_data/cutie.yml</code> file for <code>valine</code> comment system.</strong></p>
+    </div>
+  
+
+
+        </div>
+        
+</article>
+  </div>
+
+  
+
+<footer id="footer">
+    <div class="footer-copyright">
+        <div>
+            <p> Copyright by <a href>selimo </a> @ 2019</p>
+            <p>Designed by: <i class="fas fa-paint-brush"></i> <a href="https://moober.cn">Moober</a> and <i class="fas fa-graduation-cap"></i> <a href="https://qutang.github.io">Qu Tang</a> &bull; Theme: <a href="https://qutang.github.io/cutie/">Cutie 2.1.3-Taurus</a> &bull; Powered by <a href="http://hexo.io">Hexo.</a></p>
+        </div>
+    </div>
+    
+    <div class="footer-social">
+        
+            
+                
+                    <div class="footer-social-item"><a href="https://github.com/onepedalo" target="_blank"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a></div>
+                
+            
+                
+                    <div class="footer-social-item"><a href="https://www.instagram.com/onepedalo" target="_blank"><i class="fab fa-instagram fa-2x" aria-hidden="true"></i></a></div>
+                
+            
+                
+                    <div class="footer-social-item"><a href="https://mobile.twitter.com/onepedalo" target="_blank"><i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a></div>
+                
+            
+                
+                    <div class="footer-social-item"><a href="https://www.facebook.com/profile.php?id=100012651692615" target="_blank"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a></div>
+                
+            
+                
+                    <div class="footer-social-item"><a href="https://weibo.com/u/7010209753" target="_blank"><i class="fab fa-weibo fa-2x" aria-hidden="true"></i></a></div>
+                
+            
+        
+    </div>
+</footer>
+
+  <br>
+
+  <div id="footer-nav" class='footer-nav'>
+		
+
+
+
+<nav id="nav">
+	
+	
+		
+			
+				
+			
+		
+		
+	
+		
+			
+		
+		
+	
+	
+	<div class="nav-item" id="nav-item-toc">
+		
+
+
+<div class="toc-container">
+<i class="far fa-times-circle" id="toc-close" onclick="closeTOC(event);" ontouchstart="closeTOC(event);"></i>
+<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Today-we-got-33-pieces-of-news"><span class="toc-number">1.</span> <span class="toc-text">Today we got 33 pieces of news</span></a></li></ol>
+</div>
+<div class="toc-button" onclick="toggleTOC(event);" ontouchstart="toggleTOC(event);">
+    <img src="/images/icons/blue-shadow/toc.svg" alt>
+</div>
+
+	</div>
+	
+	<div class="nav-item" id="nav-item-archive">
+		
+				<div class="nav-icon">
+				
+			<a href="/archives/" title="Archives">
+			<img src="/images/icons/blue-shadow/archive.svg" alt>
+			</a>
+		</div>
+	</div>
+	<div class="nav-item" id="nav-item-search">
+		
+		<div class="nav-icon">
+		
+			<a href="/search/" title="Search">
+			<img src="/images/icons/blue-shadow/search.svg" alt>
+			</a>
+		</div>
+	</div>
+	<div class="nav-item" id="nav-item-more">
+		<div class="nav-icon">
+				<a href="#" onclick="onClickMenuIcon(event);" ontouchstart="onClickMenuIcon(event);">
+				<img src="/images/icons/blue-shadow/menu.svg" alt>
+				</a>
+		</div>
+		<div class="nav-more-menu">
+				<i class="far fa-times-circle" id="nav-more-menu-close" onclick="onClickNavMenuClose(event);" ontouchstart="onClickNavMenuClose(event);"></i>
+		
+			
+			
+		
+			<div class="nav-more-item">
+					<div class="nav-name">
+						<a class="nav-link" href>
+							<span>Resume</span>
+						</a>
+					</div>
+			</div>
+		
+		
+			
+			
+		
+			<div class="nav-more-item">
+					<div class="nav-name">
+						<a class="nav-link" href="https://github.com/onepedalo/onepedalo.github.io/projects">
+							<span>Projects</span>
+						</a>
+					</div>
+			</div>
+		
+		
+		
+	</div>
+	</div>
+</nav>
+
+	</div>
+
+  
+
+
+
+    
+
+
+
+
+
+
+
+    <script src="/js/lightgallery.min.js"></script>
+<script src="/js/lg-zoom.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#lightgallery").lightGallery(); 
+        $(".article-content img").each(function(){
+            console.log($(this).attr('src'))
+            $(this).attr('data-src', $(this).attr('src')).lightGallery({
+                selector: 'this'
+            })
+        });
+    });
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+
+  
+  // update cookie if this page is opened (directly)
+  loadjs(['/libs/jshashes/hashes.min.js', '/libs/js-cookie/src/js.cookie.js', '/js/post.v2.js'], 'post-version');
+  loadjs.ready('post-version', function(){
+    
+    new Postv2('hashit_c31677af609e2253ed08b9bf3d57b2e22f0512fb236e553ef1c01c266dddb150').update('hashit_53e03f966ed2ed749285ae1bd031ca6d433b2f6668c468e40b601ab6dbc77cfc', function(){});
+  });
+  
+</script>
+
+
+
+<!-- <script src="/js/post.js"></script> -->
+
+<script src="/js/headroom.min.js"></script>
+
+<script data-no-instant type="text/javascript">
+
+initHeadroom();
+
+changeLayoutOnTouchScreen();
+
+// 
+// var post = new Post('', '');
+// post.getCommentCount(window.location.pathname, function(count){
+//     $('#article-comment-count').text(count);
+// });
+// post.addVisitRecord(window.location.pathname, userip);
+// post.getVisitCount(window.location.pathname, function(count){
+//     $('#article-visit-count').text(count);
+// });
+
+// 
+</script>
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
