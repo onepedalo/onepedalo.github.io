@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head><meta name="generator" content="Hexo 3.8.0">
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  
+      <title>Technology Daily - 2019/03/08 - selimo</title>
+  
+
+  
+  
+  <meta name="description" content>
+  <meta name="author" content="selimo">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- load loadjs.js -->
+  <script src="/libs/loadjs/dist/loadjs.min.js"></script>
+
+<link rel="stylesheet" href="/libs/animate.css/animate.min.css">
+  <!-- load lightgallery -->
+<link rel="stylesheet" href="/css/lightgallery.css">
+<link rel="stylesheet" href="/libs/noty/lib/noty.css">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+    <link rel="stylesheet" href="/css/taurus.css">
+    
+        <link rel="stylesheet" href="/css/scheme-taurus/animations.css">
+    
+
+
+<link rel="stylesheet" href="/.css">
+
+  <!-- load font awesome 5 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+  </script>
+  <!-- load mathjax -->
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax//libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+  <!-- load js-cookie -->
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="/js/social-share.min.js"></script>
+    <script src="/js/theme.js"></script>
+
+  <!-- include cookie.js -->
+  
+  
+
+  <!-- include comment system code -->
+  
+    <script src="//cdn1.lncld.net/static/js/3.6.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+<body style="display: flex; flex-direction: column; min-height: 100vh;">
+
+ 
+
+<header id="header" class="header">
+	<div class="header-title">
+		
+		<div class="header-logo">
+			<a href="/">
+				<img src="https://avatar.csdnimg.cn/3/6/5/1_onepedalo.jpg">
+			</a>
+		</div>
+		<div class="header-text">
+			<h1>
+				<a href="/">selimo</a>
+			</h1>
+			<subtitle>
+				a peaceful place for technology
+			</subtitle>
+		</div>
+		
+	</div>
+	<div id="header-nav">
+		
+
+
+
+<nav id="nav">
+	
+	
+		
+			
+		
+		
+			<div class="nav-item">
+				
+					<div class="nav-name active_page">
+				
+					<a class="nav-link" href>
+						<span>Resume </span>
+					</a>
+				</div>
+			</div>
+		
+	
+		
+			
+		
+		
+			<div class="nav-item">
+				
+					<div class="nav-name">
+				
+					<a class="nav-link" href="https://github.com/onepedalo/onepedalo.github.io/projects">
+						<span>Projects </span>
+					</a>
+				</div>
+			</div>
+		
+	
+	
+	<div class="nav-item" id="nav-item-toc">
+		
+
+
+<div class="toc-container">
+<i class="far fa-times-circle" id="toc-close" onclick="closeTOC(event);" ontouchstart="closeTOC(event);"></i>
+<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Today-we-got-33-pieces-of-news"><span class="toc-number">1.</span> <span class="toc-text">Today we got 33 pieces of news</span></a></li></ol>
+</div>
+<div class="toc-button" onclick="toggleTOC(event);" ontouchstart="toggleTOC(event);">
+    <img src="/images/icons/blue-shadow/toc.svg" alt>
+</div>
+
+	</div>
+	
+	<div class="nav-item" id="nav-item-archive">
+		
+				<div class="nav-icon">
+				
+			<a href="/archives/" title="Archives">
+			<img src="/images/icons/blue-shadow/archive.svg" alt>
+			</a>
+		</div>
+	</div>
+	<div class="nav-item" id="nav-item-search">
+		
+		<div class="nav-icon">
+		
+			<a href="/search/" title="Search">
+			<img src="/images/icons/blue-shadow/search.svg" alt>
+			</a>
+		</div>
+	</div>
+	<div class="nav-item" id="nav-item-more">
+		<div class="nav-icon">
+				<a href="#" onclick="onClickMenuIcon(event);" ontouchstart="onClickMenuIcon(event);">
+				<img src="/images/icons/blue-shadow/menu.svg" alt>
+				</a>
+		</div>
+		<div class="nav-more-menu">
+				<i class="far fa-times-circle" id="nav-more-menu-close" onclick="onClickNavMenuClose(event);" ontouchstart="onClickNavMenuClose(event);"></i>
+		
+			
+			
+		
+			<div class="nav-more-item">
+					<div class="nav-name">
+						<a class="nav-link" href>
+							<span>Resume</span>
+						</a>
+					</div>
+			</div>
+		
+		
+			
+			
+		
+			<div class="nav-more-item">
+					<div class="nav-name">
+						<a class="nav-link" href="https://github.com/onepedalo/onepedalo.github.io/projects">
+							<span>Projects</span>
+						</a>
+					</div>
+			</div>
+		
+		
+		
+	</div>
+	</div>
+</nav>
+
+	</div>
+</header>
+
+ 
+
+  
+
+
+
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div style="flex: 1;">
+      <style>
+    body {
+        background-color: white;
+    }
+</style>
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+    
+    
+        
+    
+
+    
+        
+    
+
+
+
+
+
+
+
+
+
+<article class="article" id="/2019/03/08/2019-03-08/" data-name="Technology Daily - 2019/03/08" data-version>
+
+    <!-- Title -->
+    <div class="article-header">
+         
+         <div class="article-logo">
+            <a href="#" data-no-instant>
+                <img src="/images/cast-outline.svg" alt onerror="if(this.src != " images uncategorized.svg") this.src="/images/uncategorized.svg" ">
+            </a>
+         </div>
+         
+         <h1 class="article-title">
+            <a href="/2019/03/08/2019-03-08/">
+                Technology Daily - 2019/03/08
+            </a>
+        </h1>
+        <!-- TODO: support nested categories,display them nicely -->
+        
+    </div>
+    
+    <!-- Date and Author -->
+    <div class="article-meta">
+    <ul>
+            <li><i class="fa fa-calendar"></i> 2019-03-08</li>
+            
+            <li><i class="fa fa-user"></i> selimo</li>
+            <li><i class="fas fa-copyright"></i>
+            
+                
+                
+            
+            
+                <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>
+            
+            </li>
+    </ul>
+    
+    </div>
+    <div class="article-cards">
+        <!-- Author Card -->
+        <!---
+        <div class='Card-article Card-author'>
+            <div class='card-title'>
+                <h3></h3>
+            </div>
+            <div class='card-content'>
+                    <div class="author-meta">
+                            <div class='author-figure'>
+                                <img src="" alt="">
+                            </div>
+                            <div class='author-name'>
+                                selimo
+                            </div>
+                        </div>
+                        <div class="author-ai">
+                            <div class='author-intro'>
+                                <!-- TODO: auto generating author description -->
+                                <!-- 
+                            </div>
+                            <div class="author-articles">
+                                <!-- TODO: auto generating author articles -->
+                                <!-- <ul>
+                                    <li>Article 1</li>
+                                    <li>Article 2</li>
+                                    <li>Article 3</li>
+                                    <li>Article 4</li>
+                                    <li>Article 5</li>
+                                    <li>Article 6</li>
+                                </ul>
+                            </div>
+                        </div>
+            </div>
+            
+        </div> -->
+
+        <!-- Visit Card -->
+        <!-- <div class="Card-article Card-visit"> -->
+            <!-- <div class="card-title">
+  <h3>Post Visit</h3>
+</div>
+<div class="card-chart">
+  <div id="chart-post-visit"></div>
+</div> -->
+        <!-- </div> -->
+        
+        <!-- Auto Excerpt Card -->
+        <!-- <div class="Card-article Card-excerpt">
+            <div class="card-title">
+  <h3>Quick Read</h3>
+</div>
+<div class="card-text">
+  <p id="text-post-summary">2019/03/08#女神节快乐#  致敬生活中的女神们，世界因你们而美丽~~Today we got 33 pieces of news1. GIT提交规范的使用和总结 https://www.jianshu.com/p/1850c040271f2. 了解这 12 个概念，让你的 JavaScript 水平更上一层楼 https://www.infoq.cn/article/3L*kK19KH2Ey7GIVBGsN?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com3....</p>
+</div>
+        </div> -->
+    </div>
+    
+    <!-- Gallery -->
+    <!-- TODO: add a slider to gallery -->
+    
+
+    <!-- Content -->
+    <!-- TODO: support table of content -->
+    <div class="article-toc" id="article-toc">
+    
+        
+
+
+<div class="toc-container">
+<i class="far fa-times-circle" id="toc-close" onclick="closeTOC(event);" ontouchstart="closeTOC(event);"></i>
+<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Today-we-got-33-pieces-of-news"><span class="toc-number">1.</span> <span class="toc-text">Today we got 33 pieces of news</span></a></li></ol>
+</div>
+<div class="toc-button" onclick="toggleTOC(event);" ontouchstart="toggleTOC(event);">
+    <img src="/images/icons/blue-shadow/toc.svg" alt>
+</div>
+
+    </div>
+    <div class="article-content">
+    <ul>
+<li>2019/03/08<h3 id="女神节快乐-致敬生活中的女神们，世界因你们而美丽"><a href="#女神节快乐-致敬生活中的女神们，世界因你们而美丽" class="headerlink" title="#女神节快乐#  致敬生活中的女神们，世界因你们而美丽~~"></a>#女神节快乐#  致敬生活中的女神们，世界因你们而美丽~~</h3><h2 id="Today-we-got-33-pieces-of-news"><a href="#Today-we-got-33-pieces-of-news" class="headerlink" title="Today we got 33 pieces of news"></a>Today we got 33 pieces of news</h2><h3 id="1-GIT提交规范的使用和总结-https-www-jianshu-com-p-1850c040271f"><a href="#1-GIT提交规范的使用和总结-https-www-jianshu-com-p-1850c040271f" class="headerlink" title="1. GIT提交规范的使用和总结 https://www.jianshu.com/p/1850c040271f"></a>1. GIT提交规范的使用和总结 <a href="https://www.jianshu.com/p/1850c040271f" target="_blank" rel="noopener">https://www.jianshu.com/p/1850c040271f</a></h3><h3 id="2-了解这-12-个概念，让你的-JavaScript-水平更上一层楼-https-www-infoq-cn-article-3L-kK19KH2Ey7GIVBGsN-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com"><a href="#2-了解这-12-个概念，让你的-JavaScript-水平更上一层楼-https-www-infoq-cn-article-3L-kK19KH2Ey7GIVBGsN-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com" class="headerlink" title="2. 了解这 12 个概念，让你的 JavaScript 水平更上一层楼 https://www.infoq.cn/article/3L*kK19KH2Ey7GIVBGsN?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com"></a>2. 了解这 12 个概念，让你的 JavaScript 水平更上一层楼 <a href="https://www.infoq.cn/article/3L*kK19KH2Ey7GIVBGsN?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com" target="_blank" rel="noopener">https://www.infoq.cn/article/3L*kK19KH2Ey7GIVBGsN?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com</a></h3><h3 id="3-扎心！线上服务宕机时，如何保证数据100-不丢失？-https-mp-weixin-qq-com-s-c1pPLVxOClHg8y2H20eyQ"><a href="#3-扎心！线上服务宕机时，如何保证数据100-不丢失？-https-mp-weixin-qq-com-s-c1pPLVxOClHg8y2H20eyQ" class="headerlink" title="3. 扎心！线上服务宕机时，如何保证数据100%不丢失？ https://mp.weixin.qq.com/s/-c1pPLVxOClHg8y2H20eyQ"></a>3. 扎心！线上服务宕机时，如何保证数据100%不丢失？ <a href="https://mp.weixin.qq.com/s/-c1pPLVxOClHg8y2H20eyQ" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/-c1pPLVxOClHg8y2H20eyQ</a></h3><h3 id="4-Learn-how-to-design-large-scale-systems-Prep-for-the-system-design-interview-Includes-Anki-flashcards-https-github-com-donnemartin-system-design-primer"><a href="#4-Learn-how-to-design-large-scale-systems-Prep-for-the-system-design-interview-Includes-Anki-flashcards-https-github-com-donnemartin-system-design-primer" class="headerlink" title="4. Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards. https://github.com/donnemartin/system-design-primer"></a>4. Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards. <a href="https://github.com/donnemartin/system-design-primer" target="_blank" rel="noopener">https://github.com/donnemartin/system-design-primer</a></h3><h3 id="5-From-‘R-vs-Python’-to-‘R-and-Python’-Leveraging-the-best-of-both-‘Python-and-R’-in-a-single-project-https-medium-com-m-global-identity-redirectUrl-https-3A-2F-2Ftowardsdatascience-com-2Ffrom-r-vs-python-to-r-and-python-aa25db33ce17"><a href="#5-From-‘R-vs-Python’-to-‘R-and-Python’-Leveraging-the-best-of-both-‘Python-and-R’-in-a-single-project-https-medium-com-m-global-identity-redirectUrl-https-3A-2F-2Ftowardsdatascience-com-2Ffrom-r-vs-python-to-r-and-python-aa25db33ce17" class="headerlink" title="5. From ‘R vs Python’ to ‘R and Python’: Leveraging the best of both ‘Python and R’ in a single project. https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Ftowardsdatascience.com%2Ffrom-r-vs-python-to-r-and-python-aa25db33ce17"></a>5. From ‘R vs Python’ to ‘R and Python’: Leveraging the best of both ‘Python and R’ in a single project. <a href="https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Ftowardsdatascience.com%2Ffrom-r-vs-python-to-r-and-python-aa25db33ce17" target="_blank" rel="noopener">https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Ftowardsdatascience.com%2Ffrom-r-vs-python-to-r-and-python-aa25db33ce17</a></h3><h3 id="6-如何在-Web-关闭页面时发送-Ajax-请求-https-juejin-im-post-5c7e541b6fb9a049e06415a5-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com"><a href="#6-如何在-Web-关闭页面时发送-Ajax-请求-https-juejin-im-post-5c7e541b6fb9a049e06415a5-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com" class="headerlink" title="6. 如何在 Web 关闭页面时发送 Ajax 请求 https://juejin.im/post/5c7e541b6fb9a049e06415a5?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com"></a>6. 如何在 Web 关闭页面时发送 Ajax 请求 <a href="https://juejin.im/post/5c7e541b6fb9a049e06415a5?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com" target="_blank" rel="noopener">https://juejin.im/post/5c7e541b6fb9a049e06415a5?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com</a></h3><h3 id="7-Why-Everyone-Should-Learn-the-Basics-of-Code-https-medium-com-matthewbiggins-why-everyone-should-learn-the-basics-of-code-a3699596e6cb"><a href="#7-Why-Everyone-Should-Learn-the-Basics-of-Code-https-medium-com-matthewbiggins-why-everyone-should-learn-the-basics-of-code-a3699596e6cb" class="headerlink" title="7. Why Everyone Should Learn the Basics of Code https://medium.com/@matthewbiggins/why-everyone-should-learn-the-basics-of-code-a3699596e6cb"></a>7. Why Everyone Should Learn the Basics of Code <a href="https://medium.com/@matthewbiggins/why-everyone-should-learn-the-basics-of-code-a3699596e6cb" target="_blank" rel="noopener">https://medium.com/@matthewbiggins/why-everyone-should-learn-the-basics-of-code-a3699596e6cb</a></h3><h3 id="8-如何通俗地解释TCP和UDP协议和HTTP、FTP、SMTP等协议之间的区别？-https-zhuanlan-zhihu-com-p-58117320-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com"><a href="#8-如何通俗地解释TCP和UDP协议和HTTP、FTP、SMTP等协议之间的区别？-https-zhuanlan-zhihu-com-p-58117320-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com" class="headerlink" title="8. 如何通俗地解释TCP和UDP协议和HTTP、FTP、SMTP等协议之间的区别？ https://zhuanlan.zhihu.com/p/58117320?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com"></a>8. 如何通俗地解释TCP和UDP协议和HTTP、FTP、SMTP等协议之间的区别？ <a href="https://zhuanlan.zhihu.com/p/58117320?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/58117320?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com</a></h3><h3 id="9-Writing-a-Faster-Jsonnet-Compiler-https-databricks-com-blog-2018-10-12-writing-a-faster-jsonnet-compiler-html"><a href="#9-Writing-a-Faster-Jsonnet-Compiler-https-databricks-com-blog-2018-10-12-writing-a-faster-jsonnet-compiler-html" class="headerlink" title="9. Writing a Faster Jsonnet Compiler https://databricks.com/blog/2018/10/12/writing-a-faster-jsonnet-compiler.html"></a>9. Writing a Faster Jsonnet Compiler <a href="https://databricks.com/blog/2018/10/12/writing-a-faster-jsonnet-compiler.html" target="_blank" rel="noopener">https://databricks.com/blog/2018/10/12/writing-a-faster-jsonnet-compiler.html</a></h3><h3 id="10-The-Ultimate-Guide-to-Data-Cleaning-https-towardsdatascience-com-the-ultimate-guide-to-data-cleaning-3969843991d4-gi-4bf322c90d81"><a href="#10-The-Ultimate-Guide-to-Data-Cleaning-https-towardsdatascience-com-the-ultimate-guide-to-data-cleaning-3969843991d4-gi-4bf322c90d81" class="headerlink" title="10. The Ultimate Guide to Data Cleaning https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4?gi=4bf322c90d81"></a>10. The Ultimate Guide to Data Cleaning <a href="https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4?gi=4bf322c90d81" target="_blank" rel="noopener">https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4?gi=4bf322c90d81</a></h3><h3 id="11-NumPy-中文文档-https-www-numpy-org-cn-index-html-from-hao-bigquant-com-amp-fromno-0"><a href="#11-NumPy-中文文档-https-www-numpy-org-cn-index-html-from-hao-bigquant-com-amp-fromno-0" class="headerlink" title="11. NumPy 中文文档 https://www.numpy.org.cn/index.html?from=hao.bigquant.com&amp;fromno=0"></a>11. NumPy 中文文档 <a href="https://www.numpy.org.cn/index.html?from=hao.bigquant.com&amp;fromno=0" target="_blank" rel="noopener">https://www.numpy.org.cn/index.html?from=hao.bigquant.com&amp;fromno=0</a></h3><h3 id="12-A-brief-introduction-to-Markov-chains-https-towardsdatascience-com-brief-introduction-to-markov-chains-2c8cab9c98ab"><a href="#12-A-brief-introduction-to-Markov-chains-https-towardsdatascience-com-brief-introduction-to-markov-chains-2c8cab9c98ab" class="headerlink" title="12. A brief introduction to Markov chains https://towardsdatascience.com/brief-introduction-to-markov-chains-2c8cab9c98ab"></a>12. A brief introduction to Markov chains <a href="https://towardsdatascience.com/brief-introduction-to-markov-chains-2c8cab9c98ab" target="_blank" rel="noopener">https://towardsdatascience.com/brief-introduction-to-markov-chains-2c8cab9c98ab</a></h3><h3 id="13-ReactOS-0-4-11-released-https-www-reactos-org-project-news-reactos-0411-released"><a href="#13-ReactOS-0-4-11-released-https-www-reactos-org-project-news-reactos-0411-released" class="headerlink" title="13. ReactOS 0.4.11 released https://www.reactos.org/project-news/reactos-0411-released"></a>13. ReactOS 0.4.11 released <a href="https://www.reactos.org/project-news/reactos-0411-released" target="_blank" rel="noopener">https://www.reactos.org/project-news/reactos-0411-released</a></h3><h3 id="14-8-种常被忽视的-SQL-错误用法-https-mp-weixin-qq-com-s-UkfvQpSMa82nYlsnkAQHjA"><a href="#14-8-种常被忽视的-SQL-错误用法-https-mp-weixin-qq-com-s-UkfvQpSMa82nYlsnkAQHjA" class="headerlink" title="14. 8 种常被忽视的 SQL 错误用法 https://mp.weixin.qq.com/s/UkfvQpSMa82nYlsnkAQHjA"></a>14. 8 种常被忽视的 SQL 错误用法 <a href="https://mp.weixin.qq.com/s/UkfvQpSMa82nYlsnkAQHjA" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/UkfvQpSMa82nYlsnkAQHjA</a></h3><h3 id="15-开源者访谈录第-1-期：如何在-3-个月内斩获-14000-个-GitHub-Star！-https-zhuanlan-zhihu-com-p-58662587-utm-source-weibo-amp-utm-medium-social-amp-utm-content-snapshot-amp-utm-oi-1062672075189317632"><a href="#15-开源者访谈录第-1-期：如何在-3-个月内斩获-14000-个-GitHub-Star！-https-zhuanlan-zhihu-com-p-58662587-utm-source-weibo-amp-utm-medium-social-amp-utm-content-snapshot-amp-utm-oi-1062672075189317632" class="headerlink" title="15. 开源者访谈录第 1 期：如何在 3 个月内斩获 14000 个 GitHub Star！ https://zhuanlan.zhihu.com/p/58662587?utm_source=weibo&amp;utm_medium=social&amp;utm_content=snapshot&amp;utm_oi=1062672075189317632"></a>15. 开源者访谈录第 1 期：如何在 3 个月内斩获 14000 个 GitHub Star！ <a href="https://zhuanlan.zhihu.com/p/58662587?utm_source=weibo&amp;utm_medium=social&amp;utm_content=snapshot&amp;utm_oi=1062672075189317632" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/58662587?utm_source=weibo&amp;utm_medium=social&amp;utm_content=snapshot&amp;utm_oi=1062672075189317632</a></h3><h3 id="16-Implementing-Quicksort-in-JavaScript-https-levelup-gitconnected-com-implementing-quicksort-in-javascript-25bf50f14d90"><a href="#16-Implementing-Quicksort-in-JavaScript-https-levelup-gitconnected-com-implementing-quicksort-in-javascript-25bf50f14d90" class="headerlink" title="16. Implementing Quicksort in JavaScript https://levelup.gitconnected.com/implementing-quicksort-in-javascript-25bf50f14d90"></a>16. Implementing Quicksort in JavaScript <a href="https://levelup.gitconnected.com/implementing-quicksort-in-javascript-25bf50f14d90" target="_blank" rel="noopener">https://levelup.gitconnected.com/implementing-quicksort-in-javascript-25bf50f14d90</a></h3><h3 id="17-Building-an-Open-Source-Mixpanel-Alternative-Part-2-Conversion-Funnels-https-statsbot-co-blog-building-open-source-mixpanel-alternative-2-74"><a href="#17-Building-an-Open-Source-Mixpanel-Alternative-Part-2-Conversion-Funnels-https-statsbot-co-blog-building-open-source-mixpanel-alternative-2-74" class="headerlink" title="17. Building an Open Source Mixpanel Alternative. Part 2: Conversion Funnels https://statsbot.co/blog/building-open-source-mixpanel-alternative-2/?74"></a>17. Building an Open Source Mixpanel Alternative. Part 2: Conversion Funnels <a href="https://statsbot.co/blog/building-open-source-mixpanel-alternative-2/?74" target="_blank" rel="noopener">https://statsbot.co/blog/building-open-source-mixpanel-alternative-2/?74</a></h3><h3 id="18-Cache-your-React-event-listeners-to-improve-performance-https-levelup-gitconnected-com-cache-your-react-event-listeners-to-improve-performance-cfbafbf9bb5f"><a href="#18-Cache-your-React-event-listeners-to-improve-performance-https-levelup-gitconnected-com-cache-your-react-event-listeners-to-improve-performance-cfbafbf9bb5f" class="headerlink" title="18. Cache your React event listeners to improve performance https://levelup.gitconnected.com/cache-your-react-event-listeners-to-improve-performance-cfbafbf9bb5f"></a>18. Cache your React event listeners to improve performance <a href="https://levelup.gitconnected.com/cache-your-react-event-listeners-to-improve-performance-cfbafbf9bb5f" target="_blank" rel="noopener">https://levelup.gitconnected.com/cache-your-react-event-listeners-to-improve-performance-cfbafbf9bb5f</a></h3><h3 id="19-Java-线程的-5-个使用技巧-https-mp-weixin-qq-com-s-OlxtiLgiPeo6o8IBUox-2Q"><a href="#19-Java-线程的-5-个使用技巧-https-mp-weixin-qq-com-s-OlxtiLgiPeo6o8IBUox-2Q" class="headerlink" title="19. Java 线程的 5 个使用技巧 https://mp.weixin.qq.com/s/OlxtiLgiPeo6o8IBUox-2Q"></a>19. Java 线程的 5 个使用技巧 <a href="https://mp.weixin.qq.com/s/OlxtiLgiPeo6o8IBUox-2Q" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/OlxtiLgiPeo6o8IBUox-2Q</a></h3><h3 id="20-Machine-Learning-inference-engine-for-Microcontrollers-and-Embedded-devices-https-github-com-jonnor-emlearn"><a href="#20-Machine-Learning-inference-engine-for-Microcontrollers-and-Embedded-devices-https-github-com-jonnor-emlearn" class="headerlink" title="20. Machine Learning inference engine for Microcontrollers and Embedded devices https://github.com/jonnor/emlearn"></a>20. Machine Learning inference engine for Microcontrollers and Embedded devices <a href="https://github.com/jonnor/emlearn" target="_blank" rel="noopener">https://github.com/jonnor/emlearn</a></h3><h3 id="21-Visualize-Programming-Language-Popularity-using-tiobeindexpy-https-towardsdatascience-com-visualize-programming-language-popularity-using-tiobeindexpy-f82c5a96400d"><a href="#21-Visualize-Programming-Language-Popularity-using-tiobeindexpy-https-towardsdatascience-com-visualize-programming-language-popularity-using-tiobeindexpy-f82c5a96400d" class="headerlink" title="21. Visualize Programming Language Popularity using tiobeindexpy https://towardsdatascience.com/visualize-programming-language-popularity-using-tiobeindexpy-f82c5a96400d"></a>21. Visualize Programming Language Popularity using tiobeindexpy <a href="https://towardsdatascience.com/visualize-programming-language-popularity-using-tiobeindexpy-f82c5a96400d" target="_blank" rel="noopener">https://towardsdatascience.com/visualize-programming-language-popularity-using-tiobeindexpy-f82c5a96400d</a></h3><h3 id="22-A-more-complete-library-of-CSS-completions-for-Sublime-Text-https-github-com-daneden-sublime-css-completions"><a href="#22-A-more-complete-library-of-CSS-completions-for-Sublime-Text-https-github-com-daneden-sublime-css-completions" class="headerlink" title="22. A more complete library of CSS completions for Sublime Text https://github.com/daneden/sublime-css-completions"></a>22. A more complete library of CSS completions for Sublime Text <a href="https://github.com/daneden/sublime-css-completions" target="_blank" rel="noopener">https://github.com/daneden/sublime-css-completions</a></h3><h3 id="23-Web-性能优化：-图片优化让网站大小减少-62-https-segmentfault-com-a-1190000018392559-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com-amp-share-user-1030000000178452"><a href="#23-Web-性能优化：-图片优化让网站大小减少-62-https-segmentfault-com-a-1190000018392559-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com-amp-share-user-1030000000178452" class="headerlink" title="23. Web 性能优化： 图片优化让网站大小减少 62% https://segmentfault.com/a/1190000018392559?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com&amp;share_user=1030000000178452"></a>23. Web 性能优化： 图片优化让网站大小减少 62% <a href="https://segmentfault.com/a/1190000018392559?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com&amp;share_user=1030000000178452" target="_blank" rel="noopener">https://segmentfault.com/a/1190000018392559?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com&amp;share_user=1030000000178452</a></h3><h3 id="24-Debug-deeper-with-HTTP-View-https-httptoolkit-tech-view"><a href="#24-Debug-deeper-with-HTTP-View-https-httptoolkit-tech-view" class="headerlink" title="24. Debug deeper with HTTP View https://httptoolkit.tech/view/"></a>24. Debug deeper with HTTP View <a href="https://httptoolkit.tech/view/" target="_blank" rel="noopener">https://httptoolkit.tech/view/</a></h3><h3 id="25-Examining-Code-Reuse-Reveals-Undiscovered-Links-Among-North-Korea’s-Malware-Families-https-securingtomorrow-mcafee-com-other-blogs-mcafee-labs-examining-code-reuse-reveals-undiscovered-links-among-north-koreas-malware-families"><a href="#25-Examining-Code-Reuse-Reveals-Undiscovered-Links-Among-North-Korea’s-Malware-Families-https-securingtomorrow-mcafee-com-other-blogs-mcafee-labs-examining-code-reuse-reveals-undiscovered-links-among-north-koreas-malware-families" class="headerlink" title="25. Examining Code Reuse Reveals Undiscovered Links Among North Korea’s Malware Families https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/examining-code-reuse-reveals-undiscovered-links-among-north-koreas-malware-families/"></a>25. Examining Code Reuse Reveals Undiscovered Links Among North Korea’s Malware Families <a href="https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/examining-code-reuse-reveals-undiscovered-links-among-north-koreas-malware-families/" target="_blank" rel="noopener">https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/examining-code-reuse-reveals-undiscovered-links-among-north-koreas-malware-families/</a></h3><h3 id="26-24-HOURS-OF-GAME-DEVELOPMENT-IN-RUST-http-iolivia-me-posts-24-hours-of-rust-game-dev"><a href="#26-24-HOURS-OF-GAME-DEVELOPMENT-IN-RUST-http-iolivia-me-posts-24-hours-of-rust-game-dev" class="headerlink" title="26. 24 HOURS OF GAME DEVELOPMENT IN RUST http://iolivia.me/posts/24-hours-of-rust-game-dev/"></a>26. 24 HOURS OF GAME DEVELOPMENT IN RUST <a href="http://iolivia.me/posts/24-hours-of-rust-game-dev/" target="_blank" rel="noopener">http://iolivia.me/posts/24-hours-of-rust-game-dev/</a></h3><h3 id="27-中文公开聊天语料库-https-github-com-codemayq-chaotbot-corpus-Chinese"><a href="#27-中文公开聊天语料库-https-github-com-codemayq-chaotbot-corpus-Chinese" class="headerlink" title="27. 中文公开聊天语料库 https://github.com/codemayq/chaotbot_corpus_Chinese"></a>27. 中文公开聊天语料库 <a href="https://github.com/codemayq/chaotbot_corpus_Chinese" target="_blank" rel="noopener">https://github.com/codemayq/chaotbot_corpus_Chinese</a></h3><h3 id="28-Currying-functions-in-Python-https-github-com-davekch-pycurry"><a href="#28-Currying-functions-in-Python-https-github-com-davekch-pycurry" class="headerlink" title="28. Currying functions in Python https://github.com/davekch/pycurry"></a>28. Currying functions in Python <a href="https://github.com/davekch/pycurry" target="_blank" rel="noopener">https://github.com/davekch/pycurry</a></h3><h3 id="29-Super-Crash-Course-in-Full-Stack-Web-Development-with-Python-and-Django-http-www-codexplore-io-books-crash-course-model-view-template-mvt"><a href="#29-Super-Crash-Course-in-Full-Stack-Web-Development-with-Python-and-Django-http-www-codexplore-io-books-crash-course-model-view-template-mvt" class="headerlink" title="29. Super Crash Course in Full Stack Web Development with Python and Django http://www.codexplore.io/books/crash-course/#_model_view_template_mvt"></a>29. Super Crash Course in Full Stack Web Development with Python and Django <a href="http://www.codexplore.io/books/crash-course/#_model_view_template_mvt" target="_blank" rel="noopener">http://www.codexplore.io/books/crash-course/#_model_view_template_mvt</a></h3><h3 id="30-Code-and-data-for-paper-“Deep-Painterly-Harmonization”-https-github-com-luanfujun-deep-painterly-harmonization"><a href="#30-Code-and-data-for-paper-“Deep-Painterly-Harmonization”-https-github-com-luanfujun-deep-painterly-harmonization" class="headerlink" title="30. Code and data for paper “Deep Painterly Harmonization” https://github.com/luanfujun/deep-painterly-harmonization"></a>30. Code and data for paper “Deep Painterly Harmonization” <a href="https://github.com/luanfujun/deep-painterly-harmonization" target="_blank" rel="noopener">https://github.com/luanfujun/deep-painterly-harmonization</a></h3><h3 id="31-编程思想之消息机制-https-mp-weixin-qq-com-s-d0ce3-Pw0cv-3hH7gZMBTg"><a href="#31-编程思想之消息机制-https-mp-weixin-qq-com-s-d0ce3-Pw0cv-3hH7gZMBTg" class="headerlink" title="31. 编程思想之消息机制 https://mp.weixin.qq.com/s/d0ce3-Pw0cv-3hH7gZMBTg"></a>31. 编程思想之消息机制 <a href="https://mp.weixin.qq.com/s/d0ce3-Pw0cv-3hH7gZMBTg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/d0ce3-Pw0cv-3hH7gZMBTg</a></h3><h3 id="32-代码管理的git–应对百变的需求-https-mp-weixin-qq-com-s-p5eEN55use7IZVc2ej-Erg"><a href="#32-代码管理的git–应对百变的需求-https-mp-weixin-qq-com-s-p5eEN55use7IZVc2ej-Erg" class="headerlink" title="32. 代码管理的git–应对百变的需求 https://mp.weixin.qq.com/s/p5eEN55use7IZVc2ej_Erg"></a>32. 代码管理的git–应对百变的需求 <a href="https://mp.weixin.qq.com/s/p5eEN55use7IZVc2ej_Erg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/p5eEN55use7IZVc2ej_Erg</a></h3><h3 id="33-How-Is-Software-Developed-At-Amazon-http-highscalability-com-blog-2019-3-4-how-is-software-developed-at-amazon-html"><a href="#33-How-Is-Software-Developed-At-Amazon-http-highscalability-com-blog-2019-3-4-how-is-software-developed-at-amazon-html" class="headerlink" title="33. How Is Software Developed At Amazon?  http://highscalability.com/blog/2019/3/4/how-is-software-developed-at-amazon.html"></a>33. How Is Software Developed At Amazon?  <a href="http://highscalability.com/blog/2019/3/4/how-is-software-developed-at-amazon.html" target="_blank" rel="noopener">http://highscalability.com/blog/2019/3/4/how-is-software-developed-at-amazon.html</a></h3></li>
+</ul>
+
+    
+    </div>
+    
+    
+        <div class="article-comment" id="article-comment">
+            
+
+<h1>Comment</h1>
+
+  
+    <div id="comment-not-available">
+      Not available
+      <p><strong>For site maintainer: Please provide <code>appId</code> and <code>appKey</code> in your <code>_data/cutie.yml</code> file for <code>valine</code> comment system.</strong></p>
+    </div>
+  
+
+
+        </div>
+        
+</article>
+  </div>
+
+  
+
+<footer id="footer">
+    <div class="footer-copyright">
+        <div>
+            <p> Copyright by <a href>selimo </a> @ 2019</p>
+            <p>Designed by: <i class="fas fa-paint-brush"></i> <a href="https://moober.cn">Moober</a> and <i class="fas fa-graduation-cap"></i> <a href="https://qutang.github.io">Qu Tang</a> &bull; Theme: <a href="https://qutang.github.io/cutie/">Cutie 2.1.3-Taurus</a> &bull; Powered by <a href="http://hexo.io">Hexo.</a></p>
+        </div>
+    </div>
+    
+    <div class="footer-social">
+        
+            
+                
+                    <div class="footer-social-item"><a href="https://github.com/onepedalo" target="_blank"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a></div>
+                
+            
+                
+                    <div class="footer-social-item"><a href="https://www.instagram.com/onepedalo" target="_blank"><i class="fab fa-instagram fa-2x" aria-hidden="true"></i></a></div>
+                
+            
+                
+                    <div class="footer-social-item"><a href="https://mobile.twitter.com/onepedalo" target="_blank"><i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a></div>
+                
+            
+                
+                    <div class="footer-social-item"><a href="https://www.facebook.com/profile.php?id=100012651692615" target="_blank"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a></div>
+                
+            
+                
+                    <div class="footer-social-item"><a href="https://weibo.com/u/7010209753" target="_blank"><i class="fab fa-weibo fa-2x" aria-hidden="true"></i></a></div>
+                
+            
+        
+    </div>
+</footer>
+
+  <br>
+
+  <div id="footer-nav" class='footer-nav'>
+		
+
+
+
+<nav id="nav">
+	
+	
+		
+			
+				
+			
+		
+		
+	
+		
+			
+		
+		
+	
+	
+	<div class="nav-item" id="nav-item-toc">
+		
+
+
+<div class="toc-container">
+<i class="far fa-times-circle" id="toc-close" onclick="closeTOC(event);" ontouchstart="closeTOC(event);"></i>
+<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Today-we-got-33-pieces-of-news"><span class="toc-number">1.</span> <span class="toc-text">Today we got 33 pieces of news</span></a></li></ol>
+</div>
+<div class="toc-button" onclick="toggleTOC(event);" ontouchstart="toggleTOC(event);">
+    <img src="/images/icons/blue-shadow/toc.svg" alt>
+</div>
+
+	</div>
+	
+	<div class="nav-item" id="nav-item-archive">
+		
+				<div class="nav-icon">
+				
+			<a href="/archives/" title="Archives">
+			<img src="/images/icons/blue-shadow/archive.svg" alt>
+			</a>
+		</div>
+	</div>
+	<div class="nav-item" id="nav-item-search">
+		
+		<div class="nav-icon">
+		
+			<a href="/search/" title="Search">
+			<img src="/images/icons/blue-shadow/search.svg" alt>
+			</a>
+		</div>
+	</div>
+	<div class="nav-item" id="nav-item-more">
+		<div class="nav-icon">
+				<a href="#" onclick="onClickMenuIcon(event);" ontouchstart="onClickMenuIcon(event);">
+				<img src="/images/icons/blue-shadow/menu.svg" alt>
+				</a>
+		</div>
+		<div class="nav-more-menu">
+				<i class="far fa-times-circle" id="nav-more-menu-close" onclick="onClickNavMenuClose(event);" ontouchstart="onClickNavMenuClose(event);"></i>
+		
+			
+			
+		
+			<div class="nav-more-item">
+					<div class="nav-name">
+						<a class="nav-link" href>
+							<span>Resume</span>
+						</a>
+					</div>
+			</div>
+		
+		
+			
+			
+		
+			<div class="nav-more-item">
+					<div class="nav-name">
+						<a class="nav-link" href="https://github.com/onepedalo/onepedalo.github.io/projects">
+							<span>Projects</span>
+						</a>
+					</div>
+			</div>
+		
+		
+		
+	</div>
+	</div>
+</nav>
+
+	</div>
+
+  
+
+
+
+    
+
+
+
+
+
+
+
+    <script src="/js/lightgallery.min.js"></script>
+<script src="/js/lg-zoom.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#lightgallery").lightGallery(); 
+        $(".article-content img").each(function(){
+            console.log($(this).attr('src'))
+            $(this).attr('data-src', $(this).attr('src')).lightGallery({
+                selector: 'this'
+            })
+        });
+    });
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+
+  
+  // update cookie if this page is opened (directly)
+  loadjs(['/libs/jshashes/hashes.min.js', '/libs/js-cookie/src/js.cookie.js', '/js/post.v2.js'], 'post-version');
+  loadjs.ready('post-version', function(){
+    
+    new Postv2('hashit_e6bf657a673ad1e4afb025606f2b96ad64971f16cf8976e7686d879004f00209').update('hashit_d0c60c48c66e6867c30fb411f325a7a756e4b7ea4517a3a9848a6f73287525b7', function(){});
+  });
+  
+</script>
+
+
+
+<!-- <script src="/js/post.js"></script> -->
+
+<script src="/js/headroom.min.js"></script>
+
+<script data-no-instant type="text/javascript">
+
+initHeadroom();
+
+changeLayoutOnTouchScreen();
+
+// 
+// var post = new Post('', '');
+// post.getCommentCount(window.location.pathname, function(count){
+//     $('#article-comment-count').text(count);
+// });
+// post.addVisitRecord(window.location.pathname, userip);
+// post.getVisitCount(window.location.pathname, function(count){
+//     $('#article-visit-count').text(count);
+// });
+
+// 
+</script>
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
