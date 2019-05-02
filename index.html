@@ -1,812 +1,1086 @@
 <!DOCTYPE html>
-<html lang="en">
 
 
 
+  
 
+
+<html class="theme-next pisces use-motion" lang="en">
 <head><meta name="generator" content="Hexo 3.8.0">
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  
-      <title>selimo</title>
-  
-
-  
-  
-  <meta name="description" content>
-  <meta name="author" content="selimo">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- load loadjs.js -->
-  <script src="/libs/loadjs/dist/loadjs.min.js"></script>
-
-<link rel="stylesheet" href="/libs/animate.css/animate.min.css">
-  <!-- load lightgallery -->
-<link rel="stylesheet" href="/css/lightgallery.css">
-<link rel="stylesheet" href="/libs/noty/lib/noty.css">
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
 
 
 
 
 
 
-    <link rel="stylesheet" href="/css/taurus.css">
-    
-        <link rel="stylesheet" href="/css/scheme-taurus/animations.css">
-    
 
 
-<link rel="stylesheet" href="/.css">
 
-  <!-- load font awesome 5 -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
 
-  <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-  });
-  </script>
-  <!-- load mathjax -->
-  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax//libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
-  <!-- load js-cookie -->
-  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-    <script src="/js/social-share.min.js"></script>
-    <script src="/js/theme.js"></script>
 
-  <!-- include cookie.js -->
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
 
-  <!-- include comment system code -->
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT">
+
+
+
+
+
+
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="selimo">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="selimo">
+<meta property="og:locale" content="en">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="selimo">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/">
+
+
+
+
+
+  <title>selimo</title>
   
-    <script src="//cdn1.lncld.net/static/js/3.6.4/av-min.js"></script>
-<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-  
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="/images/favicon.png">
+
+
+
+
+
+
+
+
 </head>
-<body style="display: flex; flex-direction: column; min-height: 100vh;">
 
- 
-
-<header id="header" class="header">
-	<div class="header-title">
-		
-		<div class="header-logo">
-			<a href="/">
-				<img src="https://avatar.csdnimg.cn/3/6/5/1_onepedalo.jpg">
-			</a>
-		</div>
-		<div class="header-text">
-			<h1>
-				<a href="/">selimo</a>
-			</h1>
-			<subtitle>
-				a peaceful place for technology
-			</subtitle>
-		</div>
-		
-	</div>
-	<div id="header-nav">
-		
-
-
-
-<nav id="nav">
-	
-	
-		
-			
-		
-		
-			<div class="nav-item">
-				
-					<div class="nav-name active_page">
-				
-					<a class="nav-link" href>
-						<span>Resume </span>
-					</a>
-				</div>
-			</div>
-		
-	
-		
-			
-		
-		
-			<div class="nav-item">
-				
-					<div class="nav-name">
-				
-					<a class="nav-link" href="https://github.com/onepedalo/onepedalo.github.io/projects">
-						<span>Projects </span>
-					</a>
-				</div>
-			</div>
-		
-	
-	
-	<div class="nav-item" id="nav-item-archive">
-		
-				<div class="nav-icon">
-				
-			<a href="/archives/" title="Archives">
-			<img src="/images/icons/blue-shadow/archive.svg" alt>
-			</a>
-		</div>
-	</div>
-	<div class="nav-item" id="nav-item-search">
-		
-		<div class="nav-icon">
-		
-			<a href="/search/" title="Search">
-			<img src="/images/icons/blue-shadow/search.svg" alt>
-			</a>
-		</div>
-	</div>
-	<div class="nav-item" id="nav-item-more">
-		<div class="nav-icon">
-				<a href="#" onclick="onClickMenuIcon(event);" ontouchstart="onClickMenuIcon(event);">
-				<img src="/images/icons/blue-shadow/menu.svg" alt>
-				</a>
-		</div>
-		<div class="nav-more-menu">
-				<i class="far fa-times-circle" id="nav-more-menu-close" onclick="onClickNavMenuClose(event);" ontouchstart="onClickNavMenuClose(event);"></i>
-		
-			
-			
-		
-			<div class="nav-more-item">
-					<div class="nav-name">
-						<a class="nav-link" href>
-							<span>Resume</span>
-						</a>
-					</div>
-			</div>
-		
-		
-			
-			
-		
-			<div class="nav-more-item">
-					<div class="nav-name">
-						<a class="nav-link" href="https://github.com/onepedalo/onepedalo.github.io/projects">
-							<span>Projects</span>
-						</a>
-					</div>
-			</div>
-		
-		
-		
-	</div>
-	</div>
-</nav>
-
-	</div>
-</header>
-
- 
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
 
   
+  
+    
+  
 
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
 
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
 
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">selimo</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">a peaceful place for technology</p>
+      
+  </div>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div style="flex: 1;">
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            Archives
+          </a>
+        </li>
       
 
+      
+    </ul>
+  
 
-<div class="index-container" id="/index.html" data-name="index" data-version="2.1.3">
-	<div class="index-intro">
-		
-	</div>
-	
-		<div class="grid-2_md-1 grid-equalHeight index-cards">
-		
-			
+  
+</nav>
 
 
 
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/08/2019-03-08/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="selimo">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="selimo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/03/08/2019-03-08/" itemprop="url">Technology Daily - 2019/03/08</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-03-08T22:03:13+08:00">
+                2019-03-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ul>
+<li>2019/03/08<h3 id="女神节快乐-致敬生活中的女神们，世界因你们而美丽"><a href="#女神节快乐-致敬生活中的女神们，世界因你们而美丽" class="headerlink" title="#女神节快乐#  致敬生活中的女神们，世界因你们而美丽~~"></a>#女神节快乐#  致敬生活中的女神们，世界因你们而美丽~~</h3><h2 id="Today-we-got-33-pieces-of-news"><a href="#Today-we-got-33-pieces-of-news" class="headerlink" title="Today we got 33 pieces of news"></a>Today we got 33 pieces of news</h2><h3 id="1-GIT提交规范的使用和总结-https-www-jianshu-com-p-1850c040271f"><a href="#1-GIT提交规范的使用和总结-https-www-jianshu-com-p-1850c040271f" class="headerlink" title="1. GIT提交规范的使用和总结 https://www.jianshu.com/p/1850c040271f"></a>1. GIT提交规范的使用和总结 <a href="https://www.jianshu.com/p/1850c040271f" target="_blank" rel="noopener">https://www.jianshu.com/p/1850c040271f</a></h3><h3 id="2-了解这-12-个概念，让你的-JavaScript-水平更上一层楼-https-www-infoq-cn-article-3L-kK19KH2Ey7GIVBGsN-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com"><a href="#2-了解这-12-个概念，让你的-JavaScript-水平更上一层楼-https-www-infoq-cn-article-3L-kK19KH2Ey7GIVBGsN-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com" class="headerlink" title="2. 了解这 12 个概念，让你的 JavaScript 水平更上一层楼 https://www.infoq.cn/article/3L*kK19KH2Ey7GIVBGsN?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com"></a>2. 了解这 12 个概念，让你的 JavaScript 水平更上一层楼 <a href="https://www.infoq.cn/article/3L*kK19KH2Ey7GIVBGsN?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com" target="_blank" rel="noopener">https://www.infoq.cn/article/3L*kK19KH2Ey7GIVBGsN?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com</a></h3><h3 id="3-扎心！线上服务宕机时，如何保证数据100-不丢失？-https-mp-weixin-qq-com-s-c1pPLVxOClHg8y2H20eyQ"><a href="#3-扎心！线上服务宕机时，如何保证数据100-不丢失？-https-mp-weixin-qq-com-s-c1pPLVxOClHg8y2H20eyQ" class="headerlink" title="3. 扎心！线上服务宕机时，如何保证数据100%不丢失？ https://mp.weixin.qq.com/s/-c1pPLVxOClHg8y2H20eyQ"></a>3. 扎心！线上服务宕机时，如何保证数据100%不丢失？ <a href="https://mp.weixin.qq.com/s/-c1pPLVxOClHg8y2H20eyQ" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/-c1pPLVxOClHg8y2H20eyQ</a></h3><h3 id="4-Learn-how-to-design-large-scale-systems-Prep-for-the-system-design-interview-Includes-Anki-flashcards-https-github-com-donnemartin-system-design-primer"><a href="#4-Learn-how-to-design-large-scale-systems-Prep-for-the-system-design-interview-Includes-Anki-flashcards-https-github-com-donnemartin-system-design-primer" class="headerlink" title="4. Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards. https://github.com/donnemartin/system-design-primer"></a>4. Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards. <a href="https://github.com/donnemartin/system-design-primer" target="_blank" rel="noopener">https://github.com/donnemartin/system-design-primer</a></h3><h3 id="5-From-‘R-vs-Python’-to-‘R-and-Python’-Leveraging-the-best-of-both-‘Python-and-R’-in-a-single-project-https-medium-com-m-global-identity-redirectUrl-https-3A-2F-2Ftowardsdatascience-com-2Ffrom-r-vs-python-to-r-and-python-aa25db33ce17"><a href="#5-From-‘R-vs-Python’-to-‘R-and-Python’-Leveraging-the-best-of-both-‘Python-and-R’-in-a-single-project-https-medium-com-m-global-identity-redirectUrl-https-3A-2F-2Ftowardsdatascience-com-2Ffrom-r-vs-python-to-r-and-python-aa25db33ce17" class="headerlink" title="5. From ‘R vs Python’ to ‘R and Python’: Leveraging the best of both ‘Python and R’ in a single project. https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Ftowardsdatascience.com%2Ffrom-r-vs-python-to-r-and-python-aa25db33ce17"></a>5. From ‘R vs Python’ to ‘R and Python’: Leveraging the best of both ‘Python and R’ in a single project. <a href="https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Ftowardsdatascience.com%2Ffrom-r-vs-python-to-r-and-python-aa25db33ce17" target="_blank" rel="noopener">https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Ftowardsdatascience.com%2Ffrom-r-vs-python-to-r-and-python-aa25db33ce17</a></h3><h3 id="6-如何在-Web-关闭页面时发送-Ajax-请求-https-juejin-im-post-5c7e541b6fb9a049e06415a5-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com"><a href="#6-如何在-Web-关闭页面时发送-Ajax-请求-https-juejin-im-post-5c7e541b6fb9a049e06415a5-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com" class="headerlink" title="6. 如何在 Web 关闭页面时发送 Ajax 请求 https://juejin.im/post/5c7e541b6fb9a049e06415a5?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com"></a>6. 如何在 Web 关闭页面时发送 Ajax 请求 <a href="https://juejin.im/post/5c7e541b6fb9a049e06415a5?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com" target="_blank" rel="noopener">https://juejin.im/post/5c7e541b6fb9a049e06415a5?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com</a></h3><h3 id="7-Why-Everyone-Should-Learn-the-Basics-of-Code-https-medium-com-matthewbiggins-why-everyone-should-learn-the-basics-of-code-a3699596e6cb"><a href="#7-Why-Everyone-Should-Learn-the-Basics-of-Code-https-medium-com-matthewbiggins-why-everyone-should-learn-the-basics-of-code-a3699596e6cb" class="headerlink" title="7. Why Everyone Should Learn the Basics of Code https://medium.com/@matthewbiggins/why-everyone-should-learn-the-basics-of-code-a3699596e6cb"></a>7. Why Everyone Should Learn the Basics of Code <a href="https://medium.com/@matthewbiggins/why-everyone-should-learn-the-basics-of-code-a3699596e6cb" target="_blank" rel="noopener">https://medium.com/@matthewbiggins/why-everyone-should-learn-the-basics-of-code-a3699596e6cb</a></h3><h3 id="8-如何通俗地解释TCP和UDP协议和HTTP、FTP、SMTP等协议之间的区别？-https-zhuanlan-zhihu-com-p-58117320-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com"><a href="#8-如何通俗地解释TCP和UDP协议和HTTP、FTP、SMTP等协议之间的区别？-https-zhuanlan-zhihu-com-p-58117320-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com" class="headerlink" title="8. 如何通俗地解释TCP和UDP协议和HTTP、FTP、SMTP等协议之间的区别？ https://zhuanlan.zhihu.com/p/58117320?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com"></a>8. 如何通俗地解释TCP和UDP协议和HTTP、FTP、SMTP等协议之间的区别？ <a href="https://zhuanlan.zhihu.com/p/58117320?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/58117320?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com</a></h3><h3 id="9-Writing-a-Faster-Jsonnet-Compiler-https-databricks-com-blog-2018-10-12-writing-a-faster-jsonnet-compiler-html"><a href="#9-Writing-a-Faster-Jsonnet-Compiler-https-databricks-com-blog-2018-10-12-writing-a-faster-jsonnet-compiler-html" class="headerlink" title="9. Writing a Faster Jsonnet Compiler https://databricks.com/blog/2018/10/12/writing-a-faster-jsonnet-compiler.html"></a>9. Writing a Faster Jsonnet Compiler <a href="https://databricks.com/blog/2018/10/12/writing-a-faster-jsonnet-compiler.html" target="_blank" rel="noopener">https://databricks.com/blog/2018/10/12/writing-a-faster-jsonnet-compiler.html</a></h3><h3 id="10-The-Ultimate-Guide-to-Data-Cleaning-https-towardsdatascience-com-the-ultimate-guide-to-data-cleaning-3969843991d4-gi-4bf322c90d81"><a href="#10-The-Ultimate-Guide-to-Data-Cleaning-https-towardsdatascience-com-the-ultimate-guide-to-data-cleaning-3969843991d4-gi-4bf322c90d81" class="headerlink" title="10. The Ultimate Guide to Data Cleaning https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4?gi=4bf322c90d81"></a>10. The Ultimate Guide to Data Cleaning <a href="https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4?gi=4bf322c90d81" target="_blank" rel="noopener">https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4?gi=4bf322c90d81</a></h3><h3 id="11-NumPy-中文文档-https-www-numpy-org-cn-index-html-from-hao-bigquant-com-amp-fromno-0"><a href="#11-NumPy-中文文档-https-www-numpy-org-cn-index-html-from-hao-bigquant-com-amp-fromno-0" class="headerlink" title="11. NumPy 中文文档 https://www.numpy.org.cn/index.html?from=hao.bigquant.com&amp;fromno=0"></a>11. NumPy 中文文档 <a href="https://www.numpy.org.cn/index.html?from=hao.bigquant.com&amp;fromno=0" target="_blank" rel="noopener">https://www.numpy.org.cn/index.html?from=hao.bigquant.com&amp;fromno=0</a></h3><h3 id="12-A-brief-introduction-to-Markov-chains-https-towardsdatascience-com-brief-introduction-to-markov-chains-2c8cab9c98ab"><a href="#12-A-brief-introduction-to-Markov-chains-https-towardsdatascience-com-brief-introduction-to-markov-chains-2c8cab9c98ab" class="headerlink" title="12. A brief introduction to Markov chains https://towardsdatascience.com/brief-introduction-to-markov-chains-2c8cab9c98ab"></a>12. A brief introduction to Markov chains <a href="https://towardsdatascience.com/brief-introduction-to-markov-chains-2c8cab9c98ab" target="_blank" rel="noopener">https://towardsdatascience.com/brief-introduction-to-markov-chains-2c8cab9c98ab</a></h3><h3 id="13-ReactOS-0-4-11-released-https-www-reactos-org-project-news-reactos-0411-released"><a href="#13-ReactOS-0-4-11-released-https-www-reactos-org-project-news-reactos-0411-released" class="headerlink" title="13. ReactOS 0.4.11 released https://www.reactos.org/project-news/reactos-0411-released"></a>13. ReactOS 0.4.11 released <a href="https://www.reactos.org/project-news/reactos-0411-released" target="_blank" rel="noopener">https://www.reactos.org/project-news/reactos-0411-released</a></h3><h3 id="14-8-种常被忽视的-SQL-错误用法-https-mp-weixin-qq-com-s-UkfvQpSMa82nYlsnkAQHjA"><a href="#14-8-种常被忽视的-SQL-错误用法-https-mp-weixin-qq-com-s-UkfvQpSMa82nYlsnkAQHjA" class="headerlink" title="14. 8 种常被忽视的 SQL 错误用法 https://mp.weixin.qq.com/s/UkfvQpSMa82nYlsnkAQHjA"></a>14. 8 种常被忽视的 SQL 错误用法 <a href="https://mp.weixin.qq.com/s/UkfvQpSMa82nYlsnkAQHjA" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/UkfvQpSMa82nYlsnkAQHjA</a></h3><h3 id="15-开源者访谈录第-1-期：如何在-3-个月内斩获-14000-个-GitHub-Star！-https-zhuanlan-zhihu-com-p-58662587-utm-source-weibo-amp-utm-medium-social-amp-utm-content-snapshot-amp-utm-oi-1062672075189317632"><a href="#15-开源者访谈录第-1-期：如何在-3-个月内斩获-14000-个-GitHub-Star！-https-zhuanlan-zhihu-com-p-58662587-utm-source-weibo-amp-utm-medium-social-amp-utm-content-snapshot-amp-utm-oi-1062672075189317632" class="headerlink" title="15. 开源者访谈录第 1 期：如何在 3 个月内斩获 14000 个 GitHub Star！ https://zhuanlan.zhihu.com/p/58662587?utm_source=weibo&amp;utm_medium=social&amp;utm_content=snapshot&amp;utm_oi=1062672075189317632"></a>15. 开源者访谈录第 1 期：如何在 3 个月内斩获 14000 个 GitHub Star！ <a href="https://zhuanlan.zhihu.com/p/58662587?utm_source=weibo&amp;utm_medium=social&amp;utm_content=snapshot&amp;utm_oi=1062672075189317632" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/58662587?utm_source=weibo&amp;utm_medium=social&amp;utm_content=snapshot&amp;utm_oi=1062672075189317632</a></h3><h3 id="16-Implementing-Quicksort-in-JavaScript-https-levelup-gitconnected-com-implementing-quicksort-in-javascript-25bf50f14d90"><a href="#16-Implementing-Quicksort-in-JavaScript-https-levelup-gitconnected-com-implementing-quicksort-in-javascript-25bf50f14d90" class="headerlink" title="16. Implementing Quicksort in JavaScript https://levelup.gitconnected.com/implementing-quicksort-in-javascript-25bf50f14d90"></a>16. Implementing Quicksort in JavaScript <a href="https://levelup.gitconnected.com/implementing-quicksort-in-javascript-25bf50f14d90" target="_blank" rel="noopener">https://levelup.gitconnected.com/implementing-quicksort-in-javascript-25bf50f14d90</a></h3><h3 id="17-Building-an-Open-Source-Mixpanel-Alternative-Part-2-Conversion-Funnels-https-statsbot-co-blog-building-open-source-mixpanel-alternative-2-74"><a href="#17-Building-an-Open-Source-Mixpanel-Alternative-Part-2-Conversion-Funnels-https-statsbot-co-blog-building-open-source-mixpanel-alternative-2-74" class="headerlink" title="17. Building an Open Source Mixpanel Alternative. Part 2: Conversion Funnels https://statsbot.co/blog/building-open-source-mixpanel-alternative-2/?74"></a>17. Building an Open Source Mixpanel Alternative. Part 2: Conversion Funnels <a href="https://statsbot.co/blog/building-open-source-mixpanel-alternative-2/?74" target="_blank" rel="noopener">https://statsbot.co/blog/building-open-source-mixpanel-alternative-2/?74</a></h3><h3 id="18-Cache-your-React-event-listeners-to-improve-performance-https-levelup-gitconnected-com-cache-your-react-event-listeners-to-improve-performance-cfbafbf9bb5f"><a href="#18-Cache-your-React-event-listeners-to-improve-performance-https-levelup-gitconnected-com-cache-your-react-event-listeners-to-improve-performance-cfbafbf9bb5f" class="headerlink" title="18. Cache your React event listeners to improve performance https://levelup.gitconnected.com/cache-your-react-event-listeners-to-improve-performance-cfbafbf9bb5f"></a>18. Cache your React event listeners to improve performance <a href="https://levelup.gitconnected.com/cache-your-react-event-listeners-to-improve-performance-cfbafbf9bb5f" target="_blank" rel="noopener">https://levelup.gitconnected.com/cache-your-react-event-listeners-to-improve-performance-cfbafbf9bb5f</a></h3><h3 id="19-Java-线程的-5-个使用技巧-https-mp-weixin-qq-com-s-OlxtiLgiPeo6o8IBUox-2Q"><a href="#19-Java-线程的-5-个使用技巧-https-mp-weixin-qq-com-s-OlxtiLgiPeo6o8IBUox-2Q" class="headerlink" title="19. Java 线程的 5 个使用技巧 https://mp.weixin.qq.com/s/OlxtiLgiPeo6o8IBUox-2Q"></a>19. Java 线程的 5 个使用技巧 <a href="https://mp.weixin.qq.com/s/OlxtiLgiPeo6o8IBUox-2Q" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/OlxtiLgiPeo6o8IBUox-2Q</a></h3><h3 id="20-Machine-Learning-inference-engine-for-Microcontrollers-and-Embedded-devices-https-github-com-jonnor-emlearn"><a href="#20-Machine-Learning-inference-engine-for-Microcontrollers-and-Embedded-devices-https-github-com-jonnor-emlearn" class="headerlink" title="20. Machine Learning inference engine for Microcontrollers and Embedded devices https://github.com/jonnor/emlearn"></a>20. Machine Learning inference engine for Microcontrollers and Embedded devices <a href="https://github.com/jonnor/emlearn" target="_blank" rel="noopener">https://github.com/jonnor/emlearn</a></h3><h3 id="21-Visualize-Programming-Language-Popularity-using-tiobeindexpy-https-towardsdatascience-com-visualize-programming-language-popularity-using-tiobeindexpy-f82c5a96400d"><a href="#21-Visualize-Programming-Language-Popularity-using-tiobeindexpy-https-towardsdatascience-com-visualize-programming-language-popularity-using-tiobeindexpy-f82c5a96400d" class="headerlink" title="21. Visualize Programming Language Popularity using tiobeindexpy https://towardsdatascience.com/visualize-programming-language-popularity-using-tiobeindexpy-f82c5a96400d"></a>21. Visualize Programming Language Popularity using tiobeindexpy <a href="https://towardsdatascience.com/visualize-programming-language-popularity-using-tiobeindexpy-f82c5a96400d" target="_blank" rel="noopener">https://towardsdatascience.com/visualize-programming-language-popularity-using-tiobeindexpy-f82c5a96400d</a></h3><h3 id="22-A-more-complete-library-of-CSS-completions-for-Sublime-Text-https-github-com-daneden-sublime-css-completions"><a href="#22-A-more-complete-library-of-CSS-completions-for-Sublime-Text-https-github-com-daneden-sublime-css-completions" class="headerlink" title="22. A more complete library of CSS completions for Sublime Text https://github.com/daneden/sublime-css-completions"></a>22. A more complete library of CSS completions for Sublime Text <a href="https://github.com/daneden/sublime-css-completions" target="_blank" rel="noopener">https://github.com/daneden/sublime-css-completions</a></h3><h3 id="23-Web-性能优化：-图片优化让网站大小减少-62-https-segmentfault-com-a-1190000018392559-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com-amp-share-user-1030000000178452"><a href="#23-Web-性能优化：-图片优化让网站大小减少-62-https-segmentfault-com-a-1190000018392559-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com-amp-share-user-1030000000178452" class="headerlink" title="23. Web 性能优化： 图片优化让网站大小减少 62% https://segmentfault.com/a/1190000018392559?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com&amp;share_user=1030000000178452"></a>23. Web 性能优化： 图片优化让网站大小减少 62% <a href="https://segmentfault.com/a/1190000018392559?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com&amp;share_user=1030000000178452" target="_blank" rel="noopener">https://segmentfault.com/a/1190000018392559?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com&amp;share_user=1030000000178452</a></h3><h3 id="24-Debug-deeper-with-HTTP-View-https-httptoolkit-tech-view"><a href="#24-Debug-deeper-with-HTTP-View-https-httptoolkit-tech-view" class="headerlink" title="24. Debug deeper with HTTP View https://httptoolkit.tech/view/"></a>24. Debug deeper with HTTP View <a href="https://httptoolkit.tech/view/" target="_blank" rel="noopener">https://httptoolkit.tech/view/</a></h3><h3 id="25-Examining-Code-Reuse-Reveals-Undiscovered-Links-Among-North-Korea’s-Malware-Families-https-securingtomorrow-mcafee-com-other-blogs-mcafee-labs-examining-code-reuse-reveals-undiscovered-links-among-north-koreas-malware-families"><a href="#25-Examining-Code-Reuse-Reveals-Undiscovered-Links-Among-North-Korea’s-Malware-Families-https-securingtomorrow-mcafee-com-other-blogs-mcafee-labs-examining-code-reuse-reveals-undiscovered-links-among-north-koreas-malware-families" class="headerlink" title="25. Examining Code Reuse Reveals Undiscovered Links Among North Korea’s Malware Families https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/examining-code-reuse-reveals-undiscovered-links-among-north-koreas-malware-families/"></a>25. Examining Code Reuse Reveals Undiscovered Links Among North Korea’s Malware Families <a href="https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/examining-code-reuse-reveals-undiscovered-links-among-north-koreas-malware-families/" target="_blank" rel="noopener">https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/examining-code-reuse-reveals-undiscovered-links-among-north-koreas-malware-families/</a></h3><h3 id="26-24-HOURS-OF-GAME-DEVELOPMENT-IN-RUST-http-iolivia-me-posts-24-hours-of-rust-game-dev"><a href="#26-24-HOURS-OF-GAME-DEVELOPMENT-IN-RUST-http-iolivia-me-posts-24-hours-of-rust-game-dev" class="headerlink" title="26. 24 HOURS OF GAME DEVELOPMENT IN RUST http://iolivia.me/posts/24-hours-of-rust-game-dev/"></a>26. 24 HOURS OF GAME DEVELOPMENT IN RUST <a href="http://iolivia.me/posts/24-hours-of-rust-game-dev/" target="_blank" rel="noopener">http://iolivia.me/posts/24-hours-of-rust-game-dev/</a></h3><h3 id="27-中文公开聊天语料库-https-github-com-codemayq-chaotbot-corpus-Chinese"><a href="#27-中文公开聊天语料库-https-github-com-codemayq-chaotbot-corpus-Chinese" class="headerlink" title="27. 中文公开聊天语料库 https://github.com/codemayq/chaotbot_corpus_Chinese"></a>27. 中文公开聊天语料库 <a href="https://github.com/codemayq/chaotbot_corpus_Chinese" target="_blank" rel="noopener">https://github.com/codemayq/chaotbot_corpus_Chinese</a></h3><h3 id="28-Currying-functions-in-Python-https-github-com-davekch-pycurry"><a href="#28-Currying-functions-in-Python-https-github-com-davekch-pycurry" class="headerlink" title="28. Currying functions in Python https://github.com/davekch/pycurry"></a>28. Currying functions in Python <a href="https://github.com/davekch/pycurry" target="_blank" rel="noopener">https://github.com/davekch/pycurry</a></h3><h3 id="29-Super-Crash-Course-in-Full-Stack-Web-Development-with-Python-and-Django-http-www-codexplore-io-books-crash-course-model-view-template-mvt"><a href="#29-Super-Crash-Course-in-Full-Stack-Web-Development-with-Python-and-Django-http-www-codexplore-io-books-crash-course-model-view-template-mvt" class="headerlink" title="29. Super Crash Course in Full Stack Web Development with Python and Django http://www.codexplore.io/books/crash-course/#_model_view_template_mvt"></a>29. Super Crash Course in Full Stack Web Development with Python and Django <a href="http://www.codexplore.io/books/crash-course/#_model_view_template_mvt" target="_blank" rel="noopener">http://www.codexplore.io/books/crash-course/#_model_view_template_mvt</a></h3><h3 id="30-Code-and-data-for-paper-“Deep-Painterly-Harmonization”-https-github-com-luanfujun-deep-painterly-harmonization"><a href="#30-Code-and-data-for-paper-“Deep-Painterly-Harmonization”-https-github-com-luanfujun-deep-painterly-harmonization" class="headerlink" title="30. Code and data for paper “Deep Painterly Harmonization” https://github.com/luanfujun/deep-painterly-harmonization"></a>30. Code and data for paper “Deep Painterly Harmonization” <a href="https://github.com/luanfujun/deep-painterly-harmonization" target="_blank" rel="noopener">https://github.com/luanfujun/deep-painterly-harmonization</a></h3><h3 id="31-编程思想之消息机制-https-mp-weixin-qq-com-s-d0ce3-Pw0cv-3hH7gZMBTg"><a href="#31-编程思想之消息机制-https-mp-weixin-qq-com-s-d0ce3-Pw0cv-3hH7gZMBTg" class="headerlink" title="31. 编程思想之消息机制 https://mp.weixin.qq.com/s/d0ce3-Pw0cv-3hH7gZMBTg"></a>31. 编程思想之消息机制 <a href="https://mp.weixin.qq.com/s/d0ce3-Pw0cv-3hH7gZMBTg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/d0ce3-Pw0cv-3hH7gZMBTg</a></h3><h3 id="32-代码管理的git–应对百变的需求-https-mp-weixin-qq-com-s-p5eEN55use7IZVc2ej-Erg"><a href="#32-代码管理的git–应对百变的需求-https-mp-weixin-qq-com-s-p5eEN55use7IZVc2ej-Erg" class="headerlink" title="32. 代码管理的git–应对百变的需求 https://mp.weixin.qq.com/s/p5eEN55use7IZVc2ej_Erg"></a>32. 代码管理的git–应对百变的需求 <a href="https://mp.weixin.qq.com/s/p5eEN55use7IZVc2ej_Erg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/p5eEN55use7IZVc2ej_Erg</a></h3><h3 id="33-How-Is-Software-Developed-At-Amazon-http-highscalability-com-blog-2019-3-4-how-is-software-developed-at-amazon-html"><a href="#33-How-Is-Software-Developed-At-Amazon-http-highscalability-com-blog-2019-3-4-how-is-software-developed-at-amazon-html" class="headerlink" title="33. How Is Software Developed At Amazon?  http://highscalability.com/blog/2019/3/4/how-is-software-developed-at-amazon.html"></a>33. How Is Software Developed At Amazon?  <a href="http://highscalability.com/blog/2019/3/4/how-is-software-developed-at-amazon.html" target="_blank" rel="noopener">http://highscalability.com/blog/2019/3/4/how-is-software-developed-at-amazon.html</a></h3></li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
 
 
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/07/2019-03-07/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="selimo">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="selimo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/03/07/2019-03-07/" itemprop="url">Technology Daily - 2019/03/07</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-03-07T21:55:16+08:00">
+                2019-03-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="Today-we-got-22-pieces-of-news"><a href="#Today-we-got-22-pieces-of-news" class="headerlink" title="Today we got 22 pieces of news"></a>Today we got 22 pieces of news</h2><h3 id="1-从海量数据中找出中位数-https-www-weibo-com-ttarticle-p-show-id-2309404347309205904984"><a href="#1-从海量数据中找出中位数-https-www-weibo-com-ttarticle-p-show-id-2309404347309205904984" class="headerlink" title="1. 从海量数据中找出中位数 https://www.weibo.com/ttarticle/p/show?id=2309404347309205904984"></a>1. 从海量数据中找出中位数 <a href="https://www.weibo.com/ttarticle/p/show?id=2309404347309205904984" target="_blank" rel="noopener">https://www.weibo.com/ttarticle/p/show?id=2309404347309205904984</a></h3><h3 id="2-花点时间顺顺Git（下）-https-blog-csdn-net-P6P7qsW6ua47A2Sb-article-details-84879889"><a href="#2-花点时间顺顺Git（下）-https-blog-csdn-net-P6P7qsW6ua47A2Sb-article-details-84879889" class="headerlink" title="2. 花点时间顺顺Git（下） https://blog.csdn.net/P6P7qsW6ua47A2Sb/article/details/84879889"></a>2. 花点时间顺顺Git（下） <a href="https://blog.csdn.net/P6P7qsW6ua47A2Sb/article/details/84879889" target="_blank" rel="noopener">https://blog.csdn.net/P6P7qsW6ua47A2Sb/article/details/84879889</a></h3><h3 id="3-Let-Over-Lambda—50-Years-of-Lisp-https-letoverlambda-com"><a href="#3-Let-Over-Lambda—50-Years-of-Lisp-https-letoverlambda-com" class="headerlink" title="3. Let Over Lambda—50 Years of Lisp https://letoverlambda.com/"></a>3. Let Over Lambda—50 Years of Lisp <a href="https://letoverlambda.com/" target="_blank" rel="noopener">https://letoverlambda.com/</a></h3><h3 id="4-Windows-被冷落的-WIN-键，其实比你想的更好用-https-zhuanlan-zhihu-com-p-58488051-utm-source-weibo-amp-utm-campaign-market2240"><a href="#4-Windows-被冷落的-WIN-键，其实比你想的更好用-https-zhuanlan-zhihu-com-p-58488051-utm-source-weibo-amp-utm-campaign-market2240" class="headerlink" title="4. Windows 被冷落的 WIN 键，其实比你想的更好用 https://zhuanlan.zhihu.com/p/58488051?utm_source=weibo&amp;utm_campaign=market2240"></a>4. Windows 被冷落的 WIN 键，其实比你想的更好用 <a href="https://zhuanlan.zhihu.com/p/58488051?utm_source=weibo&amp;utm_campaign=market2240" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/58488051?utm_source=weibo&amp;utm_campaign=market2240</a></h3><h3 id="5-Algorithms-and-Data-Structures-for-External-Memory-http-www-ittc-ku-edu-jsv-Papers-Vit-IO-book-pdf"><a href="#5-Algorithms-and-Data-Structures-for-External-Memory-http-www-ittc-ku-edu-jsv-Papers-Vit-IO-book-pdf" class="headerlink" title="5. Algorithms and Data Structures for External Memory http://www.ittc.ku.edu/~jsv/Papers/Vit.IO_book.pdf"></a>5. Algorithms and Data Structures for External Memory <a href="http://www.ittc.ku.edu/~jsv/Papers/Vit.IO_book.pdf" target="_blank" rel="noopener">http://www.ittc.ku.edu/~jsv/Papers/Vit.IO_book.pdf</a></h3><h3 id="6-DNS-Prefetching-技术引入及实现方法-http-blogread-cn-it-article-5399-f-wb-news"><a href="#6-DNS-Prefetching-技术引入及实现方法-http-blogread-cn-it-article-5399-f-wb-news" class="headerlink" title="6. DNS Prefetching 技术引入及实现方法 http://blogread.cn/it/article/5399?f=wb_news"></a>6. DNS Prefetching 技术引入及实现方法 <a href="http://blogread.cn/it/article/5399?f=wb_news" target="_blank" rel="noopener">http://blogread.cn/it/article/5399?f=wb_news</a></h3><h3 id="7-免费字体获取和使用指南-https-sspai-com-post-42889"><a href="#7-免费字体获取和使用指南-https-sspai-com-post-42889" class="headerlink" title="7. 免费字体获取和使用指南 https://sspai.com/post/42889"></a>7. 免费字体获取和使用指南 <a href="https://sspai.com/post/42889" target="_blank" rel="noopener">https://sspai.com/post/42889</a></h3><h3 id="8-如何优雅的在-vue-中添加权限控制-https-juejin-im-post-5c7bae3ff265da2db27950f3-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com"><a href="#8-如何优雅的在-vue-中添加权限控制-https-juejin-im-post-5c7bae3ff265da2db27950f3-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com" class="headerlink" title="8. 如何优雅的在 vue 中添加权限控制 https://juejin.im/post/5c7bae3ff265da2db27950f3?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com"></a>8. 如何优雅的在 vue 中添加权限控制 <a href="https://juejin.im/post/5c7bae3ff265da2db27950f3?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com" target="_blank" rel="noopener">https://juejin.im/post/5c7bae3ff265da2db27950f3?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com</a></h3><h3 id="9-敏捷开发入门教程-http-www-ruanyifeng-com-blog-2019-03-agile-development-html"><a href="#9-敏捷开发入门教程-http-www-ruanyifeng-com-blog-2019-03-agile-development-html" class="headerlink" title="9. 敏捷开发入门教程 http://www.ruanyifeng.com/blog/2019/03/agile-development.html"></a>9. 敏捷开发入门教程 <a href="http://www.ruanyifeng.com/blog/2019/03/agile-development.html" target="_blank" rel="noopener">http://www.ruanyifeng.com/blog/2019/03/agile-development.html</a></h3><h3 id="10-Facial-Landmark-Detection-in-OpenCV4-https-levelup-gitconnected-com-facial-landmark-detection-in-opencv4-616f9c1737a5"><a href="#10-Facial-Landmark-Detection-in-OpenCV4-https-levelup-gitconnected-com-facial-landmark-detection-in-opencv4-616f9c1737a5" class="headerlink" title="10. Facial Landmark Detection in OpenCV4 https://levelup.gitconnected.com/facial-landmark-detection-in-opencv4-616f9c1737a5"></a>10. Facial Landmark Detection in OpenCV4 <a href="https://levelup.gitconnected.com/facial-landmark-detection-in-opencv4-616f9c1737a5" target="_blank" rel="noopener">https://levelup.gitconnected.com/facial-landmark-detection-in-opencv4-616f9c1737a5</a></h3><h3 id="11-Full-text-searching-Linux-man-pages-with-Elasticsearch-https-iridakos-com-tutorials-2018-04-12-elasticsearch-linux-man-pages-html"><a href="#11-Full-text-searching-Linux-man-pages-with-Elasticsearch-https-iridakos-com-tutorials-2018-04-12-elasticsearch-linux-man-pages-html" class="headerlink" title="11. Full text searching Linux man pages with Elasticsearch https://iridakos.com/tutorials/2018/04/12/elasticsearch-linux-man-pages.html"></a>11. Full text searching Linux man pages with Elasticsearch <a href="https://iridakos.com/tutorials/2018/04/12/elasticsearch-linux-man-pages.html" target="_blank" rel="noopener">https://iridakos.com/tutorials/2018/04/12/elasticsearch-linux-man-pages.html</a></h3><h3 id="12-Simple-Flow-To-Release-A-Branch-On-Git-https-git-tutorials24x7-com-blog-simple-flow-to-release-a-branch-on-git"><a href="#12-Simple-Flow-To-Release-A-Branch-On-Git-https-git-tutorials24x7-com-blog-simple-flow-to-release-a-branch-on-git" class="headerlink" title="12. Simple Flow To Release A Branch On Git https://git.tutorials24x7.com/blog/simple-flow-to-release-a-branch-on-git"></a>12. Simple Flow To Release A Branch On Git <a href="https://git.tutorials24x7.com/blog/simple-flow-to-release-a-branch-on-git" target="_blank" rel="noopener">https://git.tutorials24x7.com/blog/simple-flow-to-release-a-branch-on-git</a></h3><h3 id="13-MySpace-and-the-Coding-Legacy-it-Left-Behind-https-news-codecademy-com-myspace-coding-legacy-utm-source-wanqu-co-amp-utm-campaign-Wanqu-Daily-amp-utm-medium-website"><a href="#13-MySpace-and-the-Coding-Legacy-it-Left-Behind-https-news-codecademy-com-myspace-coding-legacy-utm-source-wanqu-co-amp-utm-campaign-Wanqu-Daily-amp-utm-medium-website" class="headerlink" title="13. MySpace and the Coding Legacy it Left Behind https://news.codecademy.com/myspace-coding-legacy/?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website"></a>13. MySpace and the Coding Legacy it Left Behind <a href="https://news.codecademy.com/myspace-coding-legacy/?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website" target="_blank" rel="noopener">https://news.codecademy.com/myspace-coding-legacy/?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website</a></h3><h3 id="14-⚡️Faster-subsequent-page-loads-by-prefetching-in-viewport-links-during-idle-time-https-github-com-GoogleChromeLabs-quicklink"><a href="#14-⚡️Faster-subsequent-page-loads-by-prefetching-in-viewport-links-during-idle-time-https-github-com-GoogleChromeLabs-quicklink" class="headerlink" title="14. ⚡️Faster subsequent page-loads by prefetching in-viewport links during idle time https://github.com/GoogleChromeLabs/quicklink"></a>14. ⚡️Faster subsequent page-loads by prefetching in-viewport links during idle time <a href="https://github.com/GoogleChromeLabs/quicklink" target="_blank" rel="noopener">https://github.com/GoogleChromeLabs/quicklink</a></h3><h3 id="15-JavaScript数据结构与算法——数组-https-segmentfault-com-a-1190000018132155-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com-amp-share-user-1030000000178452"><a href="#15-JavaScript数据结构与算法——数组-https-segmentfault-com-a-1190000018132155-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com-amp-share-user-1030000000178452" class="headerlink" title="15. JavaScript数据结构与算法——数组 https://segmentfault.com/a/1190000018132155?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com&amp;share_user=1030000000178452"></a>15. JavaScript数据结构与算法——数组 <a href="https://segmentfault.com/a/1190000018132155?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com&amp;share_user=1030000000178452" target="_blank" rel="noopener">https://segmentfault.com/a/1190000018132155?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com&amp;share_user=1030000000178452</a></h3><h3 id="16-Ten-Years-of-Using-SPARK-to-Build-CubeSat-Nano-Satellites-With-Students-https-blog-adacore-com-ten-years-of-using-spark-to-build-cubesat-nano-satellites-with-students"><a href="#16-Ten-Years-of-Using-SPARK-to-Build-CubeSat-Nano-Satellites-With-Students-https-blog-adacore-com-ten-years-of-using-spark-to-build-cubesat-nano-satellites-with-students" class="headerlink" title="16. Ten Years of Using SPARK to Build CubeSat Nano Satellites With Students https://blog.adacore.com/ten-years-of-using-spark-to-build-cubesat-nano-satellites-with-students"></a>16. Ten Years of Using SPARK to Build CubeSat Nano Satellites With Students <a href="https://blog.adacore.com/ten-years-of-using-spark-to-build-cubesat-nano-satellites-with-students" target="_blank" rel="noopener">https://blog.adacore.com/ten-years-of-using-spark-to-build-cubesat-nano-satellites-with-students</a></h3><h3 id="17-Windows-Calculator-A-simple-yet-powerful-calculator-that-ships-with-Windows-https-github-com-Microsoft-calculator"><a href="#17-Windows-Calculator-A-simple-yet-powerful-calculator-that-ships-with-Windows-https-github-com-Microsoft-calculator" class="headerlink" title="17. Windows Calculator: A simple yet powerful calculator that ships with Windows https://github.com/Microsoft/calculator"></a>17. Windows Calculator: A simple yet powerful calculator that ships with Windows <a href="https://github.com/Microsoft/calculator" target="_blank" rel="noopener">https://github.com/Microsoft/calculator</a></h3><h3 id="18-ReactOS-0-4-11-released-https-reactos-org-project-news-reactos-0411-released"><a href="#18-ReactOS-0-4-11-released-https-reactos-org-project-news-reactos-0411-released" class="headerlink" title="18. ReactOS 0.4.11 released https://reactos.org/project-news/reactos-0411-released"></a>18. ReactOS 0.4.11 released <a href="https://reactos.org/project-news/reactos-0411-released" target="_blank" rel="noopener">https://reactos.org/project-news/reactos-0411-released</a></h3><h3 id="19-迁移学习不好懂？这里有一个PyTorch项目帮你理解-https-mp-weixin-qq-com-s-biz-MzI3MTA0MTk1MA-amp-mid-2652040043-amp-idx-5-amp-sn-8ede806bdb7d512159209959b3a0dac8-amp-chksm-f1219f9ac656168c147870073f5f0bfa078c112ce27de1ccf8681731d0ee481841534edd0519-amp-xtrack-1-amp-scene-0-amp-subscene-93-amp-clicktime-1551915384-amp-ascene-7-amp-devicetype-android-28-amp-version-2700033b-amp-nettype-WIFI-amp-abtest-cookie-BAABAAoACwASABMABAAjlx4AVpkeAMGZHgDXmR4AAAA-3D-amp-lang-zh-CN-amp-pass-ticket-2sJjP5vklCuRvjS06dTqoACP3DKmzF6AYAIiKfKWY24-3D-amp-wx-header-1"><a href="#19-迁移学习不好懂？这里有一个PyTorch项目帮你理解-https-mp-weixin-qq-com-s-biz-MzI3MTA0MTk1MA-amp-mid-2652040043-amp-idx-5-amp-sn-8ede806bdb7d512159209959b3a0dac8-amp-chksm-f1219f9ac656168c147870073f5f0bfa078c112ce27de1ccf8681731d0ee481841534edd0519-amp-xtrack-1-amp-scene-0-amp-subscene-93-amp-clicktime-1551915384-amp-ascene-7-amp-devicetype-android-28-amp-version-2700033b-amp-nettype-WIFI-amp-abtest-cookie-BAABAAoACwASABMABAAjlx4AVpkeAMGZHgDXmR4AAAA-3D-amp-lang-zh-CN-amp-pass-ticket-2sJjP5vklCuRvjS06dTqoACP3DKmzF6AYAIiKfKWY24-3D-amp-wx-header-1" class="headerlink" title="19. 迁移学习不好懂？这里有一个PyTorch项目帮你理解 https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652040043&amp;idx=5&amp;sn=8ede806bdb7d512159209959b3a0dac8&amp;chksm=f1219f9ac656168c147870073f5f0bfa078c112ce27de1ccf8681731d0ee481841534edd0519&amp;xtrack=1&amp;scene=0&amp;subscene=93&amp;clicktime=1551915384&amp;ascene=7&amp;devicetype=android-28&amp;version=2700033b&amp;nettype=WIFI&amp;abtest_cookie=BAABAAoACwASABMABAAjlx4AVpkeAMGZHgDXmR4AAAA%3D&amp;lang=zh_CN&amp;pass_ticket=2sJjP5vklCuRvjS06dTqoACP3DKmzF6AYAIiKfKWY24%3D&amp;wx_header=1"></a>19. 迁移学习不好懂？这里有一个PyTorch项目帮你理解 <a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652040043&amp;idx=5&amp;sn=8ede806bdb7d512159209959b3a0dac8&amp;chksm=f1219f9ac656168c147870073f5f0bfa078c112ce27de1ccf8681731d0ee481841534edd0519&amp;xtrack=1&amp;scene=0&amp;subscene=93&amp;clicktime=1551915384&amp;ascene=7&amp;devicetype=android-28&amp;version=2700033b&amp;nettype=WIFI&amp;abtest_cookie=BAABAAoACwASABMABAAjlx4AVpkeAMGZHgDXmR4AAAA%3D&amp;lang=zh_CN&amp;pass_ticket=2sJjP5vklCuRvjS06dTqoACP3DKmzF6AYAIiKfKWY24%3D&amp;wx_header=1" target="_blank" rel="noopener">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652040043&amp;idx=5&amp;sn=8ede806bdb7d512159209959b3a0dac8&amp;chksm=f1219f9ac656168c147870073f5f0bfa078c112ce27de1ccf8681731d0ee481841534edd0519&amp;xtrack=1&amp;scene=0&amp;subscene=93&amp;clicktime=1551915384&amp;ascene=7&amp;devicetype=android-28&amp;version=2700033b&amp;nettype=WIFI&amp;abtest_cookie=BAABAAoACwASABMABAAjlx4AVpkeAMGZHgDXmR4AAAA%3D&amp;lang=zh_CN&amp;pass_ticket=2sJjP5vklCuRvjS06dTqoACP3DKmzF6AYAIiKfKWY24%3D&amp;wx_header=1</a></h3><h3 id="20-Building-fast-interpreters-in-Rust-https-blog-cloudflare-com-building-fast-interpreters-in-rust"><a href="#20-Building-fast-interpreters-in-Rust-https-blog-cloudflare-com-building-fast-interpreters-in-rust" class="headerlink" title="20. Building fast interpreters in Rust https://blog.cloudflare.com/building-fast-interpreters-in-rust/"></a>20. Building fast interpreters in Rust <a href="https://blog.cloudflare.com/building-fast-interpreters-in-rust/" target="_blank" rel="noopener">https://blog.cloudflare.com/building-fast-interpreters-in-rust/</a></h3><h3 id="21-⚡List-of-awesome-web-performance-metrics-https-github-com-csabapalfi-awesome-web-performance-metrics-awesome-web-performance-metrics"><a href="#21-⚡List-of-awesome-web-performance-metrics-https-github-com-csabapalfi-awesome-web-performance-metrics-awesome-web-performance-metrics" class="headerlink" title="21. ⚡List of awesome web performance metrics https://github.com/csabapalfi/awesome-web-performance-metrics#awesome-web-performance-metrics"></a>21. ⚡List of awesome web performance metrics <a href="https://github.com/csabapalfi/awesome-web-performance-metrics#awesome-web-performance-metrics" target="_blank" rel="noopener">https://github.com/csabapalfi/awesome-web-performance-metrics#awesome-web-performance-metrics</a></h3><h3 id="22-In-UNIX-Everything-is-a-File-https-ph7spot-com-musings-in-unix-everything-is-a-file-utm-source-wanqu-co-amp-utm-campaign-Wanqu-Daily-amp-utm-medium-website"><a href="#22-In-UNIX-Everything-is-a-File-https-ph7spot-com-musings-in-unix-everything-is-a-file-utm-source-wanqu-co-amp-utm-campaign-Wanqu-Daily-amp-utm-medium-website" class="headerlink" title="22. In UNIX Everything is a File https://ph7spot.com/musings/in-unix-everything-is-a-file?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website"></a>22. In UNIX Everything is a File <a href="https://ph7spot.com/musings/in-unix-everything-is-a-file?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website" target="_blank" rel="noopener">https://ph7spot.com/musings/in-unix-everything-is-a-file?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website</a></h3>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
 
 
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/06/2019-03-06/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="selimo">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="selimo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/03/06/2019-03-06/" itemprop="url">Technology Daily - 2019/03/06</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-03-06T20:16:51+08:00">
+                2019-03-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="Today-we-got-33-pieces-of-news"><a href="#Today-we-got-33-pieces-of-news" class="headerlink" title="Today we got 33 pieces of news"></a>Today we got 33 pieces of news</h2><h3 id="1-Kraken-uber开源的基于P2P的docker镜像仓库，专注于可扩展性和可用性-https-github-com-uber-kraken"><a href="#1-Kraken-uber开源的基于P2P的docker镜像仓库，专注于可扩展性和可用性-https-github-com-uber-kraken" class="headerlink" title="1. Kraken: uber开源的基于P2P的docker镜像仓库，专注于可扩展性和可用性 https://github.com/uber/kraken"></a>1. Kraken: uber开源的基于P2P的docker镜像仓库，专注于可扩展性和可用性 <a href="https://github.com/uber/kraken" target="_blank" rel="noopener">https://github.com/uber/kraken</a></h3><h3 id="2-The-Shutdown-Problem-How-Does-a-Blockchain-System-End-https-arxiv-org-ftp-arxiv-papers-1902-1902-07254-pdf"><a href="#2-The-Shutdown-Problem-How-Does-a-Blockchain-System-End-https-arxiv-org-ftp-arxiv-papers-1902-1902-07254-pdf" class="headerlink" title="2. The Shutdown Problem: How Does a Blockchain System End? https://arxiv.org/ftp/arxiv/papers/1902/1902.07254.pdf"></a>2. The Shutdown Problem: How Does a Blockchain System End? <a href="https://arxiv.org/ftp/arxiv/papers/1902/1902.07254.pdf" target="_blank" rel="noopener">https://arxiv.org/ftp/arxiv/papers/1902/1902.07254.pdf</a></h3><h3 id="3-吴恩达新书《机器学习训练秘籍》六大要点总结-https-bigquant-com-community-t-topic-133277-utm-source-weibo-amp-utm-medium-weibo-algorithm-amp-utm-campaign-190306-L1"><a href="#3-吴恩达新书《机器学习训练秘籍》六大要点总结-https-bigquant-com-community-t-topic-133277-utm-source-weibo-amp-utm-medium-weibo-algorithm-amp-utm-campaign-190306-L1" class="headerlink" title="3. 吴恩达新书《机器学习训练秘籍》六大要点总结 https://bigquant.com/community/t/topic/133277?utm_source=weibo&amp;utm_medium=weibo_algorithm&amp;utm_campaign=190306_L1"></a>3. 吴恩达新书《机器学习训练秘籍》六大要点总结 <a href="https://bigquant.com/community/t/topic/133277?utm_source=weibo&amp;utm_medium=weibo_algorithm&amp;utm_campaign=190306_L1" target="_blank" rel="noopener">https://bigquant.com/community/t/topic/133277?utm_source=weibo&amp;utm_medium=weibo_algorithm&amp;utm_campaign=190306_L1</a></h3><h3 id="4-深度解密HTTP通信细节-https-mp-weixin-qq-com-s-NUW0sLBMTglnIbN7OHkdoQ-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com"><a href="#4-深度解密HTTP通信细节-https-mp-weixin-qq-com-s-NUW0sLBMTglnIbN7OHkdoQ-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com" class="headerlink" title="4. 深度解密HTTP通信细节 https://mp.weixin.qq.com/s/NUW0sLBMTglnIbN7OHkdoQ?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com"></a>4. 深度解密HTTP通信细节 <a href="https://mp.weixin.qq.com/s/NUW0sLBMTglnIbN7OHkdoQ?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/NUW0sLBMTglnIbN7OHkdoQ?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com</a></h3><h3 id="5-你也可以训练超大神经网络！谷歌开源GPipe库-https-mp-weixin-qq-com-s-DnfVecPMNPUgI32YqmUP8g"><a href="#5-你也可以训练超大神经网络！谷歌开源GPipe库-https-mp-weixin-qq-com-s-DnfVecPMNPUgI32YqmUP8g" class="headerlink" title="5. 你也可以训练超大神经网络！谷歌开源GPipe库 https://mp.weixin.qq.com/s/DnfVecPMNPUgI32YqmUP8g"></a>5. 你也可以训练超大神经网络！谷歌开源GPipe库 <a href="https://mp.weixin.qq.com/s/DnfVecPMNPUgI32YqmUP8g" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/DnfVecPMNPUgI32YqmUP8g</a></h3><h3 id="6-An-R-package-for-AB-testing-leveraging-pre-period-information-https-github-com-google-abpackage"><a href="#6-An-R-package-for-AB-testing-leveraging-pre-period-information-https-github-com-google-abpackage" class="headerlink" title="6. An R package for AB testing leveraging pre-period information https://github.com/google/abpackage"></a>6. An R package for AB testing leveraging pre-period information <a href="https://github.com/google/abpackage" target="_blank" rel="noopener">https://github.com/google/abpackage</a></h3><h3 id="7-重磅消息-ENVI-深度学习模块即将发布-https-mp-weixin-qq-com-s-biz-MjM5MDI2NjI0NQ-amp-mid-2651061123-amp-idx-1-amp-sn-afbc183b134cb30cce908d34508568ca-amp-chksm-bdb03d698ac7b47fc2654e80cba18bc74f67ac43f1795ed9ad5f1e7c6b2d25565a63b40715cb-amp-token-1495584627-amp-lang-zh-CN-rd"><a href="#7-重磅消息-ENVI-深度学习模块即将发布-https-mp-weixin-qq-com-s-biz-MjM5MDI2NjI0NQ-amp-mid-2651061123-amp-idx-1-amp-sn-afbc183b134cb30cce908d34508568ca-amp-chksm-bdb03d698ac7b47fc2654e80cba18bc74f67ac43f1795ed9ad5f1e7c6b2d25565a63b40715cb-amp-token-1495584627-amp-lang-zh-CN-rd" class="headerlink" title="7. 重磅消息 | ENVI 深度学习模块即将发布 https://mp.weixin.qq.com/s?__biz=MjM5MDI2NjI0NQ==&amp;mid=2651061123&amp;idx=1&amp;sn=afbc183b134cb30cce908d34508568ca&amp;chksm=bdb03d698ac7b47fc2654e80cba18bc74f67ac43f1795ed9ad5f1e7c6b2d25565a63b40715cb&amp;token=1495584627&amp;lang=zh_CN#rd"></a>7. 重磅消息 | ENVI 深度学习模块即将发布 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MDI2NjI0NQ==&amp;mid=2651061123&amp;idx=1&amp;sn=afbc183b134cb30cce908d34508568ca&amp;chksm=bdb03d698ac7b47fc2654e80cba18bc74f67ac43f1795ed9ad5f1e7c6b2d25565a63b40715cb&amp;token=1495584627&amp;lang=zh_CN#rd" target="_blank" rel="noopener">https://mp.weixin.qq.com/s?__biz=MjM5MDI2NjI0NQ==&amp;mid=2651061123&amp;idx=1&amp;sn=afbc183b134cb30cce908d34508568ca&amp;chksm=bdb03d698ac7b47fc2654e80cba18bc74f67ac43f1795ed9ad5f1e7c6b2d25565a63b40715cb&amp;token=1495584627&amp;lang=zh_CN#rd</a></h3><h3 id="8-儿童移动应用的界面设计基础知识-http-daichuanqing-com-index-php-archives-3726-utm-source-rss-amp-utm-medium-rss-amp-utm-campaign-e5-84-bf-e7-ab-a5-e7-a7-bb-e5-8a-a8-e5-ba-94-e7-94-a8-e7-9a-84-e7-95-8c-e9-9d-a2-e8-ae-be-e8-amp-f-http-blogread-cn"><a href="#8-儿童移动应用的界面设计基础知识-http-daichuanqing-com-index-php-archives-3726-utm-source-rss-amp-utm-medium-rss-amp-utm-campaign-e5-84-bf-e7-ab-a5-e7-a7-bb-e5-8a-a8-e5-ba-94-e7-94-a8-e7-9a-84-e7-95-8c-e9-9d-a2-e8-ae-be-e8-amp-f-http-blogread-cn" class="headerlink" title="8. 儿童移动应用的界面设计基础知识 http://daichuanqing.com/index.php/archives/3726?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=%e5%84%bf%e7%ab%a5%e7%a7%bb%e5%8a%a8%e5%ba%94%e7%94%a8%e7%9a%84%e7%95%8c%e9%9d%a2%e8%ae%be%e8%&amp;f=http://blogread.cn/"></a>8. 儿童移动应用的界面设计基础知识 <a href="http://daichuanqing.com/index.php/archives/3726?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=%e5%84%bf%e7%ab%a5%e7%a7%bb%e5%8a%a8%e5%ba%94%e7%94%a8%e7%9a%84%e7%95%8c%e9%9d%a2%e8%ae%be%e8%&amp;f=http://blogread.cn/" target="_blank" rel="noopener">http://daichuanqing.com/index.php/archives/3726?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=%e5%84%bf%e7%ab%a5%e7%a7%bb%e5%8a%a8%e5%ba%94%e7%94%a8%e7%9a%84%e7%95%8c%e9%9d%a2%e8%ae%be%e8%&amp;f=http://blogread.cn/</a></h3><h3 id="9-漫话：如何给女朋友解释为什么200M宽带，打王者荣耀还是会有460的延迟？-https-mp-weixin-qq-com-s-sve-p7hGQ9vQqs4BRm-1Jw"><a href="#9-漫话：如何给女朋友解释为什么200M宽带，打王者荣耀还是会有460的延迟？-https-mp-weixin-qq-com-s-sve-p7hGQ9vQqs4BRm-1Jw" class="headerlink" title="9. 漫话：如何给女朋友解释为什么200M宽带，打王者荣耀还是会有460的延迟？ https://mp.weixin.qq.com/s/sve_p7hGQ9vQqs4BRm_1Jw"></a>9. 漫话：如何给女朋友解释为什么200M宽带，打王者荣耀还是会有460的延迟？ <a href="https://mp.weixin.qq.com/s/sve_p7hGQ9vQqs4BRm_1Jw" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/sve_p7hGQ9vQqs4BRm_1Jw</a></h3><h3 id="10-深入vuex原理-上-https-juejin-im-post-5c779b7df265da2da771e052-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com"><a href="#10-深入vuex原理-上-https-juejin-im-post-5c779b7df265da2da771e052-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com" class="headerlink" title="10. 深入vuex原理(上) https://juejin.im/post/5c779b7df265da2da771e052?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com"></a>10. 深入vuex原理(上) <a href="https://juejin.im/post/5c779b7df265da2da771e052?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com" target="_blank" rel="noopener">https://juejin.im/post/5c779b7df265da2da771e052?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com</a></h3><h3 id="11-Pornhub，一个神奇的网站-https-mp-weixin-qq-com-s-E7uKf7wu3UFh3IcvYOKp9w"><a href="#11-Pornhub，一个神奇的网站-https-mp-weixin-qq-com-s-E7uKf7wu3UFh3IcvYOKp9w" class="headerlink" title="11. Pornhub，一个神奇的网站 https://mp.weixin.qq.com/s/E7uKf7wu3UFh3IcvYOKp9w"></a>11. Pornhub，一个神奇的网站 <a href="https://mp.weixin.qq.com/s/E7uKf7wu3UFh3IcvYOKp9w" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/E7uKf7wu3UFh3IcvYOKp9w</a></h3><h3 id="12-“以图搜图”，背后的原理你不懂-https-weibo-com-ttarticle-p-show-id-2309404346817851579728"><a href="#12-“以图搜图”，背后的原理你不懂-https-weibo-com-ttarticle-p-show-id-2309404346817851579728" class="headerlink" title="12. “以图搜图”，背后的原理你不懂 https://weibo.com/ttarticle/p/show?id=2309404346817851579728"></a>12. “以图搜图”，背后的原理你不懂 <a href="https://weibo.com/ttarticle/p/show?id=2309404346817851579728" target="_blank" rel="noopener">https://weibo.com/ttarticle/p/show?id=2309404346817851579728</a></h3><h3 id="13-我在-GitHub-上都见过哪些沙雕项目？-https-zhuanlan-zhihu-com-p-58404875-utm-source-weibo-amp-utm-medium-social-amp-utm-content-snapshot-amp-utm-oi-1062672075189317632"><a href="#13-我在-GitHub-上都见过哪些沙雕项目？-https-zhuanlan-zhihu-com-p-58404875-utm-source-weibo-amp-utm-medium-social-amp-utm-content-snapshot-amp-utm-oi-1062672075189317632" class="headerlink" title="13. 我在 GitHub 上都见过哪些沙雕项目？ https://zhuanlan.zhihu.com/p/58404875?utm_source=weibo&amp;utm_medium=social&amp;utm_content=snapshot&amp;utm_oi=1062672075189317632"></a>13. 我在 GitHub 上都见过哪些沙雕项目？ <a href="https://zhuanlan.zhihu.com/p/58404875?utm_source=weibo&amp;utm_medium=social&amp;utm_content=snapshot&amp;utm_oi=1062672075189317632" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/58404875?utm_source=weibo&amp;utm_medium=social&amp;utm_content=snapshot&amp;utm_oi=1062672075189317632</a></h3><h3 id="14-DNS缓存中毒是怎么回事？https-weibo-com-ttarticle-p-show-id-2309404346818703060927"><a href="#14-DNS缓存中毒是怎么回事？https-weibo-com-ttarticle-p-show-id-2309404346818703060927" class="headerlink" title="14. DNS缓存中毒是怎么回事？https://weibo.com/ttarticle/p/show?id=2309404346818703060927"></a>14. DNS缓存中毒是怎么回事？<a href="https://weibo.com/ttarticle/p/show?id=2309404346818703060927" target="_blank" rel="noopener">https://weibo.com/ttarticle/p/show?id=2309404346818703060927</a></h3><h3 id="15-who-runs-china-可视化-https-news-cgtn-com-event-2019-whorunschina-index-html"><a href="#15-who-runs-china-可视化-https-news-cgtn-com-event-2019-whorunschina-index-html" class="headerlink" title="15. who runs china 可视化 https://news.cgtn.com/event/2019/whorunschina/index.html"></a>15. who runs china 可视化 <a href="https://news.cgtn.com/event/2019/whorunschina/index.html" target="_blank" rel="noopener">https://news.cgtn.com/event/2019/whorunschina/index.html</a></h3><h3 id="16-免费中文字体-https-github-com-zenozeng-Free-Chinese-Fonts"><a href="#16-免费中文字体-https-github-com-zenozeng-Free-Chinese-Fonts" class="headerlink" title="16. 免费中文字体 https://github.com/zenozeng/Free-Chinese-Fonts"></a>16. 免费中文字体 <a href="https://github.com/zenozeng/Free-Chinese-Fonts" target="_blank" rel="noopener">https://github.com/zenozeng/Free-Chinese-Fonts</a></h3><h3 id="17-Run-VS-Code-remotely-https-github-com-codercom-code-server"><a href="#17-Run-VS-Code-remotely-https-github-com-codercom-code-server" class="headerlink" title="17. Run VS Code remotely https://github.com/codercom/code-server"></a>17. Run VS Code remotely <a href="https://github.com/codercom/code-server" target="_blank" rel="noopener">https://github.com/codercom/code-server</a></h3><h3 id="18-Java-反转字符串的-10-种方法-https-mp-weixin-qq-com-s-SXD7eSYVa6HBP9F4ICsYvg"><a href="#18-Java-反转字符串的-10-种方法-https-mp-weixin-qq-com-s-SXD7eSYVa6HBP9F4ICsYvg" class="headerlink" title="18. Java 反转字符串的 10 种方法 https://mp.weixin.qq.com/s/SXD7eSYVa6HBP9F4ICsYvg"></a>18. Java 反转字符串的 10 种方法 <a href="https://mp.weixin.qq.com/s/SXD7eSYVa6HBP9F4ICsYvg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/SXD7eSYVa6HBP9F4ICsYvg</a></h3><h3 id="19-Vim-利剑常磨，见血封喉-https-mp-weixin-qq-com-s-k8aWHetZFNC1EusTLUFDHg"><a href="#19-Vim-利剑常磨，见血封喉-https-mp-weixin-qq-com-s-k8aWHetZFNC1EusTLUFDHg" class="headerlink" title="19. Vim 利剑常磨，见血封喉 https://mp.weixin.qq.com/s/k8aWHetZFNC1EusTLUFDHg"></a>19. Vim 利剑常磨，见血封喉 <a href="https://mp.weixin.qq.com/s/k8aWHetZFNC1EusTLUFDHg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/k8aWHetZFNC1EusTLUFDHg</a></h3><h3 id="20-Advanced-Machine-Learning-with-TensorFlow-on-Google-Cloud-Platform-专项课程-https-www-coursera-org-specializations-advanced-machine-learning-tensorflow-gcp-ranMID-40328-amp-ranEAID-9IqCvd3EEQc-amp-ranSiteID-9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w-amp-siteID-9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w-amp-utm-content-10-amp-utm-medium-partners-amp-utm-source-linkshare-amp-utm-campaign-9IqCvd3EEQc"><a href="#20-Advanced-Machine-Learning-with-TensorFlow-on-Google-Cloud-Platform-专项课程-https-www-coursera-org-specializations-advanced-machine-learning-tensorflow-gcp-ranMID-40328-amp-ranEAID-9IqCvd3EEQc-amp-ranSiteID-9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w-amp-siteID-9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w-amp-utm-content-10-amp-utm-medium-partners-amp-utm-source-linkshare-amp-utm-campaign-9IqCvd3EEQc" class="headerlink" title="20. Advanced Machine Learning with TensorFlow on Google Cloud Platform 专项课程 https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp?ranMID=40328&amp;ranEAID=9IqCvd3EEQc&amp;ranSiteID=9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w&amp;siteID=9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w&amp;utm_content=10&amp;utm_medium=partners&amp;utm_source=linkshare&amp;utm_campaign=9IqCvd3EEQc"></a>20. Advanced Machine Learning with TensorFlow on Google Cloud Platform 专项课程 <a href="https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp?ranMID=40328&amp;ranEAID=9IqCvd3EEQc&amp;ranSiteID=9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w&amp;siteID=9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w&amp;utm_content=10&amp;utm_medium=partners&amp;utm_source=linkshare&amp;utm_campaign=9IqCvd3EEQc" target="_blank" rel="noopener">https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp?ranMID=40328&amp;ranEAID=9IqCvd3EEQc&amp;ranSiteID=9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w&amp;siteID=9IqCvd3EEQc-GsOlqjwJUx89Ynudm4J90w&amp;utm_content=10&amp;utm_medium=partners&amp;utm_source=linkshare&amp;utm_campaign=9IqCvd3EEQc</a></h3><h3 id="21-SpringBoot-系列三-SpringBoot-自定义-Starter-https-mp-weixin-qq-com-s-o6gRItyUBfFxm9C4LOlHYA"><a href="#21-SpringBoot-系列三-SpringBoot-自定义-Starter-https-mp-weixin-qq-com-s-o6gRItyUBfFxm9C4LOlHYA" class="headerlink" title="21. SpringBoot 系列三 : SpringBoot 自定义 Starter https://mp.weixin.qq.com/s/o6gRItyUBfFxm9C4LOlHYA"></a>21. SpringBoot 系列三 : SpringBoot 自定义 Starter <a href="https://mp.weixin.qq.com/s/o6gRItyUBfFxm9C4LOlHYA" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/o6gRItyUBfFxm9C4LOlHYA</a></h3><h3 id="22-Is-Ethical-A-I-Even-Possible-https-www-nytimes-com-2019-03-01-business-ethics-artificial-intelligence-html"><a href="#22-Is-Ethical-A-I-Even-Possible-https-www-nytimes-com-2019-03-01-business-ethics-artificial-intelligence-html" class="headerlink" title="22. Is Ethical A.I. Even Possible? https://www.nytimes.com/2019/03/01/business/ethics-artificial-intelligence.html"></a>22. Is Ethical A.I. Even Possible? <a href="https://www.nytimes.com/2019/03/01/business/ethics-artificial-intelligence.html" target="_blank" rel="noopener">https://www.nytimes.com/2019/03/01/business/ethics-artificial-intelligence.html</a></h3><h3 id="23-免费开放的数据库汇总-https-weibo-com-1870858943-HjvCUDMmG"><a href="#23-免费开放的数据库汇总-https-weibo-com-1870858943-HjvCUDMmG" class="headerlink" title="23. 免费开放的数据库汇总 https://weibo.com/1870858943/HjvCUDMmG"></a>23. 免费开放的数据库汇总 <a href="https://weibo.com/1870858943/HjvCUDMmG" target="_blank" rel="noopener">https://weibo.com/1870858943/HjvCUDMmG</a></h3><h3 id="24-Introduction-to-Theoretical-Computer-Science-https-introtcs-org-public-index-html"><a href="#24-Introduction-to-Theoretical-Computer-Science-https-introtcs-org-public-index-html" class="headerlink" title="24. Introduction to Theoretical Computer Science https://introtcs.org/public/index.html"></a>24. Introduction to Theoretical Computer Science <a href="https://introtcs.org/public/index.html" target="_blank" rel="noopener">https://introtcs.org/public/index.html</a></h3><h3 id="25-Session-Types-for-Rust-https-github-com-Munksgaard-session-types"><a href="#25-Session-Types-for-Rust-https-github-com-Munksgaard-session-types" class="headerlink" title="25. Session Types for Rust https://github.com/Munksgaard/session-types"></a>25. Session Types for Rust <a href="https://github.com/Munksgaard/session-types" target="_blank" rel="noopener">https://github.com/Munksgaard/session-types</a></h3><h3 id="26-My-Approach-to-Getting-Dramatically-Better-as-a-Programmer-https-malisper-me-my-approach-to-getting-dramatically-better-as-a-programmer-utm-source-wanqu-co-amp-utm-campaign-Wanqu-Daily-amp-utm-medium-website"><a href="#26-My-Approach-to-Getting-Dramatically-Better-as-a-Programmer-https-malisper-me-my-approach-to-getting-dramatically-better-as-a-programmer-utm-source-wanqu-co-amp-utm-campaign-Wanqu-Daily-amp-utm-medium-website" class="headerlink" title="26. My Approach to Getting Dramatically Better as a Programmer https://malisper.me/my-approach-to-getting-dramatically-better-as-a-programmer/?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website"></a>26. My Approach to Getting Dramatically Better as a Programmer <a href="https://malisper.me/my-approach-to-getting-dramatically-better-as-a-programmer/?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website" target="_blank" rel="noopener">https://malisper.me/my-approach-to-getting-dramatically-better-as-a-programmer/?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website</a></h3><h3 id="27-玩转RSS-方糖技术分享-https-weibo-com-1088413295-HjyI7rWsO"><a href="#27-玩转RSS-方糖技术分享-https-weibo-com-1088413295-HjyI7rWsO" class="headerlink" title="27. 玩转RSS 方糖技术分享 https://weibo.com/1088413295/HjyI7rWsO"></a>27. 玩转RSS 方糖技术分享 <a href="https://weibo.com/1088413295/HjyI7rWsO" target="_blank" rel="noopener">https://weibo.com/1088413295/HjyI7rWsO</a></h3><h3 id="28-”🎬豆瓣电影传送门“Chrome插件-https-github-com-Neulana-douban-movie-extension"><a href="#28-”🎬豆瓣电影传送门“Chrome插件-https-github-com-Neulana-douban-movie-extension" class="headerlink" title="28. ”🎬豆瓣电影传送门“Chrome插件 https://github.com/Neulana/douban-movie-extension"></a>28. ”🎬豆瓣电影传送门“Chrome插件 <a href="https://github.com/Neulana/douban-movie-extension" target="_blank" rel="noopener">https://github.com/Neulana/douban-movie-extension</a></h3><h3 id="29-Asynchronous-programming-Python3-5-https-luminousmen-com-post-asynchronous-programming-python3-5"><a href="#29-Asynchronous-programming-Python3-5-https-luminousmen-com-post-asynchronous-programming-python3-5" class="headerlink" title="29. Asynchronous programming. Python3.5+ https://luminousmen.com/post/asynchronous-programming-python3.5"></a>29. Asynchronous programming. Python3.5+ <a href="https://luminousmen.com/post/asynchronous-programming-python3.5" target="_blank" rel="noopener">https://luminousmen.com/post/asynchronous-programming-python3.5</a></h3><h3 id="30-The-best-resources-in-Machine-Learning-amp-AI-http-bestofml-com"><a href="#30-The-best-resources-in-Machine-Learning-amp-AI-http-bestofml-com" class="headerlink" title="30. The best resources in Machine Learning &amp; AI http://bestofml.com/"></a>30. The best resources in Machine Learning &amp; AI <a href="http://bestofml.com/" target="_blank" rel="noopener">http://bestofml.com/</a></h3><h3 id="31-How-to-write-a-PhD-https-www-imperial-ac-uk-media-imperial-college-medicine-sph-current-student-forms-How-to-write-a-PhD-pdf"><a href="#31-How-to-write-a-PhD-https-www-imperial-ac-uk-media-imperial-college-medicine-sph-current-student-forms-How-to-write-a-PhD-pdf" class="headerlink" title="31. How to write a PhD https://www.imperial.ac.uk/media/imperial-college/medicine/sph/current-student-forms/How-to-write-a-PhD.pdf"></a>31. How to write a PhD <a href="https://www.imperial.ac.uk/media/imperial-college/medicine/sph/current-student-forms/How-to-write-a-PhD.pdf" target="_blank" rel="noopener">https://www.imperial.ac.uk/media/imperial-college/medicine/sph/current-student-forms/How-to-write-a-PhD.pdf</a></h3><h3 id="32-Sensible-Software-Engineering-https-www-scriptcrafty-com-2019-02-sensible-software-engineering"><a href="#32-Sensible-Software-Engineering-https-www-scriptcrafty-com-2019-02-sensible-software-engineering" class="headerlink" title="32. Sensible Software Engineering https://www.scriptcrafty.com/2019/02/sensible-software-engineering/"></a>32. Sensible Software Engineering <a href="https://www.scriptcrafty.com/2019/02/sensible-software-engineering/" target="_blank" rel="noopener">https://www.scriptcrafty.com/2019/02/sensible-software-engineering/</a></h3><h3 id="33-git-bisect-命令教程-http-www-ruanyifeng-com-blog-2018-12-git-bisect-html"><a href="#33-git-bisect-命令教程-http-www-ruanyifeng-com-blog-2018-12-git-bisect-html" class="headerlink" title="33. git bisect 命令教程 http://www.ruanyifeng.com/blog/2018/12/git-bisect.html"></a>33. git bisect 命令教程 <a href="http://www.ruanyifeng.com/blog/2018/12/git-bisect.html" target="_blank" rel="noopener">http://www.ruanyifeng.com/blog/2018/12/git-bisect.html</a></h3>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
 
 
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/05/2019-03-05/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="selimo">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="selimo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/03/05/2019-03-05/" itemprop="url">Technology Daily - 2019/03/05</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-03-05T19:26:17+08:00">
+                2019-03-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="Today-we-got-36-pieces-of-news"><a href="#Today-we-got-36-pieces-of-news" class="headerlink" title="Today we got 36 pieces of news"></a>Today we got 36 pieces of news</h2><h3 id="1-阿里毕玄现身说法：程序员成长路线-https-mp-weixin-qq-com-s-biz-MjM5ODQ2MDIyMA-amp-mid-2650715534-amp-idx-1-amp-sn-8f7ff38cb6b0f79e5a36fe8b580a14b3-amp-chksm-bec07bdd89b7f2cb087eff9d8992ade1150db959c80621129321bdba1027771a06b4871b72e6-amp-scene-90-amp-xtrack-1-amp-sessionid-1551765391-amp-subscene-93-amp-clicktime-1551765393-amp-ascene-56-amp-devicetype-iOS12-1-4-amp-version-17000328-amp-nettype-WIFI-amp-abtest-cookie-AwABAAoACwATAAMAI5ceAFaZHgDNmR4AAAA-3D-amp-lang-zh-CN-amp-fontScale-100-amp-pass-ticket-D8ag73dycoNcCJ5Mz4IKajsQcRtO0kuOQct2rLEIU-2BY-3D-amp-wx-header-1"><a href="#1-阿里毕玄现身说法：程序员成长路线-https-mp-weixin-qq-com-s-biz-MjM5ODQ2MDIyMA-amp-mid-2650715534-amp-idx-1-amp-sn-8f7ff38cb6b0f79e5a36fe8b580a14b3-amp-chksm-bec07bdd89b7f2cb087eff9d8992ade1150db959c80621129321bdba1027771a06b4871b72e6-amp-scene-90-amp-xtrack-1-amp-sessionid-1551765391-amp-subscene-93-amp-clicktime-1551765393-amp-ascene-56-amp-devicetype-iOS12-1-4-amp-version-17000328-amp-nettype-WIFI-amp-abtest-cookie-AwABAAoACwATAAMAI5ceAFaZHgDNmR4AAAA-3D-amp-lang-zh-CN-amp-fontScale-100-amp-pass-ticket-D8ag73dycoNcCJ5Mz4IKajsQcRtO0kuOQct2rLEIU-2BY-3D-amp-wx-header-1" class="headerlink" title="1. 阿里毕玄现身说法：程序员成长路线 https://mp.weixin.qq.com/s?__biz=MjM5ODQ2MDIyMA==&amp;mid=2650715534&amp;idx=1&amp;sn=8f7ff38cb6b0f79e5a36fe8b580a14b3&amp;chksm=bec07bdd89b7f2cb087eff9d8992ade1150db959c80621129321bdba1027771a06b4871b72e6&amp;scene=90&amp;xtrack=1&amp;sessionid=1551765391&amp;subscene=93&amp;clicktime=1551765393&amp;ascene=56&amp;devicetype=iOS12.1.4&amp;version=17000328&amp;nettype=WIFI&amp;abtest_cookie=AwABAAoACwATAAMAI5ceAFaZHgDNmR4AAAA%3D&amp;lang=zh_CN&amp;fontScale=100&amp;pass_ticket=D8ag73dycoNcCJ5Mz4IKajsQcRtO0kuOQct2rLEIU%2BY%3D&amp;wx_header=1"></a>1. 阿里毕玄现身说法：程序员成长路线 <a href="https://mp.weixin.qq.com/s?__biz=MjM5ODQ2MDIyMA==&amp;mid=2650715534&amp;idx=1&amp;sn=8f7ff38cb6b0f79e5a36fe8b580a14b3&amp;chksm=bec07bdd89b7f2cb087eff9d8992ade1150db959c80621129321bdba1027771a06b4871b72e6&amp;scene=90&amp;xtrack=1&amp;sessionid=1551765391&amp;subscene=93&amp;clicktime=1551765393&amp;ascene=56&amp;devicetype=iOS12.1.4&amp;version=17000328&amp;nettype=WIFI&amp;abtest_cookie=AwABAAoACwATAAMAI5ceAFaZHgDNmR4AAAA%3D&amp;lang=zh_CN&amp;fontScale=100&amp;pass_ticket=D8ag73dycoNcCJ5Mz4IKajsQcRtO0kuOQct2rLEIU%2BY%3D&amp;wx_header=1" target="_blank" rel="noopener">https://mp.weixin.qq.com/s?__biz=MjM5ODQ2MDIyMA==&amp;mid=2650715534&amp;idx=1&amp;sn=8f7ff38cb6b0f79e5a36fe8b580a14b3&amp;chksm=bec07bdd89b7f2cb087eff9d8992ade1150db959c80621129321bdba1027771a06b4871b72e6&amp;scene=90&amp;xtrack=1&amp;sessionid=1551765391&amp;subscene=93&amp;clicktime=1551765393&amp;ascene=56&amp;devicetype=iOS12.1.4&amp;version=17000328&amp;nettype=WIFI&amp;abtest_cookie=AwABAAoACwATAAMAI5ceAFaZHgDNmR4AAAA%3D&amp;lang=zh_CN&amp;fontScale=100&amp;pass_ticket=D8ag73dycoNcCJ5Mz4IKajsQcRtO0kuOQct2rLEIU%2BY%3D&amp;wx_header=1</a></h3><h3 id="2-刚刚，阿里宣布开源Flutter应用框架Fish-Redux-https-juejin-im-entry-5c7e44165188251bc10cde87"><a href="#2-刚刚，阿里宣布开源Flutter应用框架Fish-Redux-https-juejin-im-entry-5c7e44165188251bc10cde87" class="headerlink" title="2. 刚刚，阿里宣布开源Flutter应用框架Fish Redux! https://juejin.im/entry/5c7e44165188251bc10cde87"></a>2. 刚刚，阿里宣布开源Flutter应用框架Fish Redux! <a href="https://juejin.im/entry/5c7e44165188251bc10cde87" target="_blank" rel="noopener">https://juejin.im/entry/5c7e44165188251bc10cde87</a></h3><h3 id="3-CSS选择器相关文章-https-www-w3cplus-com-blog-tags-288-html"><a href="#3-CSS选择器相关文章-https-www-w3cplus-com-blog-tags-288-html" class="headerlink" title="3. CSS选择器相关文章 https://www.w3cplus.com/blog/tags/288.html"></a>3. CSS选择器相关文章 <a href="https://www.w3cplus.com/blog/tags/288.html" target="_blank" rel="noopener">https://www.w3cplus.com/blog/tags/288.html</a></h3><h3 id="4-Linear-algebra-in-TypeScript-https-github-com-mateogianolio-vectorious"><a href="#4-Linear-algebra-in-TypeScript-https-github-com-mateogianolio-vectorious" class="headerlink" title="4. Linear algebra in TypeScript https://github.com/mateogianolio/vectorious"></a>4. Linear algebra in TypeScript <a href="https://github.com/mateogianolio/vectorious" target="_blank" rel="noopener">https://github.com/mateogianolio/vectorious</a></h3><h3 id="5-阿里巴巴开源的-Blink-实时计算框架真香-http-www-54tianzhisheng-cn-2019-02-28-blink-comefrom-http-blogread-cn-news"><a href="#5-阿里巴巴开源的-Blink-实时计算框架真香-http-www-54tianzhisheng-cn-2019-02-28-blink-comefrom-http-blogread-cn-news" class="headerlink" title="5. 阿里巴巴开源的 Blink 实时计算框架真香 http://www.54tianzhisheng.cn/2019/02/28/blink/?comefrom=http://blogread.cn/news/"></a>5. 阿里巴巴开源的 Blink 实时计算框架真香 <a href="http://www.54tianzhisheng.cn/2019/02/28/blink/?comefrom=http://blogread.cn/news/" target="_blank" rel="noopener">http://www.54tianzhisheng.cn/2019/02/28/blink/?comefrom=http://blogread.cn/news/</a></h3><h3 id="6-一个直接支持-vue-文件的web-server-https-github-com-vuejs-vue-dev-server"><a href="#6-一个直接支持-vue-文件的web-server-https-github-com-vuejs-vue-dev-server" class="headerlink" title="6. 一个直接支持 vue 文件的web server https://github.com/vuejs/vue-dev-server"></a>6. 一个直接支持 vue 文件的web server <a href="https://github.com/vuejs/vue-dev-server" target="_blank" rel="noopener">https://github.com/vuejs/vue-dev-server</a></h3><h3 id="7-《从0到1学习Flink》——-Flink-读取-Kafka-数据批量写入到-MySQL-http-www-54tianzhisheng-cn-2019-01-15-Flink-MySQL-sink-comefrom-http-blogread-cn-news"><a href="#7-《从0到1学习Flink》——-Flink-读取-Kafka-数据批量写入到-MySQL-http-www-54tianzhisheng-cn-2019-01-15-Flink-MySQL-sink-comefrom-http-blogread-cn-news" class="headerlink" title="7. 《从0到1学习Flink》—— Flink 读取 Kafka 数据批量写入到 MySQL http://www.54tianzhisheng.cn/2019/01/15/Flink-MySQL-sink/?comefrom=http://blogread.cn/news/"></a>7. 《从0到1学习Flink》—— Flink 读取 Kafka 数据批量写入到 MySQL <a href="http://www.54tianzhisheng.cn/2019/01/15/Flink-MySQL-sink/?comefrom=http://blogread.cn/news/" target="_blank" rel="noopener">http://www.54tianzhisheng.cn/2019/01/15/Flink-MySQL-sink/?comefrom=http://blogread.cn/news/</a></h3><h3 id="8-前端工作两年多的回顾-https-juejin-im-post-5c7a66975188256fa80aa50d-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com"><a href="#8-前端工作两年多的回顾-https-juejin-im-post-5c7a66975188256fa80aa50d-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com" class="headerlink" title="8. 前端工作两年多的回顾 https://juejin.im/post/5c7a66975188256fa80aa50d?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com"></a>8. 前端工作两年多的回顾 <a href="https://juejin.im/post/5c7a66975188256fa80aa50d?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com" target="_blank" rel="noopener">https://juejin.im/post/5c7a66975188256fa80aa50d?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com</a></h3><h3 id="9-蚂蚁金服如何把前端性能监控做到极致-https-mp-weixin-qq-com-s-biz-MzUxMzcxMzE5Ng-amp-mid-2247490527-amp-idx-1-amp-sn-cc2549683b3ff69c042483d78ced766a-amp-chksm-f951ae9cce26278a263ecf2937b5c4957c9b37f35b7efe4c1a8c6ab69c74ebcb43c54e62abda-amp-xtrack-1-amp-scene-0-amp-subscene-131-amp-clicktime-1550933323-amp-ascene-7-amp-devic-amp-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com"><a href="#9-蚂蚁金服如何把前端性能监控做到极致-https-mp-weixin-qq-com-s-biz-MzUxMzcxMzE5Ng-amp-mid-2247490527-amp-idx-1-amp-sn-cc2549683b3ff69c042483d78ced766a-amp-chksm-f951ae9cce26278a263ecf2937b5c4957c9b37f35b7efe4c1a8c6ab69c74ebcb43c54e62abda-amp-xtrack-1-amp-scene-0-amp-subscene-131-amp-clicktime-1550933323-amp-ascene-7-amp-devic-amp-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com" class="headerlink" title="9. 蚂蚁金服如何把前端性能监控做到极致? https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&amp;mid=2247490527&amp;idx=1&amp;sn=cc2549683b3ff69c042483d78ced766a&amp;chksm=f951ae9cce26278a263ecf2937b5c4957c9b37f35b7efe4c1a8c6ab69c74ebcb43c54e62abda&amp;xtrack=1&amp;scene=0&amp;subscene=131&amp;clicktime=1550933323&amp;ascene=7&amp;devic&amp;utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com"></a>9. 蚂蚁金服如何把前端性能监控做到极致? <a href="https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&amp;mid=2247490527&amp;idx=1&amp;sn=cc2549683b3ff69c042483d78ced766a&amp;chksm=f951ae9cce26278a263ecf2937b5c4957c9b37f35b7efe4c1a8c6ab69c74ebcb43c54e62abda&amp;xtrack=1&amp;scene=0&amp;subscene=131&amp;clicktime=1550933323&amp;ascene=7&amp;devic&amp;utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com" target="_blank" rel="noopener">https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&amp;mid=2247490527&amp;idx=1&amp;sn=cc2549683b3ff69c042483d78ced766a&amp;chksm=f951ae9cce26278a263ecf2937b5c4957c9b37f35b7efe4c1a8c6ab69c74ebcb43c54e62abda&amp;xtrack=1&amp;scene=0&amp;subscene=131&amp;clicktime=1550933323&amp;ascene=7&amp;devic&amp;utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com</a></h3><h3 id="10-译-选择-Grid-还是-Flex-https-juejin-im-post-5c7ce781e51d4514913c5bc4"><a href="#10-译-选择-Grid-还是-Flex-https-juejin-im-post-5c7ce781e51d4514913c5bc4" class="headerlink" title="10. [译] 选择 Grid 还是 Flex? https://juejin.im/post/5c7ce781e51d4514913c5bc4"></a>10. [译] 选择 Grid 还是 Flex? <a href="https://juejin.im/post/5c7ce781e51d4514913c5bc4" target="_blank" rel="noopener">https://juejin.im/post/5c7ce781e51d4514913c5bc4</a></h3><h3 id="11-详解-Kubernetes-Job-和-CronJob-的实现原理-https-draveness-me-kubernetes-job-cronjob"><a href="#11-详解-Kubernetes-Job-和-CronJob-的实现原理-https-draveness-me-kubernetes-job-cronjob" class="headerlink" title="11. 详解 Kubernetes Job 和 CronJob 的实现原理 https://draveness.me/kubernetes-job-cronjob"></a>11. 详解 Kubernetes Job 和 CronJob 的实现原理 <a href="https://draveness.me/kubernetes-job-cronjob" target="_blank" rel="noopener">https://draveness.me/kubernetes-job-cronjob</a></h3><h3 id="12-帧动画的多种实现方式与性能对比-https-juejin-im-post-5c7bd2646fb9a049cb197921"><a href="#12-帧动画的多种实现方式与性能对比-https-juejin-im-post-5c7bd2646fb9a049cb197921" class="headerlink" title="12. 帧动画的多种实现方式与性能对比 https://juejin.im/post/5c7bd2646fb9a049cb197921"></a>12. 帧动画的多种实现方式与性能对比 <a href="https://juejin.im/post/5c7bd2646fb9a049cb197921" target="_blank" rel="noopener">https://juejin.im/post/5c7bd2646fb9a049cb197921</a></h3><h3 id="13-Flutter-1-2发布，带来全新的Web开发工具-https-mp-weixin-qq-com-s-biz-MzUxMzcxMzE5Ng-amp-mid-2247490557-amp-idx-1-amp-sn-e09c987ddec32590149764347c5b2381"><a href="#13-Flutter-1-2发布，带来全新的Web开发工具-https-mp-weixin-qq-com-s-biz-MzUxMzcxMzE5Ng-amp-mid-2247490557-amp-idx-1-amp-sn-e09c987ddec32590149764347c5b2381" class="headerlink" title="13. Flutter 1.2发布，带来全新的Web开发工具! https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&amp;mid=2247490557&amp;idx=1&amp;sn=e09c987ddec32590149764347c5b2381"></a>13. Flutter 1.2发布，带来全新的Web开发工具! <a href="https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&amp;mid=2247490557&amp;idx=1&amp;sn=e09c987ddec32590149764347c5b2381" target="_blank" rel="noopener">https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&amp;mid=2247490557&amp;idx=1&amp;sn=e09c987ddec32590149764347c5b2381</a></h3><h3 id="14-Nginx-Php-fpm-运行原理详解-https-juejin-im-post-58db7d742f301e007e9a00a7"><a href="#14-Nginx-Php-fpm-运行原理详解-https-juejin-im-post-58db7d742f301e007e9a00a7" class="headerlink" title="14. Nginx+Php-fpm 运行原理详解 https://juejin.im/post/58db7d742f301e007e9a00a7"></a>14. Nginx+Php-fpm 运行原理详解 <a href="https://juejin.im/post/58db7d742f301e007e9a00a7" target="_blank" rel="noopener">https://juejin.im/post/58db7d742f301e007e9a00a7</a></h3><h3 id="15-全面了解大数据“三驾马车”的开源实现-https-weibo-com-ttarticle-p-show-id-2309404346525793811978"><a href="#15-全面了解大数据“三驾马车”的开源实现-https-weibo-com-ttarticle-p-show-id-2309404346525793811978" class="headerlink" title="15. 全面了解大数据“三驾马车”的开源实现 https://weibo.com/ttarticle/p/show?id=2309404346525793811978"></a>15. 全面了解大数据“三驾马车”的开源实现 <a href="https://weibo.com/ttarticle/p/show?id=2309404346525793811978" target="_blank" rel="noopener">https://weibo.com/ttarticle/p/show?id=2309404346525793811978</a></h3><h3 id="16-hsweb-framework-一个开源的后台管理系统，拥有便捷的权限管理、动态多数据源和在线数据库维护等功能-https-github-com-hs-web-hsweb-framework"><a href="#16-hsweb-framework-一个开源的后台管理系统，拥有便捷的权限管理、动态多数据源和在线数据库维护等功能-https-github-com-hs-web-hsweb-framework" class="headerlink" title="16. hsweb-framework 一个开源的后台管理系统，拥有便捷的权限管理、动态多数据源和在线数据库维护等功能 https://github.com/hs-web/hsweb-framework"></a>16. hsweb-framework 一个开源的后台管理系统，拥有便捷的权限管理、动态多数据源和在线数据库维护等功能 <a href="https://github.com/hs-web/hsweb-framework" target="_blank" rel="noopener">https://github.com/hs-web/hsweb-framework</a></h3><h3 id="17-设计师资源大全，包含：ICON图标、Logo设计、PhotoShop插件、交互设计工具、流程图、线框图-原型图、设计博客等-https-github-com-jobbole-awesome-design-cn"><a href="#17-设计师资源大全，包含：ICON图标、Logo设计、PhotoShop插件、交互设计工具、流程图、线框图-原型图、设计博客等-https-github-com-jobbole-awesome-design-cn" class="headerlink" title="17. 设计师资源大全，包含：ICON图标、Logo设计、PhotoShop插件、交互设计工具、流程图、线框图/原型图、设计博客等 https://github.com/jobbole/awesome-design-cn"></a>17. 设计师资源大全，包含：ICON图标、Logo设计、PhotoShop插件、交互设计工具、流程图、线框图/原型图、设计博客等 <a href="https://github.com/jobbole/awesome-design-cn" target="_blank" rel="noopener">https://github.com/jobbole/awesome-design-cn</a></h3><h3 id="18-So-lyft-is-paying-8m-mo-to-AWS-–-almost-100m-yr-https-threadreaderapp-com-thread-1102401615263223809-html-utm-source-wanqu-co-amp-utm-campaign-Wanqu-Daily-amp-utm-medium-website"><a href="#18-So-lyft-is-paying-8m-mo-to-AWS-–-almost-100m-yr-https-threadreaderapp-com-thread-1102401615263223809-html-utm-source-wanqu-co-amp-utm-campaign-Wanqu-Daily-amp-utm-medium-website" class="headerlink" title="18. So lyft is paying $8m/mo to AWS – almost $100m/yr!  https://threadreaderapp.com/thread/1102401615263223809.html?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website"></a>18. So lyft is paying $8m/mo to AWS – almost $100m/yr!  <a href="https://threadreaderapp.com/thread/1102401615263223809.html?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website" target="_blank" rel="noopener">https://threadreaderapp.com/thread/1102401615263223809.html?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website</a></h3><h3 id="19-理解这12个概念，让你的JavaScript开发更上一层楼-https-weibo-com-ttarticle-p-show-id-2309404346395996900083"><a href="#19-理解这12个概念，让你的JavaScript开发更上一层楼-https-weibo-com-ttarticle-p-show-id-2309404346395996900083" class="headerlink" title="19. 理解这12个概念，让你的JavaScript开发更上一层楼 https://weibo.com/ttarticle/p/show?id=2309404346395996900083"></a>19. 理解这12个概念，让你的JavaScript开发更上一层楼 <a href="https://weibo.com/ttarticle/p/show?id=2309404346395996900083" target="_blank" rel="noopener">https://weibo.com/ttarticle/p/show?id=2309404346395996900083</a></h3><h3 id="20-「从源码中学习」Vue源码中的JS骚操作-https-juejin-im-post-5c73554cf265da2de33f2a32"><a href="#20-「从源码中学习」Vue源码中的JS骚操作-https-juejin-im-post-5c73554cf265da2de33f2a32" class="headerlink" title="20. 「从源码中学习」Vue源码中的JS骚操作 https://juejin.im/post/5c73554cf265da2de33f2a32"></a>20. 「从源码中学习」Vue源码中的JS骚操作 <a href="https://juejin.im/post/5c73554cf265da2de33f2a32" target="_blank" rel="noopener">https://juejin.im/post/5c73554cf265da2de33f2a32</a></h3><h3 id="21-💩🚀-Windows-95-in-Electron-Runs-on-macOS-Linux-and-Windows-https-github-com-felixrieseberg-windows95"><a href="#21-💩🚀-Windows-95-in-Electron-Runs-on-macOS-Linux-and-Windows-https-github-com-felixrieseberg-windows95" class="headerlink" title="21. 💩🚀 Windows 95 in Electron. Runs on macOS, Linux, and Windows https://github.com/felixrieseberg/windows95"></a>21. 💩🚀 Windows 95 in Electron. Runs on macOS, Linux, and Windows <a href="https://github.com/felixrieseberg/windows95" target="_blank" rel="noopener">https://github.com/felixrieseberg/windows95</a></h3><h3 id="22-🎉-整理平时关注的前端库-https-github-com-sorrycc-awesome-f2e-libs"><a href="#22-🎉-整理平时关注的前端库-https-github-com-sorrycc-awesome-f2e-libs" class="headerlink" title="22. 🎉 整理平时关注的前端库 https://github.com/sorrycc/awesome-f2e-libs"></a>22. 🎉 整理平时关注的前端库 <a href="https://github.com/sorrycc/awesome-f2e-libs" target="_blank" rel="noopener">https://github.com/sorrycc/awesome-f2e-libs</a></h3><h3 id="23-Python-Data-Science-Handbook-https-jakevdp-github-io-PythonDataScienceHandbook"><a href="#23-Python-Data-Science-Handbook-https-jakevdp-github-io-PythonDataScienceHandbook" class="headerlink" title="23. Python Data Science Handbook https://jakevdp.github.io/PythonDataScienceHandbook/"></a>23. Python Data Science Handbook <a href="https://jakevdp.github.io/PythonDataScienceHandbook/" target="_blank" rel="noopener">https://jakevdp.github.io/PythonDataScienceHandbook/</a></h3><h3 id="24-FinalCrypt：一个开源文件加密应用-https-linux-cn-article-10588-shareweibo-html"><a href="#24-FinalCrypt：一个开源文件加密应用-https-linux-cn-article-10588-shareweibo-html" class="headerlink" title="24. FinalCrypt：一个开源文件加密应用 https://linux.cn/article-10588-shareweibo.html"></a>24. FinalCrypt：一个开源文件加密应用 <a href="https://linux.cn/article-10588-shareweibo.html" target="_blank" rel="noopener">https://linux.cn/article-10588-shareweibo.html</a></h3><h3 id="25-Vim-可视化模式入门-https-linux-cn-article-10589-shareweibo-html"><a href="#25-Vim-可视化模式入门-https-linux-cn-article-10589-shareweibo-html" class="headerlink" title="25. Vim 可视化模式入门 https://linux.cn/article-10589-shareweibo.html"></a>25. Vim 可视化模式入门 <a href="https://linux.cn/article-10589-shareweibo.html" target="_blank" rel="noopener">https://linux.cn/article-10589-shareweibo.html</a></h3><h3 id="26-SpringBoot-系列一-SpringBoot-入门-https-mp-weixin-qq-com-s-hL1AOUw-o-2-UdBu0FTJ3g"><a href="#26-SpringBoot-系列一-SpringBoot-入门-https-mp-weixin-qq-com-s-hL1AOUw-o-2-UdBu0FTJ3g" class="headerlink" title="26. SpringBoot 系列一 : SpringBoot 入门 https://mp.weixin.qq.com/s/hL1AOUw_o_2_UdBu0FTJ3g"></a>26. SpringBoot 系列一 : SpringBoot 入门 <a href="https://mp.weixin.qq.com/s/hL1AOUw_o_2_UdBu0FTJ3g" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/hL1AOUw_o_2_UdBu0FTJ3g</a></h3><h3 id="27-SpringBoot-系列二-SpringBoot-自动配置原理-https-mp-weixin-qq-com-s-3o6xxG-E00Ub1C9lLFX6qQ"><a href="#27-SpringBoot-系列二-SpringBoot-自动配置原理-https-mp-weixin-qq-com-s-3o6xxG-E00Ub1C9lLFX6qQ" class="headerlink" title="27. SpringBoot 系列二 : SpringBoot 自动配置原理 https://mp.weixin.qq.com/s/3o6xxG_E00Ub1C9lLFX6qQ"></a>27. SpringBoot 系列二 : SpringBoot 自动配置原理 <a href="https://mp.weixin.qq.com/s/3o6xxG_E00Ub1C9lLFX6qQ" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/3o6xxG_E00Ub1C9lLFX6qQ</a></h3><h3 id="28-一线-IT-公司开发转管理，我是怎么从0到1的？-https-mp-weixin-qq-com-s-u-zCvKdGZCbXV8F8rqXgJw"><a href="#28-一线-IT-公司开发转管理，我是怎么从0到1的？-https-mp-weixin-qq-com-s-u-zCvKdGZCbXV8F8rqXgJw" class="headerlink" title="28. 一线 IT 公司开发转管理，我是怎么从0到1的？ https://mp.weixin.qq.com/s/u-zCvKdGZCbXV8F8rqXgJw"></a>28. 一线 IT 公司开发转管理，我是怎么从0到1的？ <a href="https://mp.weixin.qq.com/s/u-zCvKdGZCbXV8F8rqXgJw" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/u-zCvKdGZCbXV8F8rqXgJw</a></h3><h3 id="29-Advanced-Data-Science-with-IBM-Specialization-https-www-coursera-org-specializations-advanced-data-science-ibm-ranMID-40328-amp-ranEAID-9IqCvd3EEQc-amp-ranSiteID-9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ-amp-siteID-9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ-amp-utm-content-10-amp-utm-medium-partners-amp-utm-source-linkshare-amp-utm-campaign-9IqCvd3EEQc"><a href="#29-Advanced-Data-Science-with-IBM-Specialization-https-www-coursera-org-specializations-advanced-data-science-ibm-ranMID-40328-amp-ranEAID-9IqCvd3EEQc-amp-ranSiteID-9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ-amp-siteID-9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ-amp-utm-content-10-amp-utm-medium-partners-amp-utm-source-linkshare-amp-utm-campaign-9IqCvd3EEQc" class="headerlink" title="29. Advanced Data Science with IBM Specialization https://www.coursera.org/specializations/advanced-data-science-ibm?ranMID=40328&amp;ranEAID=9IqCvd3EEQc&amp;ranSiteID=9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ&amp;siteID=9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ&amp;utm_content=10&amp;utm_medium=partners&amp;utm_source=linkshare&amp;utm_campaign=9IqCvd3EEQc"></a>29. Advanced Data Science with IBM Specialization <a href="https://www.coursera.org/specializations/advanced-data-science-ibm?ranMID=40328&amp;ranEAID=9IqCvd3EEQc&amp;ranSiteID=9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ&amp;siteID=9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ&amp;utm_content=10&amp;utm_medium=partners&amp;utm_source=linkshare&amp;utm_campaign=9IqCvd3EEQc" target="_blank" rel="noopener">https://www.coursera.org/specializations/advanced-data-science-ibm?ranMID=40328&amp;ranEAID=9IqCvd3EEQc&amp;ranSiteID=9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ&amp;siteID=9IqCvd3EEQc-6fUuJuXEtwFhrjplmfYlPQ&amp;utm_content=10&amp;utm_medium=partners&amp;utm_source=linkshare&amp;utm_campaign=9IqCvd3EEQc</a></h3><h3 id="30-A-Developer-Roadmap-to-becoming-a-Node-js-developer-in-2019-https-github-com-aliyr-Nodejs-Developer-Roadmap"><a href="#30-A-Developer-Roadmap-to-becoming-a-Node-js-developer-in-2019-https-github-com-aliyr-Nodejs-Developer-Roadmap" class="headerlink" title="30. A Developer Roadmap to becoming a Node.js developer in 2019 https://github.com/aliyr/Nodejs-Developer-Roadmap"></a>30. A Developer Roadmap to becoming a Node.js developer in 2019 <a href="https://github.com/aliyr/Nodejs-Developer-Roadmap" target="_blank" rel="noopener">https://github.com/aliyr/Nodejs-Developer-Roadmap</a></h3><h3 id="31-Awesome-Computer-Vision-Resources-https-github-com-zhengzhugithub-AwesomeComputerVision"><a href="#31-Awesome-Computer-Vision-Resources-https-github-com-zhengzhugithub-AwesomeComputerVision" class="headerlink" title="31. Awesome Computer Vision Resources https://github.com/zhengzhugithub/AwesomeComputerVision"></a>31. Awesome Computer Vision Resources <a href="https://github.com/zhengzhugithub/AwesomeComputerVision" target="_blank" rel="noopener">https://github.com/zhengzhugithub/AwesomeComputerVision</a></h3><h3 id="32-What-you-need-may-be-“pipeline-Unix-commands”-only-https-nanxiao-me-en-what-you-need-may-be-pipeline-unix-commands-only"><a href="#32-What-you-need-may-be-“pipeline-Unix-commands”-only-https-nanxiao-me-en-what-you-need-may-be-pipeline-unix-commands-only" class="headerlink" title="32. What you need may be “pipeline +Unix commands” only https://nanxiao.me/en/what-you-need-may-be-pipeline-unix-commands-only/"></a>32. What you need may be “pipeline +Unix commands” only <a href="https://nanxiao.me/en/what-you-need-may-be-pipeline-unix-commands-only/" target="_blank" rel="noopener">https://nanxiao.me/en/what-you-need-may-be-pipeline-unix-commands-only/</a></h3><h3 id="33-梨叔推荐的技术栈-https-weibo-com-1655747731-Hj335lZoS"><a href="#33-梨叔推荐的技术栈-https-weibo-com-1655747731-Hj335lZoS" class="headerlink" title="33. 梨叔推荐的技术栈 https://weibo.com/1655747731/Hj335lZoS"></a>33. 梨叔推荐的技术栈 <a href="https://weibo.com/1655747731/Hj335lZoS" target="_blank" rel="noopener">https://weibo.com/1655747731/Hj335lZoS</a></h3><h3 id="34-挖一个关于-IM-工具的新坑-https-coderemixer-com-2019-03-05-project-nyan-chat"><a href="#34-挖一个关于-IM-工具的新坑-https-coderemixer-com-2019-03-05-project-nyan-chat" class="headerlink" title="34. 挖一个关于 IM 工具的新坑 https://coderemixer.com/2019/03/05/project-nyan-chat/"></a>34. 挖一个关于 IM 工具的新坑 <a href="https://coderemixer.com/2019/03/05/project-nyan-chat/" target="_blank" rel="noopener">https://coderemixer.com/2019/03/05/project-nyan-chat/</a></h3><h3 id="35-彻底搞懂-Git-Rebase-http-jartto-wang-2018-12-11-git-rebase"><a href="#35-彻底搞懂-Git-Rebase-http-jartto-wang-2018-12-11-git-rebase" class="headerlink" title="35. 彻底搞懂 Git-Rebase http://jartto.wang/2018/12/11/git-rebase/"></a>35. 彻底搞懂 Git-Rebase <a href="http://jartto.wang/2018/12/11/git-rebase/" target="_blank" rel="noopener">http://jartto.wang/2018/12/11/git-rebase/</a></h3><h3 id="36-两小时入门-Docker-https-mp-weixin-qq-com-s-TreG3eWVJZtGSkyESfgYQw"><a href="#36-两小时入门-Docker-https-mp-weixin-qq-com-s-TreG3eWVJZtGSkyESfgYQw" class="headerlink" title="36. 两小时入门 Docker https://mp.weixin.qq.com/s/TreG3eWVJZtGSkyESfgYQw"></a>36. 两小时入门 Docker <a href="https://mp.weixin.qq.com/s/TreG3eWVJZtGSkyESfgYQw" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/TreG3eWVJZtGSkyESfgYQw</a></h3>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
 
 
+    
+      
 
-<div class="Card Card-hover Card-index-1" id="hashit_e6bf657a673ad1e4afb025606f2b96ad64971f16cf8976e7686d879004f00209" data-name="Technology Daily - 2019/03/08" data-version>
-	
-		
-		
-	
-	<mark class="Card-badge" style="{visibility: " hidden"}"></mark>
-	<div class="Card-figure">
-		
-			<a href="/2019/03/08/2019-03-08/">
-		
+  
 
-		
-			<img class="grow" src="/images/cast-outline.svg" alt onerror="this.src = " images jdenticon 94e033d700830c06335e97ec3fdf05f0aac851fded424762672858610626f3e3.png""> 
-	  
-		</a>
-	</div>
-	<div class="Card-body">
+  
+  
+  
 
-			<div class="Card-title">
-				<h2>
-				
-					<a href="/2019/03/08/2019-03-08/">
-				
-				Technology Daily - 2019/03/08</a></h2>
-			</div>
-			<div class="Card-excerpt">
-				<p>
-				
-					<a href="/2019/03/08/2019-03-08/">
-				
-				
-				
-				2019/03/08#女神节快乐#  致敬生活中的女神们，世界因你们而美丽~~Today we got 33 pieces of news1. GIT提交规范的使用和总结 https://www.jianshu.com/p/1850c040271f2. 了解这 12 个概念，让你的...
-				</a></p>
-				
-			</div>
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/04/2019-03-04/">
 
-			
-			
-			<div class="Card-meta">
-				
-				<div class="Card-tags"></div>
-				
-				<ul>
-						<li class="card-calendar">
-							<a href="/archives/">
-								<i class="fa fa-calendar"></i> 2019-03-08
-							</a>
-						</li>
-						
-						
-						
-				</ul>
-			</div>
-		
-	</div>
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="selimo">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="selimo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/03/04/2019-03-04/" itemprop="url">Technology Daily - 2019/03/04</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-03-04T11:46:12+08:00">
+                2019-03-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="Today-we-got-27-pieces-of-news"><a href="#Today-we-got-27-pieces-of-news" class="headerlink" title="Today we got 27 pieces of news"></a>Today we got 27 pieces of news</h2><h3 id="1-在Firefox上使用Org协议捕获URL-https-linux-cn-article-10586-shareweibo-html"><a href="#1-在Firefox上使用Org协议捕获URL-https-linux-cn-article-10586-shareweibo-html" class="headerlink" title="1. 在Firefox上使用Org协议捕获URL https://linux.cn/article-10586-shareweibo.html"></a>1. 在Firefox上使用Org协议捕获URL <a href="https://linux.cn/article-10586-shareweibo.html" target="_blank" rel="noopener">https://linux.cn/article-10586-shareweibo.html</a></h3><h3 id="2-Simple-correct-fast-in-that-order-https-drewdevault-com-2018-07-09-Simple-correct-fast-html-utm-source-wanqu-co-amp-utm-campaign-Wanqu-Daily-amp-utm-medium-website"><a href="#2-Simple-correct-fast-in-that-order-https-drewdevault-com-2018-07-09-Simple-correct-fast-html-utm-source-wanqu-co-amp-utm-campaign-Wanqu-Daily-amp-utm-medium-website" class="headerlink" title="2. Simple,correct,fast:in that order https://drewdevault.com/2018/07/09/Simple-correct-fast.html?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website"></a>2. Simple,correct,fast:in that order <a href="https://drewdevault.com/2018/07/09/Simple-correct-fast.html?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website" target="_blank" rel="noopener">https://drewdevault.com/2018/07/09/Simple-correct-fast.html?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website</a></h3><h3 id="3-计算机实验室之树莓派-课程8屏幕03-https-linux-cn-article-10585-shareweibo-html"><a href="#3-计算机实验室之树莓派-课程8屏幕03-https-linux-cn-article-10585-shareweibo-html" class="headerlink" title="3. 计算机实验室之树莓派:课程8屏幕03 https://linux.cn/article-10585-shareweibo.html"></a>3. 计算机实验室之树莓派:课程8屏幕03 <a href="https://linux.cn/article-10585-shareweibo.html" target="_blank" rel="noopener">https://linux.cn/article-10585-shareweibo.html</a></h3><h3 id="4-Linux中的-amp-https-linux-cn-article-10587-shareweibo-html"><a href="#4-Linux中的-amp-https-linux-cn-article-10587-shareweibo-html" class="headerlink" title="4. Linux中的&amp; https://linux.cn/article-10587-shareweibo.html"></a>4. Linux中的&amp; <a href="https://linux.cn/article-10587-shareweibo.html" target="_blank" rel="noopener">https://linux.cn/article-10587-shareweibo.html</a></h3><h3 id="5-Xkcd-Style-Plots-in-Matplotlib-https-jakevdp-github-io-blog-2012-10-07-xkcd-style-plots-in-matplotlib"><a href="#5-Xkcd-Style-Plots-in-Matplotlib-https-jakevdp-github-io-blog-2012-10-07-xkcd-style-plots-in-matplotlib" class="headerlink" title="5. Xkcd-Style Plots in Matplotlib https://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/"></a>5. Xkcd-Style Plots in Matplotlib <a href="https://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/" target="_blank" rel="noopener">https://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/</a></h3><h3 id="6-Learn-how-to-design-large-scale-systems-Prep-for-the-system-design-interview-Includes-Anki-flashcards-https-github-com-donnemartin-system-design-primer"><a href="#6-Learn-how-to-design-large-scale-systems-Prep-for-the-system-design-interview-Includes-Anki-flashcards-https-github-com-donnemartin-system-design-primer" class="headerlink" title="6. Learn how to design large-scale systems.Prep for the system design interview.Includes Anki flashcards. https://github.com/donnemartin/system-design-primer"></a>6. Learn how to design large-scale systems.Prep for the system design interview.Includes Anki flashcards. <a href="https://github.com/donnemartin/system-design-primer" target="_blank" rel="noopener">https://github.com/donnemartin/system-design-primer</a></h3><h3 id="7-2019面试准备-JS原型与原型链-https-juejin-im-post-5c72a1766fb9a049ea3993e6-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com"><a href="#7-2019面试准备-JS原型与原型链-https-juejin-im-post-5c72a1766fb9a049ea3993e6-utm-medium-hao-caibaojian-com-amp-utm-source-hao-caibaojian-com" class="headerlink" title="7. 2019面试准备-JS原型与原型链 https://juejin.im/post/5c72a1766fb9a049ea3993e6?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com"></a>7. 2019面试准备-JS原型与原型链 <a href="https://juejin.im/post/5c72a1766fb9a049ea3993e6?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com" target="_blank" rel="noopener">https://juejin.im/post/5c72a1766fb9a049ea3993e6?utm_medium=hao.caibaojian.com&amp;utm_source=hao.caibaojian.com</a></h3><h3 id="8-Top-20-Books-Mentioned-on-Stack-Exchange-Software-Engineering-https-bookinsider-gitlab-io-2018-12-01-top-20-books-on-softwareengineering"><a href="#8-Top-20-Books-Mentioned-on-Stack-Exchange-Software-Engineering-https-bookinsider-gitlab-io-2018-12-01-top-20-books-on-softwareengineering" class="headerlink" title="8. Top 20 Books Mentioned on Stack Exchange-Software Engineering https://bookinsider.gitlab.io/2018/12/01/top-20-books-on-softwareengineering/"></a>8. Top 20 Books Mentioned on Stack Exchange-Software Engineering <a href="https://bookinsider.gitlab.io/2018/12/01/top-20-books-on-softwareengineering/" target="_blank" rel="noopener">https://bookinsider.gitlab.io/2018/12/01/top-20-books-on-softwareengineering/</a></h3><h3 id="9-Why-I’m-an-Employee-and-Not-a-Founder-https-tyler-davis-com-post-employee-not-employer"><a href="#9-Why-I’m-an-Employee-and-Not-a-Founder-https-tyler-davis-com-post-employee-not-employer" class="headerlink" title="9. Why I’m an Employee and Not a Founder https://tyler-davis.com/post/employee-not-employer/"></a>9. Why I’m an Employee and Not a Founder <a href="https://tyler-davis.com/post/employee-not-employer/" target="_blank" rel="noopener">https://tyler-davis.com/post/employee-not-employer/</a></h3><h3 id="10-FOR-E-COMMERCE-DATA-SCIENTISTS-LESSONS-LEARNED-SCRAPING-100-BILLION-PRODUCTS-PAGES-https-blog-scrapinghub-com-web-scraping-at-scale-lessons-learned-scraping-100-billion-products-pages-utm-source-wanqu-co-amp-utm-campaign-Wanqu-Daily-amp-utm-medium-website"><a href="#10-FOR-E-COMMERCE-DATA-SCIENTISTS-LESSONS-LEARNED-SCRAPING-100-BILLION-PRODUCTS-PAGES-https-blog-scrapinghub-com-web-scraping-at-scale-lessons-learned-scraping-100-billion-products-pages-utm-source-wanqu-co-amp-utm-campaign-Wanqu-Daily-amp-utm-medium-website" class="headerlink" title="10. FOR E-COMMERCE DATA SCIENTISTS:LESSONS LEARNED SCRAPING 100 BILLION PRODUCTS PAGES https://blog.scrapinghub.com/web-scraping-at-scale-lessons-learned-scraping-100-billion-products-pages?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website"></a>10. FOR E-COMMERCE DATA SCIENTISTS:LESSONS LEARNED SCRAPING 100 BILLION PRODUCTS PAGES <a href="https://blog.scrapinghub.com/web-scraping-at-scale-lessons-learned-scraping-100-billion-products-pages?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website" target="_blank" rel="noopener">https://blog.scrapinghub.com/web-scraping-at-scale-lessons-learned-scraping-100-billion-products-pages?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website</a></h3><h3 id="11-EditorConfig-Consistent-coding-styles-across-various-editors-and-IDEs-https-editorconfig-org"><a href="#11-EditorConfig-Consistent-coding-styles-across-various-editors-and-IDEs-https-editorconfig-org" class="headerlink" title="11. EditorConfig: Consistent coding styles across various editors and IDEs https://editorconfig.org/"></a>11. EditorConfig: Consistent coding styles across various editors and IDEs <a href="https://editorconfig.org/" target="_blank" rel="noopener">https://editorconfig.org/</a></h3><h3 id="12-详解React-Native-https-juejin-im-post-5c7a3f616fb9a049b13eeafd"><a href="#12-详解React-Native-https-juejin-im-post-5c7a3f616fb9a049b13eeafd" class="headerlink" title="12. 详解React Native https://juejin.im/post/5c7a3f616fb9a049b13eeafd"></a>12. 详解React Native <a href="https://juejin.im/post/5c7a3f616fb9a049b13eeafd" target="_blank" rel="noopener">https://juejin.im/post/5c7a3f616fb9a049b13eeafd</a></h3><h3 id="13-Web聊天工具的富文本输入框-https-segmentfault-com-a-1190000018360827"><a href="#13-Web聊天工具的富文本输入框-https-segmentfault-com-a-1190000018360827" class="headerlink" title="13. Web聊天工具的富文本输入框 https://segmentfault.com/a/1190000018360827"></a>13. Web聊天工具的富文本输入框 <a href="https://segmentfault.com/a/1190000018360827" target="_blank" rel="noopener">https://segmentfault.com/a/1190000018360827</a></h3><h3 id="14-⭐️Companies-that-don’t-have-a-broken-hiring-process-https-github-com-poteto-hiring-without-whiteboards"><a href="#14-⭐️Companies-that-don’t-have-a-broken-hiring-process-https-github-com-poteto-hiring-without-whiteboards" class="headerlink" title="14. ⭐️Companies that don’t have a broken hiring process https://github.com/poteto/hiring-without-whiteboards"></a>14. ⭐️Companies that don’t have a broken hiring process <a href="https://github.com/poteto/hiring-without-whiteboards" target="_blank" rel="noopener">https://github.com/poteto/hiring-without-whiteboards</a></h3><h3 id="15-从哪几点可以判断出一个产品经理的专业水平高低？-https-www-zhihu-com-question-312071484-answer-609742396-utm-source-weibo-amp-utm-campaign-market2195"><a href="#15-从哪几点可以判断出一个产品经理的专业水平高低？-https-www-zhihu-com-question-312071484-answer-609742396-utm-source-weibo-amp-utm-campaign-market2195" class="headerlink" title="15. 从哪几点可以判断出一个产品经理的专业水平高低？ https://www.zhihu.com/question/312071484/answer/609742396?utm_source=weibo&amp;utm_campaign=market2195"></a>15. 从哪几点可以判断出一个产品经理的专业水平高低？ <a href="https://www.zhihu.com/question/312071484/answer/609742396?utm_source=weibo&amp;utm_campaign=market2195" target="_blank" rel="noopener">https://www.zhihu.com/question/312071484/answer/609742396?utm_source=weibo&amp;utm_campaign=market2195</a></h3><h3 id="16-搭建自己的Git服务器-https-www-aneasystone-com-archives-2018-12-build-your-own-git-server-html"><a href="#16-搭建自己的Git服务器-https-www-aneasystone-com-archives-2018-12-build-your-own-git-server-html" class="headerlink" title="16. 搭建自己的Git服务器 https://www.aneasystone.com/archives/2018/12/build-your-own-git-server.html"></a>16. 搭建自己的Git服务器 <a href="https://www.aneasystone.com/archives/2018/12/build-your-own-git-server.html" target="_blank" rel="noopener">https://www.aneasystone.com/archives/2018/12/build-your-own-git-server.html</a></h3><h3 id="17-这一次，除了骂阿里云，还能做些什么？https-mp-weixin-qq-com-s-Svrks178L03QM2KvwSnL2w"><a href="#17-这一次，除了骂阿里云，还能做些什么？https-mp-weixin-qq-com-s-Svrks178L03QM2KvwSnL2w" class="headerlink" title="17. 这一次，除了骂阿里云，还能做些什么？https://mp.weixin.qq.com/s/Svrks178L03QM2KvwSnL2w"></a>17. 这一次，除了骂阿里云，还能做些什么？<a href="https://mp.weixin.qq.com/s/Svrks178L03QM2KvwSnL2w" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/Svrks178L03QM2KvwSnL2w</a></h3><h3 id="18-自然语言处理实习生招聘-http-www-nlpjob-com-job-54406"><a href="#18-自然语言处理实习生招聘-http-www-nlpjob-com-job-54406" class="headerlink" title="18. 自然语言处理实习生招聘 http://www.nlpjob.com/job/54406/"></a>18. 自然语言处理实习生招聘 <a href="http://www.nlpjob.com/job/54406/" target="_blank" rel="noopener">http://www.nlpjob.com/job/54406/</a></h3><h3 id="19-当“HTTP”先生遇上“S”小姐-https-zhuanlan-zhihu-com-p-56772475-comefrom-http-blogread-cn-news"><a href="#19-当“HTTP”先生遇上“S”小姐-https-zhuanlan-zhihu-com-p-56772475-comefrom-http-blogread-cn-news" class="headerlink" title="19. 当“HTTP”先生遇上“S”小姐 https://zhuanlan.zhihu.com/p/56772475?comefrom=http://blogread.cn/news/"></a>19. 当“HTTP”先生遇上“S”小姐 <a href="https://zhuanlan.zhihu.com/p/56772475?comefrom=http://blogread.cn/news/" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/56772475?comefrom=http://blogread.cn/news/</a></h3><h3 id="20-译-PHP-7-4前瞻：FFI新特性-https-juejin-im-post-5c7bdad95188252e0f376efe"><a href="#20-译-PHP-7-4前瞻：FFI新特性-https-juejin-im-post-5c7bdad95188252e0f376efe" class="headerlink" title="20. [译]PHP 7.4前瞻：FFI新特性 https://juejin.im/post/5c7bdad95188252e0f376efe"></a>20. [译]PHP 7.4前瞻：FFI新特性 <a href="https://juejin.im/post/5c7bdad95188252e0f376efe" target="_blank" rel="noopener">https://juejin.im/post/5c7bdad95188252e0f376efe</a></h3><h3 id="21-以太坊是如何运作的？（二）-https-mp-weixin-qq-com-s-HqL9pyDzBDoE-Um14qE20w"><a href="#21-以太坊是如何运作的？（二）-https-mp-weixin-qq-com-s-HqL9pyDzBDoE-Um14qE20w" class="headerlink" title="21. 以太坊是如何运作的？（二） https://mp.weixin.qq.com/s/HqL9pyDzBDoE_Um14qE20w"></a>21. 以太坊是如何运作的？（二） <a href="https://mp.weixin.qq.com/s/HqL9pyDzBDoE_Um14qE20w" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/HqL9pyDzBDoE_Um14qE20w</a></h3><h3 id="22-译-网速敏感的视频延迟加载方案-https-juejin-im-post-5c7b84356fb9a049ab0e5630"><a href="#22-译-网速敏感的视频延迟加载方案-https-juejin-im-post-5c7b84356fb9a049ab0e5630" class="headerlink" title="22. [译]网速敏感的视频延迟加载方案 https://juejin.im/post/5c7b84356fb9a049ab0e5630"></a>22. [译]网速敏感的视频延迟加载方案 <a href="https://juejin.im/post/5c7b84356fb9a049ab0e5630" target="_blank" rel="noopener">https://juejin.im/post/5c7b84356fb9a049ab0e5630</a></h3><h3 id="23-Python-Data-Science-Handbook-full-text-in-Jupyter-Notebooks-https-github-com-jakevdp-PythonDataScienceHandbook"><a href="#23-Python-Data-Science-Handbook-full-text-in-Jupyter-Notebooks-https-github-com-jakevdp-PythonDataScienceHandbook" class="headerlink" title="23. Python Data Science Handbook: full text in Jupyter Notebooks https://github.com/jakevdp/PythonDataScienceHandbook"></a>23. Python Data Science Handbook: full text in Jupyter Notebooks <a href="https://github.com/jakevdp/PythonDataScienceHandbook" target="_blank" rel="noopener">https://github.com/jakevdp/PythonDataScienceHandbook</a></h3><h3 id="24-📙-中华新华字典数据库。包括歇后语，成语，词语，汉字-https-github-com-pwxcoo-chinese-xinhua"><a href="#24-📙-中华新华字典数据库。包括歇后语，成语，词语，汉字-https-github-com-pwxcoo-chinese-xinhua" class="headerlink" title="24. 📙 中华新华字典数据库。包括歇后语，成语，词语，汉字 https://github.com/pwxcoo/chinese-xinhua"></a>24. 📙 中华新华字典数据库。包括歇后语，成语，词语，汉字 <a href="https://github.com/pwxcoo/chinese-xinhua" target="_blank" rel="noopener">https://github.com/pwxcoo/chinese-xinhua</a></h3><h3 id="25-The-Geography-of-the-Odyssey-https-www-laphamsquarterly-org-roundtable-geography-odyssey"><a href="#25-The-Geography-of-the-Odyssey-https-www-laphamsquarterly-org-roundtable-geography-odyssey" class="headerlink" title="25. The Geography of the Odyssey https://www.laphamsquarterly.org/roundtable/geography-odyssey"></a>25. The Geography of the Odyssey <a href="https://www.laphamsquarterly.org/roundtable/geography-odyssey" target="_blank" rel="noopener">https://www.laphamsquarterly.org/roundtable/geography-odyssey</a></h3><h3 id="26-Redis哨兵机制-https-segmentfault-com-a-1190000018278099"><a href="#26-Redis哨兵机制-https-segmentfault-com-a-1190000018278099" class="headerlink" title="26. Redis哨兵机制 https://segmentfault.com/a/1190000018278099"></a>26. Redis哨兵机制 <a href="https://segmentfault.com/a/1190000018278099" target="_blank" rel="noopener">https://segmentfault.com/a/1190000018278099</a></h3><h3 id="27-AI人机交互趋势研究（2019）-https-mp-weixin-qq-com-s-PaDeWVm0QlAa9tDGhCnc-w"><a href="#27-AI人机交互趋势研究（2019）-https-mp-weixin-qq-com-s-PaDeWVm0QlAa9tDGhCnc-w" class="headerlink" title="27. AI人机交互趋势研究（2019） https://mp.weixin.qq.com/s/PaDeWVm0QlAa9tDGhCnc_w"></a>27. AI人机交互趋势研究（2019） <a href="https://mp.weixin.qq.com/s/PaDeWVm0QlAa9tDGhCnc_w" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/PaDeWVm0QlAa9tDGhCnc_w</a></h3>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/03/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="selimo">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="selimo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/03/03/hello-world/" itemprop="url">Hello World</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-03-03T19:30:01+08:00">
+                2019-03-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">selimo</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">selimo</span>
+
+  
 </div>
-		
-			
 
 
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
 
 
 
+  <span class="post-meta-divider">|</span>
 
 
 
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
 
 
 
 
-<div class="Card Card-hover Card-index-2" id="hashit_b37fa7aeac6c6429704f405b1bddf056d0f7ceaba4bc0832c958fd60d28aa371" data-name="Technology Daily - 2019/03/07" data-version>
-	
-		
-		
-	
-	<mark class="Card-badge" style="{visibility: " hidden"}"></mark>
-	<div class="Card-figure">
-		
-			<a href="/2019/03/07/2019-03-07/">
-		
-
-		
-			<img class="grow" src="/images/cast-outline.svg" alt onerror="this.src = " images jdenticon 029cbd5f527ee4fd3ce019c6f803cb6dfbe542cd2fe9e4ba0f83358733f0447a.png""> 
-	  
-		</a>
-	</div>
-	<div class="Card-body">
-
-			<div class="Card-title">
-				<h2>
-				
-					<a href="/2019/03/07/2019-03-07/">
-				
-				Technology Daily - 2019/03/07</a></h2>
-			</div>
-			<div class="Card-excerpt">
-				<p>
-				
-					<a href="/2019/03/07/2019-03-07/">
-				
-				
-				
-				Today we got 22 pieces of news1. 从海量数据中找出中位数 https://www.weibo.com/ttarticle/p/show?id=23094043473092059049842. 花点时间顺顺Git（下）...
-				</a></p>
-				
-			</div>
-
-			
-			
-			<div class="Card-meta">
-				
-				<div class="Card-tags"></div>
-				
-				<ul>
-						<li class="card-calendar">
-							<a href="/archives/">
-								<i class="fa fa-calendar"></i> 2019-03-07
-							</a>
-						</li>
-						
-						
-						
-				</ul>
-			</div>
-		
-	</div>
-</div>
-		
-			
-
+        
 
 
 
-
-
-
-
-
-
-
-
-<div class="Card Card-hover Card-index-3" id="hashit_c31677af609e2253ed08b9bf3d57b2e22f0512fb236e553ef1c01c266dddb150" data-name="Technology Daily - 2019/03/06" data-version>
-	
-		
-		
-	
-	<mark class="Card-badge" style="{visibility: " hidden"}"></mark>
-	<div class="Card-figure">
-		
-			<a href="/2019/03/06/2019-03-06/">
-		
-
-		
-			<img class="grow" src="/images/cast-outline.svg" alt onerror="this.src = " images jdenticon 967bb2e1d94ac81fb4b3555969e7253439f39c32be888760a69080803233720f.png""> 
-	  
-		</a>
-	</div>
-	<div class="Card-body">
-
-			<div class="Card-title">
-				<h2>
-				
-					<a href="/2019/03/06/2019-03-06/">
-				
-				Technology Daily - 2019/03/06</a></h2>
-			</div>
-			<div class="Card-excerpt">
-				<p>
-				
-					<a href="/2019/03/06/2019-03-06/">
-				
-				
-				
-				Today we got 33 pieces of news1. Kraken: uber开源的基于P2P的docker镜像仓库，专注于可扩展性和可用性 https://github.com/uber/kraken2. The Shutdown Problem: How Does a...
-				</a></p>
-				
-			</div>
-
-			
-			
-			<div class="Card-meta">
-				
-				<div class="Card-tags"></div>
-				
-				<ul>
-						<li class="card-calendar">
-							<a href="/archives/">
-								<i class="fa fa-calendar"></i> 2019-03-06
-							</a>
-						</li>
-						
-						
-						
-				</ul>
-			</div>
-		
-	</div>
-</div>
-		
-			
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="Card Card-hover Card-index-4" id="hashit_4540f1f2bd0a3e4556a5b6b5257d4fb82df4be4d3dd8ca9b556376360e80c43a" data-name="Technology Daily - 2019/03/05" data-version>
-	
-		
-		
-	
-	<mark class="Card-badge" style="{visibility: " hidden"}"></mark>
-	<div class="Card-figure">
-		
-			<a href="/2019/03/05/2019-03-05/">
-		
-
-		
-			<img class="grow" src="/images/cast-outline.svg" alt onerror="this.src = " images jdenticon 39d95fcf5f0552a0ad3a0b41b26caf421648e74f1b1b5d46a631cb64c6e9a24a.png""> 
-	  
-		</a>
-	</div>
-	<div class="Card-body">
-
-			<div class="Card-title">
-				<h2>
-				
-					<a href="/2019/03/05/2019-03-05/">
-				
-				Technology Daily - 2019/03/05</a></h2>
-			</div>
-			<div class="Card-excerpt">
-				<p>
-				
-					<a href="/2019/03/05/2019-03-05/">
-				
-				
-				
-				Today we got 36 pieces of news1. 阿里毕玄现身说法：程序员成长路线...
-				</a></p>
-				
-			</div>
-
-			
-			
-			<div class="Card-meta">
-				
-				<div class="Card-tags"></div>
-				
-				<ul>
-						<li class="card-calendar">
-							<a href="/archives/">
-								<i class="fa fa-calendar"></i> 2019-03-05
-							</a>
-						</li>
-						
-						
-						
-				</ul>
-			</div>
-		
-	</div>
-</div>
-		
-			
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="Card Card-hover Card-index-5" id="hashit_b45cfc367e692f70a3c875c784f06d8c703c7ffe54d43ae111d0bcb258f4ee30" data-name="Technology Daily - 2019/03/04" data-version>
-	
-		
-		
-	
-	<mark class="Card-badge" style="{visibility: " hidden"}"></mark>
-	<div class="Card-figure">
-		
-			<a href="/2019/03/04/2019-03-04/">
-		
-
-		
-			<img class="grow" src="/images/cast-outline.svg" alt onerror="this.src = " images jdenticon 80f605e72530969a28d28417f1b11c2db777d6e0339ea9eb6b87791748dcb398.png""> 
-	  
-		</a>
-	</div>
-	<div class="Card-body">
-
-			<div class="Card-title">
-				<h2>
-				
-					<a href="/2019/03/04/2019-03-04/">
-				
-				Technology Daily - 2019/03/04</a></h2>
-			</div>
-			<div class="Card-excerpt">
-				<p>
-				
-					<a href="/2019/03/04/2019-03-04/">
-				
-				
-				
-				Today we got 27 pieces of news1. 在Firefox上使用Org协议捕获URL https://linux.cn/article-10586-shareweibo.html2. Simple,correct,fast:in that order...
-				</a></p>
-				
-			</div>
-
-			
-			
-			<div class="Card-meta">
-				
-				<div class="Card-tags"></div>
-				
-				<ul>
-						<li class="card-calendar">
-							<a href="/archives/">
-								<i class="fa fa-calendar"></i> 2019-03-04
-							</a>
-						</li>
-						
-						
-						
-				</ul>
-			</div>
-		
-	</div>
-</div>
-		
-			
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="Card Card-hover Card-index-6" id="hashit_aba5ad1666a947e77ab9015bc993ed48bac9d7aefa9d2eb80d653a0a8b42d87d" data-name="Hello World" data-version>
-	
-		
-		
-	
-	<mark class="Card-badge" style="{visibility: " hidden"}"></mark>
-	<div class="Card-figure">
-		
-			<a href="/2019/03/03/hello-world/">
-		
-
-		
-			<img class="grow" src="/images/globe-2-outline.svg" alt onerror="this.src = " images jdenticon a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e.png""> 
-	  
-		</a>
-	</div>
-	<div class="Card-body">
-
-			<div class="Card-title">
-				<h2>
-				
-					<a href="/2019/03/03/hello-world/">
-				
-				Hello World</a></h2>
-			</div>
-			<div class="Card-excerpt">
-				<p>
-				
-					<a href="/2019/03/03/hello-world/">
-				
-				
-				
-				Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer...
-				</a></p>
-				
-			</div>
-
-			
-			
-			<div class="Card-meta">
-				
-				<div class="Card-tags"></div>
-				
-				<ul>
-						<li class="card-calendar">
-							<a href="/archives/">
-								<i class="fa fa-calendar"></i> 2019-03-03
-							</a>
-						</li>
-						
-						
-						
-				</ul>
-			</div>
-		
-	</div>
-</div>
-		
-		</div>
-	
-	<br>
-	
-	<div class="pagination">
-	
-	
-	
-	
-		
-		
-		<div class="pagination-item">
-			
-			
-				<span>1</span>
-			
-		</div>
-		
-		
-	
-	
-</div>
-</div>
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
   </div>
 
   
 
-<footer id="footer">
-    <div class="footer-copyright">
-        <div>
-            <p> Copyright by <a href>selimo </a> @ 2019</p>
-            <p>Designed by: <i class="fas fa-paint-brush"></i> <a href="https://moober.cn">Moober</a> and <i class="fas fa-graduation-cap"></i> <a href="https://qutang.github.io">Qu Tang</a> &bull; Theme: <a href="https://qutang.github.io/cutie/">Cutie 2.1.3-Taurus</a> &bull; Powered by <a href="http://hexo.io">Hexo.</a></p>
-        </div>
-    </div>
-    
-    <div class="footer-social">
-        
-            
-                
-                    <div class="footer-social-item"><a href="https://github.com/onepedalo" target="_blank"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a></div>
-                
-            
-                
-                    <div class="footer-social-item"><a href="https://www.instagram.com/onepedalo" target="_blank"><i class="fab fa-instagram fa-2x" aria-hidden="true"></i></a></div>
-                
-            
-                
-                    <div class="footer-social-item"><a href="https://mobile.twitter.com/onepedalo" target="_blank"><i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a></div>
-                
-            
-                
-                    <div class="footer-social-item"><a href="https://www.facebook.com/profile.php?id=100012651692615" target="_blank"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a></div>
-                
-            
-                
-                    <div class="footer-social-item"><a href="https://weibo.com/u/7010209753" target="_blank"><i class="fab fa-weibo fa-2x" aria-hidden="true"></i></a></div>
-                
-            
-        
-    </div>
-</footer>
-
-  <br>
-
-  <div id="footer-nav" class='footer-nav'>
-		
-
-
-
-<nav id="nav">
-	
-	
-		
-			
-				
-			
-		
-		
-	
-		
-			
-		
-		
-	
-	
-	<div class="nav-item" id="nav-item-archive">
-		
-				<div class="nav-icon">
-				
-			<a href="/archives/" title="Archives">
-			<img src="/images/icons/blue-shadow/archive.svg" alt>
-			</a>
-		</div>
-	</div>
-	<div class="nav-item" id="nav-item-search">
-		
-		<div class="nav-icon">
-		
-			<a href="/search/" title="Search">
-			<img src="/images/icons/blue-shadow/search.svg" alt>
-			</a>
-		</div>
-	</div>
-	<div class="nav-item" id="nav-item-more">
-		<div class="nav-icon">
-				<a href="#" onclick="onClickMenuIcon(event);" ontouchstart="onClickMenuIcon(event);">
-				<img src="/images/icons/blue-shadow/menu.svg" alt>
-				</a>
-		</div>
-		<div class="nav-more-menu">
-				<i class="far fa-times-circle" id="nav-more-menu-close" onclick="onClickNavMenuClose(event);" ontouchstart="onClickNavMenuClose(event);"></i>
-		
-			
-			
-		
-			<div class="nav-more-item">
-					<div class="nav-name">
-						<a class="nav-link" href>
-							<span>Resume</span>
-						</a>
-					</div>
-			</div>
-		
-		
-			
-			
-		
-			<div class="nav-more-item">
-					<div class="nav-name">
-						<a class="nav-link" href="https://github.com/onepedalo/onepedalo.github.io/projects">
-							<span>Projects</span>
-						</a>
-					</div>
-			</div>
-		
-		
-		
-	</div>
-	</div>
-</nav>
-
-	</div>
-
-  
-
-
-
-    
-
-
-
-
-
-
-
-    <script src="/js/lightgallery.min.js"></script>
-<script src="/js/lg-zoom.min.js"></script>
 <script type="text/javascript">
-    $(document).ready(function() {
-        $("#lightgallery").lightGallery(); 
-        $(".article-content img").each(function(){
-            console.log($(this).attr('src'))
-            $(this).attr('data-src', $(this).attr('src')).lightGallery({
-                selector: 'this'
-            })
-        });
-    });
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
 </script>
 
 
@@ -814,100 +1088,134 @@
 
 
 
-<script type="text/javascript">
+
+
 
   
-    loadjs(['/libs/jshashes/hashes.min.js', '/libs/js-cookie/src/js.cookie.js', '/js/post.v2.js'], 'post-version');
-    loadjs.ready('post-version', {
-      success: function(){
-        console.log('ready to run badge script')
-        
-          
-          
-          
-            var postBadge = document.querySelector('#hashit_e6bf657a673ad1e4afb025606f2b96ad64971f16cf8976e7686d879004f00209 mark.Card-badge');
-            $(postBadge).fadeOut();
-            
-          
-        
-          
-          
-          
-            var postBadge = document.querySelector('#hashit_b37fa7aeac6c6429704f405b1bddf056d0f7ceaba4bc0832c958fd60d28aa371 mark.Card-badge');
-            $(postBadge).fadeOut();
-            
-          
-        
-          
-          
-          
-            var postBadge = document.querySelector('#hashit_c31677af609e2253ed08b9bf3d57b2e22f0512fb236e553ef1c01c266dddb150 mark.Card-badge');
-            $(postBadge).fadeOut();
-            
-          
-        
-          
-          
-          
-            var postBadge = document.querySelector('#hashit_4540f1f2bd0a3e4556a5b6b5257d4fb82df4be4d3dd8ca9b556376360e80c43a mark.Card-badge');
-            $(postBadge).fadeOut();
-            
-          
-        
-          
-          
-          
-            var postBadge = document.querySelector('#hashit_b45cfc367e692f70a3c875c784f06d8c703c7ffe54d43ae111d0bcb258f4ee30 mark.Card-badge');
-            $(postBadge).fadeOut();
-            
-          
-        
-          
-          
-          
-            var postBadge = document.querySelector('#hashit_aba5ad1666a947e77ab9015bc993ed48bac9d7aefa9d2eb80d653a0a8b42d87d mark.Card-badge');
-            $(postBadge).fadeOut();
-            
-          
-        
-      }
-    })
+
+
+
+
+
+
+
+
+
+
+
+
   
-</script>
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
 
 
 
-<!-- <script src="/js/post.js"></script> -->
-
-<script src="/js/headroom.min.js"></script>
-
-<script data-no-instant type="text/javascript">
-
-initHeadroom();
-
-changeLayoutOnTouchScreen();
-
-// 
-// var post = new Post('', '');
-// console.log(post);
-// $('.Card').each(function(){
-//     var post_url = $(this).attr('id');
-//     var true_url = $(this).find('.Card-title a').first().attr('href');
-//     var card = this;
-//     post.getCommentCount(post_url, function(count){
-//         $(card).find('.card-comment-count').first().text(count);
-//     });
-//     post.getVisitCount(post_url, function(count){
-//         $(card).find('.card-visit-count').first().text(count);
-//     });
-    
-// });
-
-// 
-</script>
+  
+  
 
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
 </body>
 </html>
